@@ -1,0 +1,101 @@
+"D:\Pycharm Projects\torch\.venv\Scripts\python.exe" "D:\Pycharm Projects\torch\GEE\train_unet_effb0.py" 
+Using device: cuda
+GPU: NVIDIA GeForce RTX 5060 Laptop GPU  CUDA: 12.8
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+已创建 EfficientUNet（EfficientNet-B0 Encoder, pretrained=True）
+总参数量: 6.03 M
+共找到 2000 对图像-掩码 patch
+训练集: 1600, 验证集: 400
+DataLoader: batch=4, num_workers=4
+开始训练 EfficientUNet 分割模型（早停 patience=15）...
+Epoch 1/50 | Train Loss: 0.355744 | Val Loss: 0.267068 | Val mIoU: 0.6063 | LR(enc): 4.88e-05 | LR(dec): 4.88e-04
+Epoch time: 81.41s | Average: 81.41s | Remaining: 66.5 minutes
+  → 已保存最优模型至 unet_effb0_best_BEN_2000.pth（Val Loss: 0.267068，Epoch 1）
+Epoch 2/50 | Train Loss: 0.280702 | Val Loss: 0.295440 | Val mIoU: 0.4913 | LR(enc): 4.53e-05 | LR(dec): 4.52e-04
+Epoch time: 42.52s | Average: 61.96s | Remaining: 49.6 minutes
+  Early stopping counter: 1/15
+Epoch 3/50 | Train Loss: 0.265605 | Val Loss: 0.250773 | Val mIoU: 0.6512 | LR(enc): 3.99e-05 | LR(dec): 3.97e-04
+Epoch time: 41.10s | Average: 55.01s | Remaining: 43.1 minutes
+  → 已保存最优模型至 unet_effb0_best_BEN_2000.pth（Val Loss: 0.250773，Epoch 3）
+Epoch 4/50 | Train Loss: 0.252377 | Val Loss: 0.238892 | Val mIoU: 0.6400 | LR(enc): 3.31e-05 | LR(dec): 3.28e-04
+Epoch time: 41.00s | Average: 51.51s | Remaining: 39.5 minutes
+  → 已保存最优模型至 unet_effb0_best_BEN_2000.pth（Val Loss: 0.238892，Epoch 4）
+Epoch 5/50 | Train Loss: 0.248808 | Val Loss: 0.250373 | Val mIoU: 0.6095 | LR(enc): 2.55e-05 | LR(dec): 2.51e-04
+Epoch time: 41.07s | Average: 49.42s | Remaining: 37.1 minutes
+  Early stopping counter: 1/15
+Epoch 6/50 | Train Loss: 0.237166 | Val Loss: 0.240715 | Val mIoU: 0.6494 | LR(enc): 1.79e-05 | LR(dec): 1.73e-04
+Epoch time: 41.28s | Average: 48.06s | Remaining: 35.2 minutes
+  Early stopping counter: 2/15
+Epoch 7/50 | Train Loss: 0.233342 | Val Loss: 0.242008 | Val mIoU: 0.6344 | LR(enc): 1.11e-05 | LR(dec): 1.04e-04
+Epoch time: 41.18s | Average: 47.08s | Remaining: 33.7 minutes
+  Early stopping counter: 3/15
+Epoch 9/50 [Train]:   0%|          | 0/400 [00:00<?, ?it/s]Epoch 8/50 | Train Loss: 0.226892 | Val Loss: 0.244842 | Val mIoU: 0.6348 | LR(enc): 5.68e-06 | LR(dec): 4.87e-05
+Epoch time: 41.07s | Average: 46.33s | Remaining: 32.4 minutes
+  Early stopping counter: 4/15
+Epoch 9/50 | Train Loss: 0.218346 | Val Loss: 0.251903 | Val mIoU: 0.6219 | LR(enc): 2.20e-06 | LR(dec): 1.32e-05
+Epoch time: 41.05s | Average: 45.74s | Remaining: 31.3 minutes
+  Early stopping counter: 5/15
+Epoch 10/50 | Train Loss: 0.218179 | Val Loss: 0.248444 | Val mIoU: 0.6170 | LR(enc): 5.00e-05 | LR(dec): 5.00e-04
+Epoch time: 41.08s | Average: 45.28s | Remaining: 30.2 minutes
+  Early stopping counter: 6/15
+Epoch 11/50 | Train Loss: 0.236673 | Val Loss: 0.246305 | Val mIoU: 0.6341 | LR(enc): 4.88e-05 | LR(dec): 4.88e-04
+Epoch time: 41.13s | Average: 44.90s | Remaining: 29.2 minutes
+  Early stopping counter: 7/15
+Epoch 12/50 | Train Loss: 0.231019 | Val Loss: 0.237567 | Val mIoU: 0.6601 | LR(enc): 4.53e-05 | LR(dec): 4.52e-04
+Epoch time: 41.50s | Average: 44.62s | Remaining: 28.3 minutes
+  → 已保存最优模型至 unet_effb0_best_BEN_2000.pth（Val Loss: 0.237567，Epoch 12）
+Epoch 13/50 | Train Loss: 0.224461 | Val Loss: 0.253148 | Val mIoU: 0.6276 | LR(enc): 3.99e-05 | LR(dec): 3.97e-04
+Epoch time: 43.19s | Average: 44.51s | Remaining: 27.4 minutes
+  Early stopping counter: 1/15
+Epoch 14/50 | Train Loss: 0.209364 | Val Loss: 0.262795 | Val mIoU: 0.6097 | LR(enc): 3.31e-05 | LR(dec): 3.28e-04
+Epoch time: 42.61s | Average: 44.37s | Remaining: 26.6 minutes
+  Early stopping counter: 2/15
+Epoch 15/50 | Train Loss: 0.203004 | Val Loss: 0.251643 | Val mIoU: 0.6414 | LR(enc): 2.55e-05 | LR(dec): 2.51e-04
+Epoch time: 41.52s | Average: 44.18s | Remaining: 25.8 minutes
+  Early stopping counter: 3/15
+Epoch 16/50 | Train Loss: 0.194158 | Val Loss: 0.256451 | Val mIoU: 0.6296 | LR(enc): 1.79e-05 | LR(dec): 1.73e-04
+Epoch time: 41.19s | Average: 43.99s | Remaining: 24.9 minutes
+  Early stopping counter: 4/15
+Epoch 17/50 | Train Loss: 0.184454 | Val Loss: 0.245575 | Val mIoU: 0.6317 | LR(enc): 1.11e-05 | LR(dec): 1.04e-04
+Epoch time: 41.21s | Average: 43.83s | Remaining: 24.1 minutes
+  Early stopping counter: 5/15
+Epoch 19/50 [Train]:   0%|          | 0/400 [00:00<?, ?it/s]Epoch 18/50 | Train Loss: 0.185233 | Val Loss: 0.250718 | Val mIoU: 0.6480 | LR(enc): 5.68e-06 | LR(dec): 4.87e-05
+Epoch time: 41.33s | Average: 43.69s | Remaining: 23.3 minutes
+  Early stopping counter: 6/15
+Epoch 19/50 | Train Loss: 0.178092 | Val Loss: 0.248801 | Val mIoU: 0.6455 | LR(enc): 2.20e-06 | LR(dec): 1.32e-05
+Epoch time: 41.22s | Average: 43.56s | Remaining: 22.5 minutes
+  Early stopping counter: 7/15
+Epoch 20/50 | Train Loss: 0.173177 | Val Loss: 0.264891 | Val mIoU: 0.6364 | LR(enc): 5.00e-05 | LR(dec): 5.00e-04
+Epoch time: 41.36s | Average: 43.45s | Remaining: 21.7 minutes
+  Early stopping counter: 8/15
+Epoch 21/50 | Train Loss: 0.194304 | Val Loss: 0.254151 | Val mIoU: 0.6532 | LR(enc): 4.88e-05 | LR(dec): 4.88e-04
+Epoch time: 41.13s | Average: 43.34s | Remaining: 20.9 minutes
+  Early stopping counter: 9/15
+Epoch 22/50 | Train Loss: 0.186970 | Val Loss: 0.248340 | Val mIoU: 0.6562 | LR(enc): 4.53e-05 | LR(dec): 4.52e-04
+Epoch time: 41.41s | Average: 43.25s | Remaining: 20.2 minutes
+  Early stopping counter: 10/15
+Epoch 23/50 | Train Loss: 0.187588 | Val Loss: 0.248380 | Val mIoU: 0.6373 | LR(enc): 3.99e-05 | LR(dec): 3.97e-04
+Epoch time: 41.35s | Average: 43.17s | Remaining: 19.4 minutes
+  Early stopping counter: 11/15
+Epoch 24/50 | Train Loss: 0.178891 | Val Loss: 0.283659 | Val mIoU: 0.5905 | LR(enc): 3.31e-05 | LR(dec): 3.28e-04
+Epoch time: 41.16s | Average: 43.09s | Remaining: 18.7 minutes
+  Early stopping counter: 12/15
+Epoch 25/50 | Train Loss: 0.167929 | Val Loss: 0.250116 | Val mIoU: 0.6463 | LR(enc): 2.55e-05 | LR(dec): 2.51e-04
+Epoch time: 41.31s | Average: 43.01s | Remaining: 17.9 minutes
+  Early stopping counter: 13/15
+Epoch 26/50 | Train Loss: 0.163833 | Val Loss: 0.253779 | Val mIoU: 0.6471 | LR(enc): 1.79e-05 | LR(dec): 1.73e-04
+Epoch time: 41.21s | Average: 42.95s | Remaining: 17.2 minutes
+  Early stopping counter: 14/15
+Epoch 27/50 | Train Loss: 0.157015 | Val Loss: 0.254952 | Val mIoU: 0.6474 | LR(enc): 1.11e-05 | LR(dec): 1.04e-04
+Epoch time: 41.18s | Average: 42.88s | Remaining: 16.4 minutes
+  Early stopping counter: 15/15
+  Early stopping triggered! Best Val Loss: 0.237567 at Epoch 12
+
+训练总耗时: 1159.1 s (19.3 min)
+最优模型出现在第 12 轮，Val Loss: 0.237567
+耗时信息已写入: ./output_effb0_BEN_2000\training_time.json
+训练曲线已保存至: ./output_effb0_BEN_2000\unet_effb0_training_curve.png
+模型已保存至: unet_effb0_best_BEN_2000.pth
+预测结果已保存至: ./output_effb0_BEN_2000\sample_prediction.png
+
+进程已结束，退出代码为 0
