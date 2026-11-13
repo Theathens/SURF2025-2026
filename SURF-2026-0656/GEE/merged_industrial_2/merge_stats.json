@@ -1,0 +1,19 @@
+{
+  "ben": {
+    "n_patches": 2000,
+    "fg_ratio": 0.1512,
+    "pixel_counts": {
+      "0": 6919142,
+      "1": 1232922
+    }
+  },
+  "gee": {
+    "n_patches": 892,
+    "fg_ratio": 0.1747,
+    "pixel_counts": {
+      "0": 6761095,
+      "1": 1430905
+    }
+  },
+  "total_patches": 2892
+}

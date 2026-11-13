@@ -1,0 +1,9 @@
+{
+  "classes": [
+    "industrial"
+  ],
+  "class_to_id": {
+    "industrial": 1
+  },
+  "num_classes": 2
+}

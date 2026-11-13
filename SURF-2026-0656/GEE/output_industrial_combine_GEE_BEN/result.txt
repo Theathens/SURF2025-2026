@@ -1,0 +1,173 @@
+"D:\Pycharm Projects\torch\.venv\Scripts\python.exe" "D:\Pycharm Projects\torch\GEE\Train unet industrial.py" 
+Using device: cuda
+GPU: NVIDIA GeForce RTX 5060 Laptop GPU  CUDA: 12.8
+类别数（含背景）: 2 → ['background', 'industrial']
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+已创建 EfficientUNet（EfficientNet-B0 Encoder, pretrained=True）
+总参数量: 6.03 M
+共找到 3936 对图像-掩码 patch
+训练集: 3148, 验证集: 788
+正在统计类别权重（采样 500 张掩码）...
+类别权重: [1.121, 0.879]
+DataLoader: batch=16, num_workers=4
+损失函数: 0.5×CE + 0.5×Dice（混合）
+开始训练 EfficientUNet 分割模型（早停 patience=15）...
+Epoch 1/50 | Train Loss: 0.292322 | Val Loss: 0.208383 | Val mIoU: 0.8548 | LR(enc): 4.88e-05 | LR(dec): 4.88e-04
+Epoch time: 51.41s | Average: 51.41s | Remaining: 42.0 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.208383，Epoch 1）
+Epoch 2/50 | Train Loss: 0.166255 | Val Loss: 0.132967 | Val mIoU: 0.8797 | LR(enc): 4.53e-05 | LR(dec): 4.52e-04
+Epoch time: 8.27s | Average: 29.84s | Remaining: 23.9 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.132967，Epoch 2）
+Epoch 3/50 | Train Loss: 0.140964 | Val Loss: 0.117236 | Val mIoU: 0.8881 | LR(enc): 3.99e-05 | LR(dec): 3.97e-04
+Epoch time: 8.20s | Average: 22.63s | Remaining: 17.7 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.117236，Epoch 3）
+Epoch 4/50 | Train Loss: 0.127726 | Val Loss: 0.117018 | Val mIoU: 0.8913 | LR(enc): 3.31e-05 | LR(dec): 3.28e-04
+Epoch time: 8.24s | Average: 19.03s | Remaining: 14.6 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.117018，Epoch 4）
+Epoch 5/50 | Train Loss: 0.120356 | Val Loss: 0.109922 | Val mIoU: 0.8909 | LR(enc): 2.55e-05 | LR(dec): 2.51e-04
+Epoch time: 8.24s | Average: 16.87s | Remaining: 12.7 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.109922，Epoch 5）
+Epoch 6/50 | Train Loss: 0.114093 | Val Loss: 0.104940 | Val mIoU: 0.8930 | LR(enc): 1.79e-05 | LR(dec): 1.73e-04
+Epoch time: 8.22s | Average: 15.43s | Remaining: 11.3 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.104940，Epoch 6）
+Epoch 7/50 | Train Loss: 0.111178 | Val Loss: 0.103347 | Val mIoU: 0.8959 | LR(enc): 1.11e-05 | LR(dec): 1.04e-04
+Epoch time: 8.24s | Average: 14.40s | Remaining: 10.3 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.103347，Epoch 7）
+Epoch 8/50 | Train Loss: 0.108269 | Val Loss: 0.102307 | Val mIoU: 0.8955 | LR(enc): 5.68e-06 | LR(dec): 4.87e-05
+Epoch time: 8.31s | Average: 13.64s | Remaining: 9.5 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.102307，Epoch 8）
+Epoch 10/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 9/50 | Train Loss: 0.106049 | Val Loss: 0.102370 | Val mIoU: 0.8962 | LR(enc): 2.20e-06 | LR(dec): 1.32e-05
+Epoch time: 8.21s | Average: 13.04s | Remaining: 8.9 minutes
+  Early stopping counter: 1/15
+Epoch 11/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 10/50 | Train Loss: 0.105854 | Val Loss: 0.103050 | Val mIoU: 0.8965 | LR(enc): 5.00e-05 | LR(dec): 5.00e-04
+Epoch time: 8.30s | Average: 12.56s | Remaining: 8.4 minutes
+  Early stopping counter: 2/15
+Epoch 12/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 11/50 | Train Loss: 0.111976 | Val Loss: 0.112479 | Val mIoU: 0.8890 | LR(enc): 4.88e-05 | LR(dec): 4.88e-04
+Epoch time: 8.30s | Average: 12.18s | Remaining: 7.9 minutes
+  Early stopping counter: 3/15
+Epoch 13/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 12/50 | Train Loss: 0.109573 | Val Loss: 0.104424 | Val mIoU: 0.8952 | LR(enc): 4.53e-05 | LR(dec): 4.52e-04
+Epoch time: 8.28s | Average: 11.85s | Remaining: 7.5 minutes
+  Early stopping counter: 4/15
+Epoch 13/50 | Train Loss: 0.107421 | Val Loss: 0.100575 | Val mIoU: 0.8962 | LR(enc): 3.99e-05 | LR(dec): 3.97e-04
+Epoch time: 8.29s | Average: 11.58s | Remaining: 7.1 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.100575，Epoch 13）
+Epoch 15/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 14/50 | Train Loss: 0.104315 | Val Loss: 0.101859 | Val mIoU: 0.8966 | LR(enc): 3.31e-05 | LR(dec): 3.28e-04
+Epoch time: 8.30s | Average: 11.34s | Remaining: 6.8 minutes
+  Early stopping counter: 1/15
+Epoch 15/50 | Train Loss: 0.101163 | Val Loss: 0.100059 | Val mIoU: 0.8979 | LR(enc): 2.55e-05 | LR(dec): 2.51e-04
+Epoch time: 8.34s | Average: 11.14s | Remaining: 6.5 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.100059，Epoch 15）
+Epoch 16/50 | Train Loss: 0.097826 | Val Loss: 0.098704 | Val mIoU: 0.8983 | LR(enc): 1.79e-05 | LR(dec): 1.73e-04
+Epoch time: 8.33s | Average: 10.97s | Remaining: 6.2 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.098704，Epoch 16）
+Epoch 17/50 | Train Loss: 0.095415 | Val Loss: 0.098257 | Val mIoU: 0.8978 | LR(enc): 1.11e-05 | LR(dec): 1.04e-04
+Epoch time: 8.36s | Average: 10.82s | Remaining: 5.9 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.098257，Epoch 17）
+Epoch 18/50 | Train Loss: 0.094906 | Val Loss: 0.097725 | Val mIoU: 0.8989 | LR(enc): 5.68e-06 | LR(dec): 4.87e-05
+Epoch time: 8.36s | Average: 10.68s | Remaining: 5.7 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.097725，Epoch 18）
+Epoch 19/50 | Train Loss: 0.092712 | Val Loss: 0.096950 | Val mIoU: 0.8992 | LR(enc): 2.20e-06 | LR(dec): 1.32e-05
+Epoch time: 8.33s | Average: 10.56s | Remaining: 5.5 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.096950，Epoch 19）
+Epoch 21/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 20/50 | Train Loss: 0.093267 | Val Loss: 0.097820 | Val mIoU: 0.8993 | LR(enc): 5.00e-05 | LR(dec): 5.00e-04
+Epoch time: 8.40s | Average: 10.45s | Remaining: 5.2 minutes
+  Early stopping counter: 1/15
+Epoch 22/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 21/50 | Train Loss: 0.098299 | Val Loss: 0.100685 | Val mIoU: 0.8983 | LR(enc): 4.88e-05 | LR(dec): 4.88e-04
+Epoch time: 8.41s | Average: 10.35s | Remaining: 5.0 minutes
+  Early stopping counter: 2/15
+Epoch 23/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 22/50 | Train Loss: 0.098070 | Val Loss: 0.100942 | Val mIoU: 0.8978 | LR(enc): 4.53e-05 | LR(dec): 4.52e-04
+Epoch time: 8.34s | Average: 10.26s | Remaining: 4.8 minutes
+  Early stopping counter: 3/15
+Epoch 24/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 23/50 | Train Loss: 0.096044 | Val Loss: 0.101125 | Val mIoU: 0.8985 | LR(enc): 3.99e-05 | LR(dec): 3.97e-04
+Epoch time: 8.36s | Average: 10.18s | Remaining: 4.6 minutes
+  Early stopping counter: 4/15
+Epoch 25/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 24/50 | Train Loss: 0.093314 | Val Loss: 0.097810 | Val mIoU: 0.8992 | LR(enc): 3.31e-05 | LR(dec): 3.28e-04
+Epoch time: 8.42s | Average: 10.10s | Remaining: 4.4 minutes
+  Early stopping counter: 5/15
+Epoch 26/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 25/50 | Train Loss: 0.091923 | Val Loss: 0.098784 | Val mIoU: 0.9009 | LR(enc): 2.55e-05 | LR(dec): 2.51e-04
+Epoch time: 8.46s | Average: 10.04s | Remaining: 4.2 minutes
+  Early stopping counter: 6/15
+Epoch 26/50 | Train Loss: 0.090606 | Val Loss: 0.096574 | Val mIoU: 0.9007 | LR(enc): 1.79e-05 | LR(dec): 1.73e-04
+Epoch time: 8.44s | Average: 9.98s | Remaining: 4.0 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.096574，Epoch 26）
+Epoch 27/50 | Train Loss: 0.087217 | Val Loss: 0.095899 | Val mIoU: 0.9002 | LR(enc): 1.11e-05 | LR(dec): 1.04e-04
+Epoch time: 8.40s | Average: 9.92s | Remaining: 3.8 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.095899，Epoch 27）
+Epoch 29/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 28/50 | Train Loss: 0.087990 | Val Loss: 0.097044 | Val mIoU: 0.9000 | LR(enc): 5.68e-06 | LR(dec): 4.87e-05
+Epoch time: 8.48s | Average: 9.87s | Remaining: 3.6 minutes
+  Early stopping counter: 1/15
+Epoch 30/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 29/50 | Train Loss: 0.084259 | Val Loss: 0.095908 | Val mIoU: 0.9005 | LR(enc): 2.20e-06 | LR(dec): 1.32e-05
+Epoch time: 8.44s | Average: 9.82s | Remaining: 3.4 minutes
+  Early stopping counter: 2/15
+Epoch 30/50 | Train Loss: 0.085553 | Val Loss: 0.095705 | Val mIoU: 0.9012 | LR(enc): 5.00e-05 | LR(dec): 5.00e-04
+Epoch time: 8.51s | Average: 9.77s | Remaining: 3.3 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.095705，Epoch 30）
+Epoch 32/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 31/50 | Train Loss: 0.091354 | Val Loss: 0.098585 | Val mIoU: 0.9008 | LR(enc): 4.88e-05 | LR(dec): 4.88e-04
+Epoch time: 8.48s | Average: 9.73s | Remaining: 3.1 minutes
+  Early stopping counter: 1/15
+Epoch 33/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 32/50 | Train Loss: 0.088534 | Val Loss: 0.098326 | Val mIoU: 0.8985 | LR(enc): 4.53e-05 | LR(dec): 4.52e-04
+Epoch time: 8.50s | Average: 9.69s | Remaining: 2.9 minutes
+  Early stopping counter: 2/15
+Epoch 34/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 33/50 | Train Loss: 0.088545 | Val Loss: 0.095821 | Val mIoU: 0.8999 | LR(enc): 3.99e-05 | LR(dec): 3.97e-04
+Epoch time: 9.10s | Average: 9.68s | Remaining: 2.7 minutes
+  Early stopping counter: 3/15
+Epoch 34/50 | Train Loss: 0.087078 | Val Loss: 0.096792 | Val mIoU: 0.9009 | LR(enc): 3.31e-05 | LR(dec): 3.28e-04
+Epoch time: 9.84s | Average: 9.68s | Remaining: 2.6 minutes
+  Early stopping counter: 4/15
+Epoch 36/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 35/50 | Train Loss: 0.086125 | Val Loss: 0.096575 | Val mIoU: 0.9013 | LR(enc): 2.55e-05 | LR(dec): 2.51e-04
+Epoch time: 8.85s | Average: 9.66s | Remaining: 2.4 minutes
+  Early stopping counter: 5/15
+Epoch 36/50 | Train Loss: 0.083059 | Val Loss: 0.093822 | Val mIoU: 0.9031 | LR(enc): 1.79e-05 | LR(dec): 1.73e-04
+Epoch time: 8.45s | Average: 9.62s | Remaining: 2.2 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.093822，Epoch 36）
+Epoch 38/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 37/50 | Train Loss: 0.083512 | Val Loss: 0.094396 | Val mIoU: 0.9025 | LR(enc): 1.11e-05 | LR(dec): 1.04e-04
+Epoch time: 8.42s | Average: 9.59s | Remaining: 2.1 minutes
+  Early stopping counter: 1/15
+Epoch 39/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 38/50 | Train Loss: 0.080449 | Val Loss: 0.093987 | Val mIoU: 0.9035 | LR(enc): 5.68e-06 | LR(dec): 4.87e-05
+Epoch time: 8.43s | Average: 9.56s | Remaining: 1.9 minutes
+  Early stopping counter: 2/15
+Epoch 39/50 | Train Loss: 0.081027 | Val Loss: 0.093501 | Val mIoU: 0.9032 | LR(enc): 2.20e-06 | LR(dec): 1.32e-05
+Epoch time: 8.53s | Average: 9.53s | Remaining: 1.7 minutes
+  → 已保存最优模型至 unet_industrial_combine_GEE_BEN_best.pth（Val Loss: 0.093501，Epoch 39）
+Epoch 41/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 40/50 | Train Loss: 0.079459 | Val Loss: 0.094532 | Val mIoU: 0.9026 | LR(enc): 5.00e-05 | LR(dec): 5.00e-04
+Epoch time: 8.26s | Average: 9.50s | Remaining: 1.6 minutes
+  Early stopping counter: 1/15
+Epoch 42/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 41/50 | Train Loss: 0.083186 | Val Loss: 0.094206 | Val mIoU: 0.9011 | LR(enc): 4.88e-05 | LR(dec): 4.88e-04
+Epoch time: 8.24s | Average: 9.47s | Remaining: 1.4 minutes
+  Early stopping counter: 2/15
+Epoch 43/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 42/50 | Train Loss: 0.086432 | Val Loss: 0.095013 | Val mIoU: 0.9022 | LR(enc): 4.53e-05 | LR(dec): 4.52e-04
+Epoch time: 8.25s | Average: 9.44s | Remaining: 1.3 minutes
+  Early stopping counter: 3/15
+Epoch 43/50 | Train Loss: 0.085368 | Val Loss: 0.097338 | Val mIoU: 0.9007 | LR(enc): 3.99e-05 | LR(dec): 3.97e-04
+Epoch time: 8.28s | Average: 9.42s | Remaining: 1.1 minutes
+  Early stopping counter: 4/15
+Epoch 45/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 44/50 | Train Loss: 0.082259 | Val Loss: 0.095409 | Val mIoU: 0.9023 | LR(enc): 3.31e-05 | LR(dec): 3.28e-04
+Epoch time: 8.24s | Average: 9.39s | Remaining: 0.9 minutes
+  Early stopping counter: 5/15
+Epoch 46/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 45/50 | Train Loss: 0.081500 | Val Loss: 0.093658 | Val mIoU: 0.9015 | LR(enc): 2.55e-05 | LR(dec): 2.51e-04
+Epoch time: 8.28s | Average: 9.36s | Remaining: 0.8 minutes
+  Early stopping counter: 6/15
+Epoch 47/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 46/50 | Train Loss: 0.080167 | Val Loss: 0.095135 | Val mIoU: 0.9015 | LR(enc): 1.79e-05 | LR(dec): 1.73e-04
+Epoch time: 8.27s | Average: 9.34s | Remaining: 0.6 minutes
+  Early stopping counter: 7/15
+Epoch 48/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 47/50 | Train Loss: 0.077227 | Val Loss: 0.094155 | Val mIoU: 0.9021 | LR(enc): 1.11e-05 | LR(dec): 1.04e-04
+Epoch time: 8.27s | Average: 9.32s | Remaining: 0.5 minutes
+  Early stopping counter: 8/15
+Epoch 49/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 48/50 | Train Loss: 0.075609 | Val Loss: 0.097045 | Val mIoU: 0.9025 | LR(enc): 5.68e-06 | LR(dec): 4.87e-05
+Epoch time: 8.33s | Average: 9.30s | Remaining: 0.3 minutes
+  Early stopping counter: 9/15
+Epoch 50/50 [Train]:   0%|          | 0/197 [00:00<?, ?it/s]Epoch 49/50 | Train Loss: 0.077415 | Val Loss: 0.095914 | Val mIoU: 0.9021 | LR(enc): 2.20e-06 | LR(dec): 1.32e-05
+Epoch time: 8.32s | Average: 9.28s | Remaining: 0.2 minutes
+  Early stopping counter: 10/15
+Epoch 50/50 | Train Loss: 0.074447 | Val Loss: 0.094520 | Val mIoU: 0.9027 | LR(enc): 5.00e-05 | LR(dec): 5.00e-04
+Epoch time: 8.31s | Average: 9.26s | Remaining: 0.0 minutes
+  Early stopping counter: 11/15
+
+训练总耗时: 466.1 s (7.8 min)
+最优模型出现在第 39 轮，Val Loss: 0.093501
+耗时信息已写入: ./output_industrial_combine_GEE_BEN\training_time.json
+训练曲线已保存至: ./output_industrial_combine_GEE_BEN\unet_effb0_training_curve.png
+模型已保存至: unet_industrial_combine_GEE_BEN_best.pth
+预测结果已保存至: ./output_industrial_combine_GEE_BEN\sample_prediction.png
+
+进程已结束，退出代码为 0
