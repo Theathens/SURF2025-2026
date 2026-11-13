@@ -38,7 +38,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-如果项目中没有 `requirements.txt`，请根据脚本里的 `import` 自行安装依赖。
+如果项目中没有 `requirements.txt`，请根据脚本里的 `import` 自行安装依赖。原环境的完整依赖快照见 `SURF-2026-0656/requirements-lock.txt`。
 
 `SURF-2026-0656/.venv` 没有上传到仓库，因为它包含超过 100 MB 的 CUDA DLL，超过 GitHub 普通 Git 的单文件限制。请在本机重新创建虚拟环境。
 
@@ -88,7 +88,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-If a project has no `requirements.txt`, install the dependencies based on the imports in its scripts.
+If a project has no `requirements.txt`, install the dependencies based on the imports in its scripts. A full dependency snapshot of the original environment is available at `SURF-2026-0656/requirements-lock.txt`.
 
 `SURF-2026-0656/.venv` is not included because it contains CUDA DLLs larger than 100 MB, exceeding GitHub's per-file limit for regular Git. Please recreate the virtual environment locally.
 
