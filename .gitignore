@@ -1,35 +1,15 @@
-# Python
+# Python caches
 __pycache__/
 *.py[cod]
-.venv/
-venv/
 
 # IDE / local settings
 .idea/
 .vscode/
-.claude/settings.local.json
-
-# graphify generated cache
-**/graphify-out/
-
-# Model weights
-*.pth
-*.pt
-*.ckpt
-*.onnx
-*.h5
-*.safetensors
-
-# Large raster data
-*.tif
-
-# GEE generated datasets
-**/GEE_dataset/
-**/BigEarthNet_dataset/
-**/merged_industrial*/
-**/output_industrial_combine_GEE_BEN*/
-
-# Archives / logs
-*.zip
-*.log
 **/.claude/settings.local.json
+
+# 2026 virtual environment contains CUDA DLLs larger than GitHub's 100 MB per-file limit.
+# Local copy is kept; recreate it with `python -m venv .venv`.
+SURF-2026-0656/.venv/
+
+# Logs
+*.log
