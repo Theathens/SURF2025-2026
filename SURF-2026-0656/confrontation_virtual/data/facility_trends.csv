@@ -1,0 +1,10 @@
+firm_id,facility_id,facility_name,start_year,end_year,start_built_ha,end_built_ha,built_delta_ha,built_pct_change,start_pv_m2,end_pv_m2,pv_delta_m2,pv_pct_change,night_light_delta,heat_index_delta,expansion_flag,start_cap,end_cap
+aurora_battery_v001,F001,Linhai Battery Cell Base,2018,2025,8,52,44,549.9999312500086,1000,120000,119000,11899.999988099999,52,0.36000000000000004,True,2.8,34.0
+aurora_battery_v001,F002,Chengdu Module Assembly Plant,2021,2025,0,36,36,3600000000.0,0,52000,52000,,44,0.35,True,0.0,16.0
+aurora_battery_v001,F003,Hefeng Recycling and Materials Center,2022,2025,0,19,19,1900000000.0,0,18000,18000,,26,0.22,True,0.0,2.5
+solara_emobility_v001,S001,Wuxi E-Drive Plant,2018,2025,12,50,38,316.66664027777995,1000,52000,51000,5099.9999949,38,0.26999999999999996,True,0.7,3.2
+solara_emobility_v001,S002,Wuhan Power Electronics Plant,2020,2025,0,44,44,4400000000.0,0,52000,52000,,46,0.37,True,0.0,2.4
+solara_emobility_v001,S003,Jintan Remanufacturing Center,2022,2025,0,18,18,1800000000.0,0,14000,14000,,20,0.21,True,0.0,0.65
+verdant_home_v001,V001,Foshan Appliance Assembly Base,2018,2025,34,63,29,85.29411513840839,3000,62000,59000,1966.6666660111111,32,0.24,True,4.0,7.8
+verdant_home_v001,V002,Zhengzhou Compressor Plant,2018,2025,20,42,22,109.99999450000027,0,36000,36000,,27,0.22,True,2.2,4.5
+verdant_home_v001,V003,Jiaxing Smart Logistics and Refurbishment Center,2022,2025,9,30,21,233.3333074074103,0,14000,14000,,25,0.21,True,0.2,1.0

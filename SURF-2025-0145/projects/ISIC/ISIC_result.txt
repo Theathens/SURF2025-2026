@@ -1,0 +1,2742 @@
+C:\Users\27785\PycharmProjects\PythonProject\.venv1\Scripts\python.exe C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\update.py 
+Using device: cuda
+GPU: NVIDIA GeForce RTX 3060 Ti
+CUDA: 12.8
+Enter number of training epochs:
+50
+Enter learning rate patience:
+10
+Loading data...
+Data loaded, training set size: 25331
+Test set size: 8238
+Class distribution:
+label
+NV      12875
+MEL      5150
+BCC      3323
+BKL      2624
+AK        867
+VASC      253
+DF        239
+Name: count, dtype: int64
+Calculated class weights: tensor([12.5215,  5.4450,  6.8954, 15.1411,  3.5133,  1.4053, 14.3032])
+Creating data loaders...
+Dataset split complete, training set: 20264, validation set: 5067
+Dataset class mapping: {'AK': 0, 'BCC': 1, 'BKL': 2, 'DF': 3, 'MEL': 4, 'NV': 5, 'VASC': 6}
+Dataset class mapping: {'AK': 0, 'BCC': 1, 'BKL': 2, 'DF': 3, 'MEL': 4, 'NV': 5, 'VASC': 6}
+Data loaders created
+Building model...
+Pre-trained model loaded
+Model parameters unfrozen
+Actual feature dimension: 1792
+Total model parameters: 18,601,295, trainable parameters: 18,601,295
+Starting model training...
+
+===== Epoch 1/50 =====
+GPU memory usage: 0.07/8.00 GB (0.9%)
+Training...
+Processing batch 50/1267, current batch loss: 1.9314
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 2.0810
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 2.0834
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.8397
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 2.1180
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.5306
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 1.8449
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 2.2751
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 1.3875
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 1.6216
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 1.6809
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 1.4721
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 1.3321
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 1.2595
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 1.6004
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 1.4682
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.9121
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 2.0713
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 1.1522
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 1.5413
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 1.5871
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 2.7116
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.9412
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 1.5868
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 2.2086
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 1.6866, training accuracy: 41.59%
+Training precision: 0.4159, training recall: 0.4159
+Training AUC: 0.7171
+Validating...
+Validation loss: 1.4045, validation accuracy: 55.71%
+Validation precision: 0.5571, validation recall: 0.5571
+Validation macro-average AUC: 0.8393
+Current learning rate: 2.997049959000266e-05
+Epoch time: 281.28s, average: 281.28s, remaining: 229.7min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.8393
+
+===== Epoch 2/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 1.1373
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 1.0639
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 1.4977
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 2.0353
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 1.3628
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.8342
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.8158
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 1.4357
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 1.5991
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 1.6854
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.9864
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 1.3570
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.7997
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 1.2307
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 1.9111
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 1.1459
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 1.8259
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 1.5327
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 1.7155
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 1.1624
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 1.7193
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 1.3432
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 1.3002
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 2.1306
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 1.3181
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 1.4538, training accuracy: 53.20%
+Training precision: 0.5320, training recall: 0.5320
+Training AUC: 0.8133
+Validating...
+Validation loss: 1.3087, validation accuracy: 58.93%
+Validation precision: 0.5893, validation recall: 0.5893
+Validation macro-average AUC: 0.8702
+Current learning rate: 2.9882114784651445e-05
+Epoch time: 271.03s, average: 276.16s, remaining: 220.9min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.8702
+
+===== Epoch 3/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 1.1678
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.9194
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 1.0591
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.4101
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 1.2655
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.6935
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 1.3252
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 1.0864
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.7689
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 1.6581
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 1.0647
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 1.5654
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.8872
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.9887
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 1.6943
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 1.1412
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 1.2622
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.7950
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 1.0392
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 1.7766
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 1.6037
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 1.0794
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 1.4275
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 1.5127
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 1.2068
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 1.3382, training accuracy: 57.59%
+Training precision: 0.5759, training recall: 0.5759
+Training AUC: 0.8449
+Validating...
+Validation loss: 1.2016, validation accuracy: 64.67%
+Validation precision: 0.6467, validation recall: 0.6467
+Validation macro-average AUC: 0.8905
+Current learning rate: 2.9735194398393896e-05
+Epoch time: 240.48s, average: 264.26s, remaining: 207.0min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.8905
+
+===== Epoch 4/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 1.2137
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.8300
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.8650
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.0344
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.9753
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.2921
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 1.2784
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.8993
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 1.0662
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 1.4081
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 1.2280
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 1.6961
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.9851
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 1.8786
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 1.4288
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 1.0822
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 1.6993
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 1.4696
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.8453
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 1.2086
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 1.1382
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 1.0954
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.9973
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 1.8770
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 1.4598
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 1.2607, training accuracy: 59.49%
+Training precision: 0.5949, training recall: 0.5949
+Training AUC: 0.8673
+Validating...
+Validation loss: 1.1724, validation accuracy: 64.99%
+Validation precision: 0.6499, validation recall: 0.6499
+Validation macro-average AUC: 0.8979
+Current learning rate: 2.9530318258873032e-05
+Epoch time: 239.38s, average: 258.04s, remaining: 197.8min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.8979
+
+===== Epoch 5/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.9038
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 1.6923
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 1.3561
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.5987
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 1.0724
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.0917
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 1.6053
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.8414
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.9189
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.9416
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 2.1240
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.8860
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 1.5849
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 1.3581
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.8502
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 1.6930
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 1.2601
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.8619
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 1.1007
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 1.1134
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 1.4626
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.8859
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 1.3638
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 1.2547
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 1.0237
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 1.1982, training accuracy: 61.32%
+Training precision: 0.6132, training recall: 0.6132
+Training AUC: 0.8817
+Validating...
+Validation loss: 1.0977, validation accuracy: 67.14%
+Validation precision: 0.6714, validation recall: 0.6714
+Validation macro-average AUC: 0.9120
+Current learning rate: 2.9268294918612543e-05
+Epoch time: 238.17s, average: 254.07s, remaining: 190.6min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.9120
+
+===== Epoch 6/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.5542
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 1.3979
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 1.4181
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.3674
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.9257
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.9009
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 1.5192
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 1.1345
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 1.1839
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 1.1064
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.6811
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 1.3388
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 1.4302
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.8731
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 1.3840
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 1.1884
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 1.6875
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 1.2440
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.4576
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 1.1612
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 1.1918
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 2.0466
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 1.0214
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 1.3392
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 1.5317
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 1.1380, training accuracy: 63.13%
+Training precision: 0.6313, training recall: 0.6313
+Training AUC: 0.8924
+Validating...
+Validation loss: 1.0683, validation accuracy: 67.83%
+Validation precision: 0.6783, validation recall: 0.6783
+Validation macro-average AUC: 0.9178
+Current learning rate: 2.8950158464029356e-05
+Epoch time: 241.44s, average: 251.96s, remaining: 184.8min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.9178
+
+===== Epoch 7/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 1.0230
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 1.0081
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.9251
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.8839
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.9827
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.3287
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 1.3040
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 1.1209
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.9839
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 1.1954
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 1.4105
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 1.6361
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.9634
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.8484
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.7269
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.8779
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 1.2144
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 1.2575
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.7026
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.8135
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 1.2903
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.8826
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 1.6479
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 1.1220
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 1.1182
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 1.0908, training accuracy: 65.07%
+Training precision: 0.6507, training recall: 0.6507
+Training AUC: 0.9022
+Validating...
+Validation loss: 1.0452, validation accuracy: 68.21%
+Validation precision: 0.6821, validation recall: 0.6821
+Validation macro-average AUC: 0.9183
+Current learning rate: 2.8577164434366992e-05
+Epoch time: 239.08s, average: 250.12s, remaining: 179.3min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.9183
+
+===== Epoch 8/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.8327
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.5509
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.6317
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.2463
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.5331
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.9123
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 1.2344
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 1.1665
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 1.0364
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.9191
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 1.2372
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.9727
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.8252
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.9443
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.8684
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.8222
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 1.0247
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 1.0503
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 1.4406
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 1.4809
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.9708
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.8454
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 1.2489
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.8499
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 1.4613
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 1.0581, training accuracy: 65.54%
+Training precision: 0.6554, training recall: 0.6554
+Training AUC: 0.9067
+Validating...
+Validation loss: 1.0295, validation accuracy: 70.89%
+Validation precision: 0.7089, validation recall: 0.7089
+Validation macro-average AUC: 0.9245
+Current learning rate: 2.8150784866655758e-05
+Epoch time: 240.15s, average: 248.88s, remaining: 174.2min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.9245
+
+===== Epoch 9/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.8208
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.6220
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 1.1989
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.1471
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 1.1196
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.5318
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 1.0132
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 1.2102
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.8309
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 1.0388
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.6560
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 1.0577
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.6781
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.5740
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.7618
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.8792
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 2.0078
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.7414
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.8238
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 1.2772
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.8670
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 1.0255
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.5508
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.9627
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.9145
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 1.0123, training accuracy: 66.68%
+Training precision: 0.6668, training recall: 0.6668
+Training AUC: 0.9147
+Validating...
+Validation loss: 0.9922, validation accuracy: 69.71%
+Validation precision: 0.6971, validation recall: 0.6971
+Validation macro-average AUC: 0.9261
+Current learning rate: 2.7672702486255126e-05
+Epoch time: 237.64s, average: 247.63s, remaining: 169.2min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.9261
+
+===== Epoch 10/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.5686
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 1.1352
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.8164
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.3862
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.7431
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.3686
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 1.1798
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 1.3231
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.7560
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 1.7935
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 1.1917
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.4931
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 1.0918
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.5920
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.7578
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 1.4648
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.6962
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 1.3229
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.7982
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.8792
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 1.3579
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.8941
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 1.2225
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 1.4308
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 1.0260
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.9748, training accuracy: 67.66%
+Training precision: 0.6766, training recall: 0.6766
+Training AUC: 0.9204
+Validating...
+Validation loss: 0.9710, validation accuracy: 71.32%
+Validation precision: 0.7132, validation recall: 0.7132
+Validation macro-average AUC: 0.9306
+Current learning rate: 2.7144804065905464e-05
+Epoch time: 239.01s, average: 246.77s, remaining: 164.5min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.9306
+
+===== Epoch 11/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.7413
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.6837
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.8837
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.1256
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 1.3869
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.8208
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 1.1215
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.9985
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.3994
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.9617
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 1.0267
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.7676
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.7752
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 1.3190
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 1.5328
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.6687
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.9405
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 1.1555
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 1.2999
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 1.0051
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.7547
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.7010
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.7294
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.8917
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.8671
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.9458, training accuracy: 68.52%
+Training precision: 0.6852, training recall: 0.6852
+Training AUC: 0.9260
+Validating...
+Validation loss: 0.9682, validation accuracy: 72.15%
+Validation precision: 0.7215, validation recall: 0.7215
+Validation macro-average AUC: 0.9318
+Current learning rate: 2.6569172979498048e-05
+Epoch time: 239.02s, average: 246.06s, remaining: 159.9min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.9318
+
+===== Epoch 12/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.6008
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 1.0065
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.6425
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.8546
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 1.2531
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.9559
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.4286
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.8789
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.9971
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.5675
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.8424
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 1.0714
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.9038
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.6307
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.8131
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.7249
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.5511
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.7364
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.8118
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.4297
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 1.9322
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 1.0904
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.7131
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.5893
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 1.0407
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.9145, training accuracy: 69.23%
+Training precision: 0.6923, training recall: 0.6923
+Training AUC: 0.9299
+Validating...
+Validation loss: 0.9421, validation accuracy: 69.94%
+Validation precision: 0.6994, validation recall: 0.6994
+Validation macro-average AUC: 0.9289
+Current learning rate: 2.59480809799501e-05
+Epoch time: 238.49s, average: 245.43s, remaining: 155.4min
+Early stopping counter: 1/15
+
+===== Epoch 13/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.4603
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.6563
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.7771
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.4793
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 1.6726
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.1885
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.8002
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 1.2650
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 1.0906
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 1.4278
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 1.1965
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.7270
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 1.0065
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.4953
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.9857
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.9664
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.5361
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.8155
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 1.0412
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.7360
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.8392
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 1.0711
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.5613
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 1.0997
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.8477
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.8798, training accuracy: 69.90%
+Training precision: 0.6990, training recall: 0.6990
+Training AUC: 0.9351
+Validating...
+Validation loss: 0.9329, validation accuracy: 72.21%
+Validation precision: 0.7221, validation recall: 0.7221
+Validation macro-average AUC: 0.9324
+Current learning rate: 2.5283979233633896e-05
+Epoch time: 237.99s, average: 244.86s, remaining: 151.0min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.9324
+
+===== Epoch 14/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 1.1039
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.8444
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 1.0634
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.0372
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.8923
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.7705
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 1.6779
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.6578
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 1.0567
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.8700
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.6917
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 1.3814
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.9422
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.5423
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.9191
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.8790
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.7283
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.4921
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.5424
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.6800
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.5707
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.7592
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 1.4954
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.8892
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.9056
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.8739, training accuracy: 70.25%
+Training precision: 0.7025, training recall: 0.7025
+Training AUC: 0.9347
+Validating...
+Validation loss: 0.9223, validation accuracy: 72.27%
+Validation precision: 0.7227, validation recall: 0.7227
+Validation macro-average AUC: 0.9344
+Current learning rate: 2.457948864674291e-05
+Epoch time: 238.34s, average: 244.39s, remaining: 146.6min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.9344
+
+===== Epoch 15/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.4007
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 1.3107
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.9081
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.0097
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 1.0674
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.0794
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.9712
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.6984
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 1.2772
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.6569
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 1.2280
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.4616
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.4287
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.4330
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.7613
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.7755
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.9999
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 1.2366
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.4343
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 1.5933
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 1.2173
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.9119
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.6918
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.4630
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.4347
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.8437, training accuracy: 71.06%
+Training precision: 0.7106, training recall: 0.7106
+Training AUC: 0.9385
+Validating...
+Validation loss: 0.9173, validation accuracy: 72.76%
+Validation precision: 0.7276, validation recall: 0.7276
+Validation macro-average AUC: 0.9363
+Current learning rate: 2.3837389521772478e-05
+Epoch time: 237.99s, average: 243.97s, remaining: 142.3min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.9363
+
+===== Epoch 16/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.6874
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 1.0506
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.6786
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.7291
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.5487
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.2948
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.4425
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.6037
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.7932
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.5983
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.6069
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.8025
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.6958
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.5895
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.5483
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.7767
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.8852
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 1.3696
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.2997
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.6000
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.3972
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.7852
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.9060
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.3435
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.5461
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.8048, training accuracy: 72.15%
+Training precision: 0.7215, training recall: 0.7215
+Training AUC: 0.9441
+Validating...
+Validation loss: 0.8973, validation accuracy: 71.48%
+Validation precision: 0.7148, validation recall: 0.7148
+Validation macro-average AUC: 0.9339
+Current learning rate: 2.3060610584936e-05
+Epoch time: 240.97s, average: 243.78s, remaining: 138.1min
+Early stopping counter: 1/15
+
+===== Epoch 17/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.8622
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.3584
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.5915
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.5884
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.7467
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.0185
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.7948
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.9527
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 1.2805
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.6402
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.7163
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.8530
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.8399
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 1.1370
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.5820
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.9595
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.8911
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.6790
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.8905
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.9797
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.7618
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.9161
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.5484
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.6719
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.6103
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.7899, training accuracy: 72.25%
+Training precision: 0.7225, training recall: 0.7225
+Training AUC: 0.9455
+Validating...
+Validation loss: 0.8736, validation accuracy: 72.21%
+Validation precision: 0.7221, validation recall: 0.7221
+Validation macro-average AUC: 0.9389
+Current learning rate: 2.2252217427820644e-05
+Epoch time: 239.66s, average: 243.54s, remaining: 133.9min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.9389
+
+===== Epoch 18/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 1.0277
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.5066
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 1.3117
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.1613
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.9953
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.0154
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.5068
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.6797
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 1.2730
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.7924
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.8472
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.9266
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.8974
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.9121
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 1.0337
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 1.3285
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 1.2136
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.9005
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.6851
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.3835
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.7869
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.5519
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.4966
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.6179
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.7498
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.7826, training accuracy: 72.90%
+Training precision: 0.7290, training recall: 0.7290
+Training AUC: 0.9458
+Validating...
+Validation loss: 0.8782, validation accuracy: 74.03%
+Validation precision: 0.7403, validation recall: 0.7403
+Validation macro-average AUC: 0.9420
+Current learning rate: 2.141540040889784e-05
+Epoch time: 237.96s, average: 243.23s, remaining: 129.7min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.9420
+
+===== Epoch 19/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.8625
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.6578
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.9680
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.9300
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.8310
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.4806
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.8729
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.7853
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.6692
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.8914
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.6656
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.5133
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.4179
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.6509
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.3625
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.4160
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.3783
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.4976
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.2502
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.5219
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 1.4421
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.3596
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 1.0569
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.2021
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 1.3635
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.7570, training accuracy: 73.55%
+Training precision: 0.7355, training recall: 0.7355
+Training AUC: 0.9495
+Validating...
+Validation loss: 0.9301, validation accuracy: 71.38%
+Validation precision: 0.7138, validation recall: 0.7138
+Validation macro-average AUC: 0.9353
+Current learning rate: 2.055346206263594e-05
+Epoch time: 239.25s, average: 243.02s, remaining: 125.6min
+Early stopping counter: 1/15
+
+===== Epoch 20/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.5590
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.6643
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 1.3538
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.5256
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.4518
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.4032
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.4646
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 1.5818
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.7306
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.8173
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 1.1303
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 1.1290
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 1.0569
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.5559
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 1.0650
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.8550
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.6796
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.3543
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.9423
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.3262
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.6729
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.8101
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.6997
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.7435
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.8400
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.7332, training accuracy: 74.16%
+Training precision: 0.7416, training recall: 0.7416
+Training AUC: 0.9519
+Validating...
+Validation loss: 0.8806, validation accuracy: 72.92%
+Validation precision: 0.7292, validation recall: 0.7292
+Validation macro-average AUC: 0.9399
+Current learning rate: 1.9669804065905465e-05
+Epoch time: 240.75s, average: 242.90s, remaining: 121.5min
+Early stopping counter: 2/15
+
+===== Epoch 21/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.6837
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.4946
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.6774
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.9106
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.7327
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.6627
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.6814
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.5511
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.4760
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.4353
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.6744
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.4453
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.8865
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 1.0364
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.2958
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.7236
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.7605
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.4771
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.6776
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.8246
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.5486
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.3009
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.5865
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 1.1657
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.4695
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.7213, training accuracy: 74.19%
+Training precision: 0.7419, training recall: 0.7419
+Training AUC: 0.9533
+Validating...
+Validation loss: 0.8965, validation accuracy: 73.06%
+Validation precision: 0.7306, validation recall: 0.7306
+Validation macro-average AUC: 0.9386
+Current learning rate: 1.876791381311458e-05
+Epoch time: 240.11s, average: 242.77s, remaining: 117.3min
+Early stopping counter: 3/15
+
+===== Epoch 22/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.6694
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.4810
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.5963
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.0131
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 1.0045
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.7521
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.5326
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.7980
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.5479
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.6774
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.8400
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.8515
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.5064
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.8042
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 1.1597
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.7490
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.4394
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.3780
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.9564
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.6263
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.5928
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.4970
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.4325
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 1.4070
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.3449
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.7034, training accuracy: 74.83%
+Training precision: 0.7483, training recall: 0.7483
+Training AUC: 0.9545
+Validating...
+Validation loss: 0.8496, validation accuracy: 72.37%
+Validation precision: 0.7237, validation recall: 0.7237
+Validation macro-average AUC: 0.9398
+Current learning rate: 1.7851350653056588e-05
+Epoch time: 244.73s, average: 242.86s, remaining: 113.3min
+Early stopping counter: 4/15
+
+===== Epoch 23/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.6474
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.7825
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.7126
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.6666
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.2431
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.6974
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 1.1381
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 1.3116
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.5163
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.5579
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.3353
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.3478
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.8206
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.5627
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.6692
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.6596
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.8938
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.6849
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.6517
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.5215
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.7806
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.6396
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.6959
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.4938
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.7656
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.6750, training accuracy: 75.60%
+Training precision: 0.7560, training recall: 0.7560
+Training AUC: 0.9583
+Validating...
+Validation loss: 0.8391, validation accuracy: 72.59%
+Validation precision: 0.7259, validation recall: 0.7259
+Validation macro-average AUC: 0.9412
+Current learning rate: 1.6923731841786354e-05
+Epoch time: 248.86s, average: 243.12s, remaining: 109.4min
+Early stopping counter: 5/15
+
+===== Epoch 24/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 1.1512
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.6968
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.4337
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.1116
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.4753
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.8884
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.3236
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.7531
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.7864
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 1.3398
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.7005
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 1.7695
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.2763
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.8622
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.5039
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 1.3494
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.5252
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.4172
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.7571
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 1.3134
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.4356
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 1.1105
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.4018
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.7468
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.6854
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.6711, training accuracy: 75.95%
+Training precision: 0.7595, training recall: 0.7595
+Training AUC: 0.9583
+Validating...
+Validation loss: 0.8397, validation accuracy: 73.12%
+Validation precision: 0.7312, validation recall: 0.7312
+Validation macro-average AUC: 0.9393
+Current learning rate: 1.5988718266963237e-05
+Epoch time: 247.50s, average: 243.30s, remaining: 105.4min
+Early stopping counter: 6/15
+
+===== Epoch 25/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.2442
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.3998
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.6522
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.6177
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.3053
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.6878
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.4360
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.9502
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.5849
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.6221
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.5081
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.8621
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.6378
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.7687
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.5025
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.7566
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.2566
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 1.0568
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.8927
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.7103
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.5167
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.2999
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.6189
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.5077
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.6884
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.6658, training accuracy: 76.00%
+Training precision: 0.7600, training recall: 0.7600
+Training AUC: 0.9589
+Validating...
+Validation loss: 0.8538, validation accuracy: 75.39%
+Validation precision: 0.7539, validation recall: 0.7539
+Validation macro-average AUC: 0.9445
+Current learning rate: 1.5050000000000003e-05
+Epoch time: 246.91s, average: 243.45s, remaining: 101.4min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.9445
+
+===== Epoch 26/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.5729
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.7290
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.5343
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.0504
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.8199
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.4519
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 1.1666
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.6786
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.2235
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.5671
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.6265
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.6925
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 1.1863
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.5526
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.4408
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.5421
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.5442
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.6005
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.3260
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.7090
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.2409
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.3155
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.6102
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.4628
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 1.1805
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.6432, training accuracy: 76.66%
+Training precision: 0.7666, training recall: 0.7666
+Training AUC: 0.9611
+Validating...
+Validation loss: 0.8251, validation accuracy: 74.66%
+Validation precision: 0.7466, validation recall: 0.7466
+Validation macro-average AUC: 0.9444
+Current learning rate: 1.4111281733036768e-05
+Epoch time: 247.70s, average: 243.61s, remaining: 97.4min
+Early stopping counter: 1/15
+
+===== Epoch 27/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.5371
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.7455
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.5170
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.5403
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.4285
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.7153
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.5452
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.9376
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 1.1302
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.7039
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.7373
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.7804
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.6394
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.7774
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.6546
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.7693
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.7367
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.6058
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.6466
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.4024
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.8567
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.7992
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.6186
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.3251
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.5365
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.6370, training accuracy: 76.60%
+Training precision: 0.7660, training recall: 0.7660
+Training AUC: 0.9614
+Validating...
+Validation loss: 0.8103, validation accuracy: 76.87%
+Validation precision: 0.7687, validation recall: 0.7687
+Validation macro-average AUC: 0.9486
+Current learning rate: 1.3176268158213654e-05
+Epoch time: 251.50s, average: 243.90s, remaining: 93.5min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth, validation AUC: 0.9486
+
+===== Epoch 28/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.6498
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.7857
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.7346
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.4019
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.3011
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.5317
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.6037
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.3272
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.2529
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.6855
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.3450
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.3683
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.5493
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.5524
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.6139
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.2329
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.5184
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.3124
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.6416
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.2870
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.6734
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 1.0084
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.7704
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.4293
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.3105
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.6273, training accuracy: 77.11%
+Training precision: 0.7711, training recall: 0.7711
+Training AUC: 0.9628
+Validating...
+Validation loss: 0.8134, validation accuracy: 74.46%
+Validation precision: 0.7446, validation recall: 0.7446
+Validation macro-average AUC: 0.9436
+Current learning rate: 1.2248649346943419e-05
+Epoch time: 246.84s, average: 244.01s, remaining: 89.5min
+Early stopping counter: 1/15
+
+===== Epoch 29/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.6419
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.3703
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.6177
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.6073
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.5869
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.3284
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.6567
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.7749
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 1.2502
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.8424
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.4105
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.5596
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 1.0273
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.4925
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.3381
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.7099
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.2148
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.5332
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.3520
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.7457
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.5682
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.4382
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.3588
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.3548
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.2790
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.6079, training accuracy: 77.42%
+Training precision: 0.7742, training recall: 0.7742
+Training AUC: 0.9640
+Validating...
+Validation loss: 0.8663, validation accuracy: 73.26%
+Validation precision: 0.7326, validation recall: 0.7326
+Validation macro-average AUC: 0.9389
+Current learning rate: 1.1332086186885422e-05
+Epoch time: 251.89s, average: 244.28s, remaining: 85.5min
+Early stopping counter: 2/15
+
+===== Epoch 30/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.3732
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.7774
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.8607
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.0493
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.8997
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.7628
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.3848
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.4273
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.5305
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.6308
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.2441
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 1.0320
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.9261
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.3216
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 1.0005
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.2857
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.7985
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.2081
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.8743
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.6393
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.5767
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.5050
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.6724
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.5179
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.5204
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.6072, training accuracy: 77.76%
+Training precision: 0.7776, training recall: 0.7776
+Training AUC: 0.9643
+Validating...
+Validation loss: 0.8670, validation accuracy: 74.30%
+Validation precision: 0.7430, validation recall: 0.7430
+Validation macro-average AUC: 0.9400
+Current learning rate: 1.0430195934094543e-05
+Epoch time: 247.18s, average: 244.38s, remaining: 81.5min
+Early stopping counter: 3/15
+
+===== Epoch 31/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.9053
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.5027
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 1.8029
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.5479
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.9051
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.3590
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.6459
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.4083
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.3135
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.9771
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.9016
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.6164
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.3927
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.7217
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.3471
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.4832
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 1.0515
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.4196
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.3494
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 1.2145
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.6974
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.6186
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.3913
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.7543
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.4676
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.5921, training accuracy: 77.86%
+Training precision: 0.7786, training recall: 0.7786
+Training AUC: 0.9657
+Validating...
+Validation loss: 0.8316, validation accuracy: 74.17%
+Validation precision: 0.7417, validation recall: 0.7417
+Validation macro-average AUC: 0.9430
+Current learning rate: 9.54653793736407e-06
+Epoch time: 239.85s, average: 244.23s, remaining: 77.3min
+Early stopping counter: 4/15
+
+===== Epoch 32/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.3408
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.5894
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.7472
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.2991
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.7801
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.3116
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.4110
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.3346
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 1.1037
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.7837
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.6124
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.6529
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 1.1197
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.3744
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.5708
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.4906
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.6246
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 1.1267
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.7284
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.7769
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.4981
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.7556
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.7612
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.7094
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.2807
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.5981, training accuracy: 77.78%
+Training precision: 0.7778, training recall: 0.7778
+Training AUC: 0.9647
+Validating...
+Validation loss: 0.8269, validation accuracy: 75.45%
+Validation precision: 0.7545, validation recall: 0.7545
+Validation macro-average AUC: 0.9455
+Current learning rate: 8.684599591102165e-06
+Epoch time: 247.37s, average: 244.33s, remaining: 73.3min
+Early stopping counter: 5/15
+
+===== Epoch 33/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.4498
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.4672
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.5170
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.2728
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.5106
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.4195
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.4619
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.3416
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.2973
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.7707
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.8910
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.5648
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.6722
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.4473
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.3447
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.5827
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.6309
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.2053
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.4857
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.5487
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.7723
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.3961
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.4332
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.5671
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.2406
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.5861, training accuracy: 77.67%
+Training precision: 0.7767, training recall: 0.7767
+Training AUC: 0.9665
+Validating...
+Validation loss: 0.7909, validation accuracy: 75.37%
+Validation precision: 0.7537, validation recall: 0.7537
+Validation macro-average AUC: 0.9465
+Current learning rate: 7.847782572179355e-06
+Epoch time: 252.99s, average: 244.59s, remaining: 69.3min
+Early stopping counter: 6/15
+
+===== Epoch 34/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 1.5219
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.3419
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 1.0652
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.1099
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.2450
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.6016
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.3511
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.4648
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.6017
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.5651
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 1.1102
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.5647
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.7982
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.2687
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.6006
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 1.0053
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.7305
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.2707
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.1725
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.4016
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.6143
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.7605
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.3224
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.1625
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.6994
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.5763, training accuracy: 78.46%
+Training precision: 0.7846, training recall: 0.7846
+Training AUC: 0.9670
+Validating...
+Validation loss: 0.8395, validation accuracy: 75.01%
+Validation precision: 0.7501, validation recall: 0.7501
+Validation macro-average AUC: 0.9442
+Current learning rate: 7.039389415063997e-06
+Epoch time: 256.20s, average: 244.93s, remaining: 65.3min
+Early stopping counter: 7/15
+
+===== Epoch 35/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.5468
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.6072
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 1.0863
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.3961
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.3963
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.8210
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.4530
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.3945
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.5750
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.6953
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.2817
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.8466
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.4991
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.8365
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.2316
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.3684
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 1.1165
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.7205
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.4384
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.3883
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.6281
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.7149
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.4898
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.4451
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.7407
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.5754, training accuracy: 79.08%
+Training precision: 0.7908, training recall: 0.7908
+Training AUC: 0.9670
+Validating...
+Validation loss: 0.8134, validation accuracy: 74.50%
+Validation precision: 0.7450, validation recall: 0.7450
+Validation macro-average AUC: 0.9453
+Current learning rate: 6.262610478227528e-06
+Epoch time: 248.33s, average: 245.03s, remaining: 61.3min
+Early stopping counter: 8/15
+
+===== Epoch 36/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.7964
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.2130
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.6126
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.6430
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.7640
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.6453
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.4538
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.6147
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.7212
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.6235
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.8013
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.4227
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.6764
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.3943
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.6569
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.4771
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.4514
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.6019
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.4046
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.8635
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 1.1165
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.6434
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.5714
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.1494
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.4379
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.5570, training accuracy: 79.25%
+Training precision: 0.7925, training recall: 0.7925
+Training AUC: 0.9692
+Validating...
+Validation loss: 0.8359, validation accuracy: 76.06%
+Validation precision: 0.7606, validation recall: 0.7606
+Validation macro-average AUC: 0.9463
+Current learning rate: 5.520511353257088e-06
+Epoch time: 245.08s, average: 245.03s, remaining: 57.2min
+Early stopping counter: 9/15
+
+===== Epoch 37/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.7716
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.4085
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.5133
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.7815
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.4599
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.2324
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.5105
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.5662
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.4202
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.1734
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.5311
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.4869
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.2596
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.2377
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.9269
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.6940
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.2764
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 1.2946
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.7660
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.1728
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 1.3356
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.4014
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.8651
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.3807
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 1.0170
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.5486, training accuracy: 79.23%
+Training precision: 0.7923, training recall: 0.7923
+Training AUC: 0.9696
+Validating...
+Validation loss: 0.8328, validation accuracy: 74.96%
+Validation precision: 0.7496, validation recall: 0.7496
+Validation macro-average AUC: 0.9459
+Current learning rate: 4.816020766366103e-06
+Epoch time: 238.26s, average: 244.85s, remaining: 53.1min
+Early stopping counter: 10/15
+
+===== Epoch 38/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.5037
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.3069
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 1.5676
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.6456
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.2092
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.7073
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.4352
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.3793
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.6819
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.7703
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.6728
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.3258
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.9692
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.2835
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.5644
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.6136
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.1998
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.7376
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.6172
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.9400
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.2282
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.3153
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.6355
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.5705
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.1123
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.5499, training accuracy: 79.14%
+Training precision: 0.7914, training recall: 0.7914
+Training AUC: 0.9694
+Validating...
+Validation loss: 0.8455, validation accuracy: 75.03%
+Validation precision: 0.7503, validation recall: 0.7503
+Validation macro-average AUC: 0.9441
+Current learning rate: 2.07595951002495e-06
+Epoch time: 235.34s, average: 244.60s, remaining: 48.9min
+Early stopping counter: 11/15
+
+===== Epoch 39/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.3827
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.6383
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.3716
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.7623
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.9496
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.3189
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 1.1771
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 1.0737
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.5560
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.5149
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.5513
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.2284
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.4000
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.4285
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.5474
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.9130
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.6835
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.4783
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.3355
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.4593
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.7546
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.6187
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.3617
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.4917
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.3902
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.5432, training accuracy: 79.42%
+Training precision: 0.7942, training recall: 0.7942
+Training AUC: 0.9699
+Validating...
+Validation loss: 0.8281, validation accuracy: 73.51%
+Validation precision: 0.7351, validation recall: 0.7351
+Validation macro-average AUC: 0.9442
+Current learning rate: 1.773077681184238e-06
+Epoch time: 235.79s, average: 244.37s, remaining: 44.8min
+Early stopping counter: 12/15
+
+===== Epoch 40/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.6357
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.6322
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.4077
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.3599
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.6163
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.1122
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.6365
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.3872
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 1.0633
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.2770
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.6324
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.5940
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.4152
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.9637
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.4338
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.5154
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.2698
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.5418
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.3617
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.2158
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.6800
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.5532
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.4303
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.2948
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.3825
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.5414, training accuracy: 79.60%
+Training precision: 0.7960, training recall: 0.7960
+Training AUC: 0.9701
+Validating...
+Validation loss: 0.8334, validation accuracy: 75.03%
+Validation precision: 0.7503, validation recall: 0.7503
+Validation macro-average AUC: 0.9439
+Current learning rate: 1.4923653288829034e-06
+Epoch time: 237.82s, average: 244.21s, remaining: 40.7min
+Early stopping counter: 13/15
+
+===== Epoch 41/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.4636
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.6985
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.5998
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 1.0039
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.5080
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 0.6946
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.8203
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.7125
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.7004
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.7283
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.5707
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.4680
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.4196
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.5161
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.1877
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.2477
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.4627
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.2839
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.4388
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.4289
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.4759
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.3279
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.6028
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.4280
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.5901
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.5430, training accuracy: 79.54%
+Training precision: 0.7954, training recall: 0.7954
+Training AUC: 0.9701
+Validating...
+Validation loss: 0.8377, validation accuracy: 75.03%
+Validation precision: 0.7503, validation recall: 0.7503
+Validation macro-average AUC: 0.9438
+Current learning rate: 1.2349302965302058e-06
+Epoch time: 234.81s, average: 243.98s, remaining: 36.6min
+Early stopping counter: 14/15
+
+===== Epoch 42/50 =====
+GPU memory usage: 0.24/8.00 GB (3.1%)
+Training...
+Processing batch 50/1267, current batch loss: 0.7035
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 100/1267, current batch loss: 0.7781
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 150/1267, current batch loss: 0.4128
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 200/1267, current batch loss: 0.4501
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 250/1267, current batch loss: 0.8777
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 300/1267, current batch loss: 1.1137
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 350/1267, current batch loss: 0.2677
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 400/1267, current batch loss: 0.3371
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 450/1267, current batch loss: 0.4370
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 500/1267, current batch loss: 0.6039
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 550/1267, current batch loss: 0.8043
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 600/1267, current batch loss: 0.4438
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 650/1267, current batch loss: 0.3284
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 700/1267, current batch loss: 0.5976
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 750/1267, current batch loss: 0.7647
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 800/1267, current batch loss: 0.6995
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 850/1267, current batch loss: 0.4315
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 900/1267, current batch loss: 0.3549
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 950/1267, current batch loss: 0.2609
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1000/1267, current batch loss: 0.5566
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1050/1267, current batch loss: 0.6298
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1100/1267, current batch loss: 0.3454
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1150/1267, current batch loss: 0.4094
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1200/1267, current batch loss: 0.6170
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Processing batch 1250/1267, current batch loss: 0.8108
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 0.5392, training accuracy: 79.32%
+Training precision: 0.7932, training recall: 0.7932
+Training AUC: 0.9703
+Validating...
+Validation loss: 0.8241, validation accuracy: 74.94%
+Validation precision: 0.7494, validation recall: 0.7494
+Validation macro-average AUC: 0.9451
+Current learning rate: 1.001788562587958e-06
+Epoch time: 236.49s, average: 243.80s, remaining: 32.5min
+Early stopping counter: 15/15
+Early stopping triggered, best validation AUC: 0.9486 at epoch 27
+Training completed, total time: 171.91 minutes
+Training metrics visualization saved to: C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\training_metrics.png
+
+=== Releasing resources before evaluation ===
+Waiting 10 seconds for resource release...
+GPU memory usage: 0.02/8.00 GB (0.2%)
+
+=== Loading best model for evaluation ===
+Building model...
+Pre-trained model loaded
+Model parameters unfrozen
+Actual feature dimension: 1792
+Total model parameters: 18,601,295, trainable parameters: 18,601,295
+Best model loaded from C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\best_model.pth
+Adjusting test loader batch size for evaluation...
+Starting model evaluation...
+Evaluation completed, results saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\isic_predictions.csv
+Model saved as C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC\final_isic_model.pth
+
+进程已结束，退出代码为 0

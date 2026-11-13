@@ -1,0 +1,18 @@
+﻿company,facility_id,facility_name,lat,lon,coordinate_precision,suggested_baseline_period,suggested_detection_period,aoi_status
+BYD Company Limited,byd_facility_001,BYD Pingshan headquarters/manufacturing campus,22.6806421,114.3604961,approximate_public_address,2019-2021,2022-2025,point_seed_only
+BYD Company Limited,byd_facility_002,BYD Xiaomo Industrial Park,22.7774479,115.0333784,administrative_street_centroid,2019-2021,2022-2025,point_seed_only
+"Contemporary Amperex Technology Co., Limited",catl_facility_001,CATL Ningde headquarters/base,26.6181,119.5082,gemini_candidate_point_seed_reverse_geocoded_admin_area,2018-2020,2021-2025,point_seed_only
+"Contemporary Amperex Technology Co., Limited",catl_facility_002,CATL Yibin Production Base,28.8112,104.6865,gemini_candidate_point_seed_reverse_geocoded_admin_area,2018-2020,2021-2025,point_seed_only
+"Contemporary Amperex Technology Co., Limited",catl_facility_004,CATL Liyang Production Base,31.3985,119.2204,gemini_candidate_point_seed_reverse_geocoded_admin_area,2015-2018,2019-2025,point_seed_only
+"Midea Group Co., Ltd.",midea_facility_001,Midea Shunde headquarters/factory area,22.8827,113.1918,gemini_candidate_point_seed_reverse_geocoded_admin_area,2018-2020,2021-2025,point_seed_only
+"Midea Group Co., Ltd.",midea_facility_002,Hefei Laundry Appliance Factory,31.8153,117.1852,gemini_candidate_point_seed_reverse_geocoded_admin_area,2018-2020,2021-2025,point_seed_only
+Midea,optional_1,广州南沙空调基地,22.7531,113.5283,public_candidate_point_seed_only,2012-2014,2016-2025,point_seed_only
+Midea,optional_2,武汉空调基地,30.4682,114.1685,public_candidate_point_seed_only,2012-2015,2019-2025,point_seed_only
+BYD,optional_4,西安基地,34.0538,108.7351,public_candidate_point_seed_only,2011-2013,2022-2025,point_seed_only
+BYD,optional_5,长沙基地,28.0673,113.0232,public_candidate_point_seed_only,2009-2011,2013-2025,point_seed_only
+BYD,optional_6,常州基地,31.8491,119.8655,public_candidate_point_seed_only,2019-2021,2022-2025,point_seed_only
+BYD,optional_7,合肥基地,32.1812,117.2289,public_candidate_point_seed_only,2019-2021,2022-2025,point_seed_only
+BYD,optional_8,抚州基地,27.9405,116.3275,public_candidate_point_seed_only,2020-2021,2022-2025,point_seed_only
+BYD,optional_9,济南基地,36.8524,117.0988,public_candidate_point_seed_only,2019-2021,2023-2025,point_seed_only
+BYD,optional_10,郑州基地,34.4647,113.8821,public_candidate_point_seed_only,2020-2021,2023-2025,point_seed_only
+BYD,optional_11,青海西宁基地,36.5298,101.7692,public_candidate_point_seed_only,2015-2017,2019-2025,point_seed_only

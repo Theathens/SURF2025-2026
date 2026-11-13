@@ -1,0 +1,33 @@
+﻿firm_id,company_name,year,item_type,claim_or_item,quantity,unit,coverage,carbon_neutrality_or_net_zero_statement,statement_boundary,disclosure_availability
+byd_002594_1211hk,BYD Company Limited,2022,green_power_or_reduction,renewable_energy_ratio,1.85,percent of indirect energy,group_level,not_disclosed,not_disclosed,reported
+byd_002594_1211hk,BYD Company Limited,2023,green_power_or_reduction,renewable_energy_ratio,4.58,percent of indirect energy,group_level,not_disclosed,not_disclosed,reported
+byd_002594_1211hk,BYD Company Limited,2024,green_power_or_reduction,renewable_energy_ratio,17.30,percent of indirect energy,group_level,not_disclosed,not_disclosed,reported
+byd_002594_1211hk,BYD Company Limited,2025,carbon_credit_or_offset,carbon neutrality / net zero / carbon credit disclosure,not_disclosed,tCO2e,whole_value_chain_target,whole value chain carbon neutrality by 2045; planned use of high-quality third-party certified carbon credits after reductions,whole_value_chain_target,reported
+byd_002594_1211hk,BYD Company Limited,2025,green_power_or_reduction,emission_reduction_target,50,% carbon intensity reduction by 2030 vs 2023,own_operations,not_disclosed,not_disclosed,reported
+byd_002594_1211hk,BYD Company Limited,2025,green_power_or_reduction,green_electricity_purchase,2063084.00,MWh,group_level,not_disclosed,not_disclosed,reported
+byd_002594_1211hk,BYD Company Limited,2025,green_power_or_reduction,photovoltaic_generation,60102.05,MWh,park_photovoltaic,not_disclosed,not_disclosed,reported
+byd_002594_1211hk,BYD Company Limited,2025,green_power_or_reduction,renewable_energy_certificate,5226515.00,MWh,group_level,not_disclosed,not_disclosed,reported
+byd_002594_1211hk,BYD Company Limited,2025,green_power_or_reduction,renewable_energy_ratio,36.12,%,indirect_energy,not_disclosed,not_disclosed,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,green_power_or_reduction,renewable_energy_ratio,26.67,percent zero-carbon power,operation_level,not_disclosed,not_disclosed,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,green_power_or_reduction,renewable_energy_ratio,65.62,percent zero-carbon power,operation_level,not_disclosed,not_disclosed,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,green_power_or_reduction,renewable_energy_consumption,9100943.20,MWh,operation_level,not_disclosed,not_disclosed,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,green_power_or_reduction,renewable_energy_ratio,74.51,percent zero-carbon power,operation_level,not_disclosed,not_disclosed,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,carbon_credit_or_offset,carbon neutrality / net zero / carbon credit disclosure,not_disclosed,tCO2e,core_operations_battery_bases_and_value_chain_target,carbon neutrality in core operations by 2025; value-chain carbon neutrality by 2035,core_operations_battery_bases_and_value_chain_target,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,green_power_or_reduction,emission_reduction_target,100,% zero-carbon electricity in core operations,core_operations,not_disclosed,not_disclosed,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,green_power_or_reduction,photovoltaic_generation,468579.41,MWh,company_distributed_pv,not_disclosed,not_disclosed,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,green_power_or_reduction,renewable_energy_consumption,15639793.40,MWh,clean_energy_use,not_disclosed,not_disclosed,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,green_power_or_reduction,renewable_energy_ratio,74.22,%,company_zero_carbon_electricity,not_disclosed,not_disclosed,reported
+midea_000333,"Midea Group Co., Ltd.",2019,green_power_or_reduction,renewable_energy_ratio,4.96,percent,operation_level,not_disclosed,not_disclosed,reported
+midea_000333,"Midea Group Co., Ltd.",2020,green_power_or_reduction,renewable_energy_ratio,5.46,percent,operation_level,not_disclosed,not_disclosed,reported
+midea_000333,"Midea Group Co., Ltd.",2023,green_power_or_reduction,green_electricity_purchase,7439000,kWh,group_level,not_disclosed,not_disclosed,reported
+midea_000333,"Midea Group Co., Ltd.",2023,green_power_or_reduction,photovoltaic_generation,220000000,kWh,operation_level,not_disclosed,not_disclosed,reported
+midea_000333,"Midea Group Co., Ltd.",2025,carbon_credit_or_offset,carbon neutrality / net zero / carbon credit disclosure,0,tCO2e,group_target,target is not a net-zero target and does not involve carbon credits,group_target,reported
+midea_000333,"Midea Group Co., Ltd.",2025,green_power_or_reduction,emission_reduction_target,4.5,% Scope 1 and Scope 2 reduction in 2025 vs 2023 base,group_and_subsidiaries,not_disclosed,not_disclosed,reported
+midea_000333,"Midea Group Co., Ltd.",2025,green_power_or_reduction,green_electricity_purchase,100+,GWh,group_level,not_disclosed,not_disclosed,reported
+midea_000333,"Midea Group Co., Ltd.",2025,green_power_or_reduction,photovoltaic_generation,376,GWh,distributed_pv,not_disclosed,not_disclosed,reported
+midea_000333,"Midea Group Co., Ltd.",2025,green_power_or_reduction,renewable_energy_ratio,11.79,%,self_generated_green_solar_share_of_total_electricity_consumption,not_disclosed,not_disclosed,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,green_power_or_reduction,photovoltaic_generation,13.88,million kWh,company_and_supplier_pv_generation_equipment,not_disclosed,not_disclosed,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,green_power_or_reduction,photovoltaic_generation,22.58,million kWh,company_and_supplier_pv_generation_equipment,not_disclosed,not_disclosed,reported
+midea_000333,"Midea Group Co., Ltd.",2024,green_power_or_reduction,photovoltaic_generation,336,GWh,全国暖通空调制造基地集合,not_disclosed,not_disclosed,reported
+midea_000333,"Midea Group Co., Ltd.",2024,green_power_or_reduction,installed_pv_capacity,409,MW,全国暖通空调制造基地集合,not_disclosed,not_disclosed,reported
+midea_000333,"Midea Group Co., Ltd.",2024,green_power_or_reduction,green_electricity_purchase,54,GWh,全国暖通空调制造基地集合,not_disclosed,not_disclosed,reported

@@ -1,0 +1,7 @@
+﻿cohort,firm_id,company_name,report_file,sha256
+real_company,haier_600690_06690,"Haier Smart Home Co., Ltd.",real_companies/reports/haier_600690_06690_complete_esg_report_2025.md,05105D880FE311D0200A90715610025176D45A6AB96BB8BE5FEE350201A44F63
+real_company,longi_601012,"LONGi Green Energy Technology Co., Ltd.",real_companies/reports/longi_601012_complete_esg_report_2025.md,6CC1323958F954A02C4287005BDA39F8EBF89D01E173281516C6E2DA7AC961EE
+real_company,sungrow_300274,"Sungrow Power Supply Co., Ltd.",real_companies/reports/sungrow_300274_complete_esg_report_2025.md,AD69EF3C72C08C557D4AF5AA7D52095F0FAAF285F90EE93BAB51BCAFAF30A510
+virtual_company,v_anchor_assembly,"Anchor Mobility Components Co., Ltd.",virtual_companies/reports/v_anchor_assembly_esg_baseline_2022_2025.md,EFA7E44E7BAC42188A0AD4A57B85FEF68CE3A7FFF835E427DD6A3F2364BA5C63
+virtual_company,v_nova_appliance,"Nova Home Systems Co., Ltd.",virtual_companies/reports/v_nova_appliance_esg_baseline_2022_2025.md,B2F6510931175A78DB1F2B6F93B9D36382F76348C619D44B1A778F53D61C83E5
+virtual_company,v_orion_solar,"Orion Solar Materials Co., Ltd.",virtual_companies/reports/v_orion_solar_esg_baseline_2022_2025.md,F898A999BE8B9B107DA17BD3D2D34E141A2A6F390ED5FDC90627312653AF1D55

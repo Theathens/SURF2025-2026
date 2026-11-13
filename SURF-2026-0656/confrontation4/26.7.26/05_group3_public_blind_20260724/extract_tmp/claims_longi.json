@@ -1,0 +1,251 @@
+[
+{
+  "claim_id": "CLM_longi_601012_2022_001",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2022, "section": "Consolidated normalized indicators",
+  "claim_type": "electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 9068091, "claim_unit": "MWh",
+  "claim_text": "Consolidated table 2022: Electricity (MWh) = 9068091.0", "evidence_location": "L55", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2022_002",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2022, "section": "Consolidated normalized indicators",
+  "claim_type": "renewable_electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 4278675, "claim_unit": "MWh",
+  "claim_text": "Consolidated table 2022: Renewable electricity (MWh) = 4278675.0", "evidence_location": "L55", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2022_003",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2022, "section": "Consolidated normalized indicators",
+  "claim_type": "renewable_electricity_ratio_pct", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 47.2, "claim_unit": "%",
+  "claim_text": "Consolidated table 2022: Renewable share (%) = 47.2", "evidence_location": "L55", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2022_004",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2022, "section": "Consolidated normalized indicators",
+  "claim_type": "scope1_2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 3195240.0744, "claim_unit": "tCO2e",
+  "claim_text": "Consolidated table 2022: Scope 1+2 (tCO2e) = 3195240.0743749999", "evidence_location": "L55", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2022_005",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2022, "section": "Consolidated normalized indicators",
+  "claim_type": "scope1_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 150904.27175, "claim_unit": "tCO2e",
+  "claim_text": "Disclosed metrics table 2022: scope1_emissions = 150904.27175 tCO2e", "evidence_location": "L70", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2022_006",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2022, "section": "Consolidated normalized indicators",
+  "claim_type": "scope2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 3044335.802625, "claim_unit": "tCO2e",
+  "claim_text": "Disclosed metrics table 2022: scope2_market_based_emissions = 3044335.802625 tCO2e (market-based)", "evidence_location": "L71", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2022_007",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2022, "section": "Consolidated normalized indicators",
+  "claim_type": "scope3_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 29747826.84, "claim_unit": "tCO2e",
+  "claim_text": "Consolidated table 2022: Scope 3 (tCO2e) = 29747826.8399999999", "evidence_location": "L55", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2023_001",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2023, "section": "Consolidated normalized indicators",
+  "claim_type": "electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 12267985, "claim_unit": "MWh",
+  "claim_text": "Consolidated table 2023: Electricity (MWh) = 12267985.0", "evidence_location": "L56", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2023_002",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2023, "section": "Consolidated normalized indicators",
+  "claim_type": "renewable_electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 3815000, "claim_unit": "MWh",
+  "claim_text": "Disclosed metrics table 2023: renewable_electricity_used = 3.815 billion kWh (unit converted to 3815000 MWh, 1 GWh = 1000 MWh)", "evidence_location": "L75", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2023_003",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2023, "section": "Consolidated normalized indicators",
+  "claim_type": "renewable_electricity_ratio_pct", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 31.1, "claim_unit": "%",
+  "claim_text": "Consolidated table 2023: Renewable share (%) = 31.1", "evidence_location": "L56", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2023_004",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2023, "section": "Consolidated normalized indicators",
+  "claim_type": "scope1_2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 4324674.9537, "claim_unit": "tCO2e",
+  "claim_text": "Consolidated table 2023: Scope 1+2 (tCO2e) = 4324674.9537000004", "evidence_location": "L56", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2023_005",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2023, "section": "Consolidated normalized indicators",
+  "claim_type": "scope1_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 129666.117, "claim_unit": "tCO2e",
+  "claim_text": "Disclosed metrics table 2023: scope1_emissions = 129666.117 tCO2e", "evidence_location": "L77", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2023_006",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2023, "section": "Consolidated normalized indicators",
+  "claim_type": "scope2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 4195008.8367, "claim_unit": "tCO2e",
+  "claim_text": "Disclosed metrics table 2023: scope2_market_based_emissions = 4195008.8367000008 tCO2e (market-based)", "evidence_location": "L78", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2023_007",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2023, "section": "Consolidated normalized indicators",
+  "claim_type": "scope3_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 36990041.63, "claim_unit": "tCO2e",
+  "claim_text": "Consolidated table 2023: Scope 3 (tCO2e) = 36990041.6300000027", "evidence_location": "L56", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2024_001",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 9995865, "claim_unit": "MWh",
+  "claim_text": "Consolidated table 2024: Electricity (MWh) = 9995865.0", "evidence_location": "L57", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2024_002",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "renewable_electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 4746070, "claim_unit": "MWh",
+  "claim_text": "Consolidated table 2024: Renewable electricity (MWh) = 4746070.0", "evidence_location": "L57", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2024_003",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "renewable_electricity_ratio_pct", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 47.5, "claim_unit": "%",
+  "claim_text": "Consolidated table 2024: Renewable share (%) = 47.5", "evidence_location": "L57", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2024_004",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "scope1_2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 3654537.104, "claim_unit": "tCO2e",
+  "claim_text": "Consolidated table 2024: Scope 1+2 (tCO2e) = 3654537.1040249998", "evidence_location": "L57", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2024_005",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "scope1_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 97796.685825, "claim_unit": "tCO2e",
+  "claim_text": "Disclosed metrics table 2024: scope1_emissions = 97796.685825 tCO2e", "evidence_location": "L86", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2024_006",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "scope2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 3556740.4182, "claim_unit": "tCO2e",
+  "claim_text": "Disclosed metrics table 2024: scope2_market_based_emissions = 3556740.4181999997 tCO2e (market-based)", "evidence_location": "L87", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2024_007",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "scope3_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 27343926.12, "claim_unit": "tCO2e",
+  "claim_text": "Consolidated table 2024: Scope 3 (tCO2e) = 27343926.120000001", "evidence_location": "L57", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2024_008",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2024, "section": "Disclosed ESG metrics",
+  "claim_type": "carbon_reduction", "claim_category": "structured", "claim_direction": "decrease",
+  "claim_value": 2.55, "claim_unit": "million_metric_tons",
+  "claim_text": "Disclosed metrics table 2024: carbon_reduction = 2.55 million metric tons", "evidence_location": "L80", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2024_009",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2024, "section": "Disclosed ESG metrics",
+  "claim_type": "scope1_2_reduction_pct", "claim_category": "structured", "claim_direction": "decrease",
+  "claim_value": 37, "claim_unit": "%",
+  "claim_text": "Disclosed metrics table 2024: scope1_2_reduction = 37 percent vs 2023", "evidence_location": "L85", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2024_010",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2024, "section": "Disclosed ESG metrics",
+  "claim_type": "scope3_reduction_pct", "claim_category": "structured", "claim_direction": "decrease",
+  "claim_value": 26, "claim_unit": "%",
+  "claim_text": "Disclosed metrics table 2024: scope3_reduction = 26 percent vs 2023", "evidence_location": "L89", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2025_001",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2025, "section": "Consolidated normalized indicators",
+  "claim_type": "renewable_electricity_ratio_pct", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 52.4, "claim_unit": "%",
+  "claim_text": "Consolidated table 2025: Renewable share (%) = 52.4", "evidence_location": "L58", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2025_002",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "revenue", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 70.347, "claim_unit": "RMB_billion",
+  "claim_text": "Disclosed metrics table 2025: revenue = 70.347 RMB billion (2025 annual-report announcement)", "evidence_location": "L91", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2025_003",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "waste_recycling_rate_pct", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 94, "claim_unit": "%",
+  "claim_text": "Disclosed metrics table 2025: waste_recycling_rate = 94 percent", "evidence_location": "L93", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2025_004",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "supplier_dd_coverage_pct", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 100, "claim_unit": "%",
+  "claim_text": "Disclosed metrics table 2025: supplier_esg_due_diligence_coverage = 100 percent", "evidence_location": "L92", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_longi_601012_2025_005",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2025, "section": "2025 evidence highlights",
+  "claim_type": "target_claim", "claim_category": "qualitative", "claim_direction": "control",
+  "claim_value": 100, "claim_unit": "%",
+  "claim_text": "The official sustainability commitment targets 100% renewable electricity by 2028. This is a forward-looking target, not a claim of achieved renewable electricity use.",
+  "evidence_location": "L20", "confidence": 0.7
+},
+{
+  "claim_id": "CLM_longi_601012_2025_006",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2025, "section": "Report status and scope",
+  "claim_type": "process_wording", "claim_category": "qualitative", "claim_direction": "unknown",
+  "claim_text": "This document is an evidence-grounded reconstruction of a complete ESG report using the available 2022-2025 public-company disclosure set. It is not represented as an official republication of the company's original report.",
+  "evidence_location": "L5", "confidence": 0.9
+},
+{
+  "claim_id": "CLM_longi_601012_2025_007",
+  "cohort": "real_public_reference", "firm_id": "longi_601012", "company_name": "LONGi Green Energy Technology Co., Ltd.",
+  "report_file": "longi_601012_complete_esg_report_2025.md", "year": 2025, "section": "Facilities and geospatial context",
+  "claim_type": "data_availability_statement", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_text": "Public facility records provide AOI seeds for later remote-sensing work. Quantitative satellite variables remain unavailable until an actual Sentinel, Landsat, VIIRS or MODIS workflow is run. Proxy status: aoi_seed_ready_proxy_not_processed for all 8 facility-year rows.",
+  "evidence_location": "L114", "confidence": 0.9
+}
+]

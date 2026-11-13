@@ -1,0 +1,320 @@
+﻿firm_id,company_name,year,metric_category,metric_name,metric_value,metric_unit,metric_boundary,disclosure_availability
+byd_002594_1211hk,BYD Company Limited,2019,emissions,scope1_2_emission,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2019,emissions,scope1_emission,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2019,emissions,scope2_emission,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2019,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2019,emissions,total_ghg_emission,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2019,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2019,energy,electricity_consumption,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2019,energy,natural_gas,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2019,energy,total_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2019,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2019,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2019,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2019,green_power,renewable_energy_ratio,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2019,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2020,emissions,scope1_2_emission,4145179.86,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2020,emissions,scope1_emission,199406.48,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2020,emissions,scope2_emission,3945773.38,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2020,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2020,emissions,total_ghg_emission,4145179.86,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2020,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2020,energy,electricity_consumption,415826.05,"10,000 kWh",group_level,reported
+byd_002594_1211hk,BYD Company Limited,2020,energy,natural_gas,8961.57,"10,000 m3",group_level,reported
+byd_002594_1211hk,BYD Company Limited,2020,energy,total_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2020,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2020,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2020,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2020,green_power,renewable_energy_ratio,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2020,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2021,emissions,scope1_2_emission,5219112.8,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2021,emissions,scope1_emission,315610.31,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2021,emissions,scope2_emission,4903502.49,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2021,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2021,emissions,total_ghg_emission,5219112.8,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2021,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2021,energy,electricity_consumption,516756.51,"10,000 kWh",group_level,reported
+byd_002594_1211hk,BYD Company Limited,2021,energy,natural_gas,14222.72,"10,000 m3",group_level,reported
+byd_002594_1211hk,BYD Company Limited,2021,energy,total_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2021,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2021,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2021,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2021,green_power,renewable_energy_ratio,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2021,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2022,emissions,scope1_2_emission,8061970.00,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2022,emissions,scope1_emission,550932.00,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2022,emissions,scope2_emission,7511038.00,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2022,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2022,emissions,total_ghg_emission,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2022,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2022,energy,electricity_consumption,7768859.60,MWh,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2022,energy,natural_gas,24730,"10,000 m3",group_level,reported
+byd_002594_1211hk,BYD Company Limited,2022,energy,total_energy_consumption,10618556.88,MWh,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2022,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2022,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2022,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2022,green_power,renewable_energy_ratio,1.85,percent of indirect energy,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2022,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2023,emissions,scope1_2_emission,12341455.00,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2023,emissions,scope1_emission,885320,tCO2e,深圳坪山整车 & 电池制造厂区，不含地产、客运配套板块,reported
+byd_002594_1211hk,BYD Company Limited,2023,emissions,scope2_emission,10839062,tCO2e,深圳坪山整车 & 电池制造厂区，不含地产、客运配套板块,reported
+byd_002594_1211hk,BYD Company Limited,2023,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2023,emissions,total_ghg_emission,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2023,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2023,energy,electricity_consumption,12047002,MWh,深圳坪山整车 & 电池制造厂区，不含地产、客运配套板块,reported
+byd_002594_1211hk,BYD Company Limited,2023,energy,natural_gas,41707,"10,000 m3",group_level,reported
+byd_002594_1211hk,BYD Company Limited,2023,energy,total_energy_consumption,16592592.44,MWh,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2023,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2023,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2023,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2023,green_power,renewable_energy_ratio,4.58,percent of indirect energy,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2023,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2024,emissions,scope1_2_emission,10101826.20,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2024,emissions,scope1_emission,1539251.46,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2024,emissions,scope2_emission,8562574.74,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2024,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2024,emissions,total_ghg_emission,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2024,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2024,energy,electricity_consumption,13196208.48,MWh,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2024,energy,natural_gas,69905,"10,000 m3",group_level,reported
+byd_002594_1211hk,BYD Company Limited,2024,energy,total_energy_consumption,23552569.28,MWh,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2024,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2024,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2024,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2024,green_power,renewable_energy_ratio,17.30,percent of indirect energy,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2024,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,emissions,scope1_2_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,emissions,scope1_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,emissions,scope2_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,emissions,total_ghg_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,energy,electricity_consumption,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,energy,natural_gas,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,energy,total_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,green_power,photovoltaic_generation,13.88,million kWh,company_and_supplier_pv_generation_equipment,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,green_power,renewable_energy_ratio,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2019,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,emissions,scope1_2_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,emissions,scope1_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,emissions,scope2_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,emissions,total_ghg_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,energy,electricity_consumption,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,energy,natural_gas,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,energy,total_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,green_power,photovoltaic_generation,22.58,million kWh,company_and_supplier_pv_generation_equipment,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,green_power,renewable_energy_ratio,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2020,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2021,emissions,scope1_2_emission,2262741.87,tCO2e,factory_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2021,emissions,scope1_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2021,emissions,scope2_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2021,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2021,emissions,total_ghg_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2021,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2021,energy,electricity_consumption,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2021,energy,natural_gas,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2021,energy,total_energy_consumption,4599848.68,MWh,operation_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2021,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2021,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2021,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2021,green_power,renewable_energy_ratio,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2021,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,emissions,scope1_2_emission,3242832.72,tCO2e,factory_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,emissions,scope1_emission,610885.46,tCO2e,factory_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,emissions,scope2_emission,2631947.26,tCO2e,factory_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,emissions,total_ghg_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,energy,electricity_consumption,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,energy,natural_gas,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,energy,total_energy_consumption,9555593.31,MWh,operation_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,green_power,renewable_energy_ratio,26.67,percent zero-carbon power,operation_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2022,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,emissions,scope1_2_emission,2243174.05,tCO2e,factory_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,emissions,scope1_emission,765338.97,tCO2e,factory_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,emissions,scope2_emission,1477835.08,tCO2e,factory_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,emissions,total_ghg_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,energy,electricity_consumption,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,energy,natural_gas,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,energy,total_energy_consumption,10524882.70,MWh,operation_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,green_power,renewable_energy_ratio,65.62,percent zero-carbon power,operation_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2023,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,emissions,scope1_2_emission,2353799.40,tCO2e,factory_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,emissions,scope1_emission,930440.28,tCO2e,factory_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,emissions,scope2_emission,1423359.12,tCO2e,factory_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,emissions,total_ghg_emission,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,energy,coal,2256864.70,MWh,operation_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,energy,electricity_consumption,10464656.81,MWh,operation_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,energy,natural_gas,4643142.52,MWh,operation_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,energy,total_energy_consumption,18302906.69,MWh,operation_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,green_power,renewable_energy_consumption,9100943.20,MWh,operation_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,green_power,renewable_energy_ratio,74.51,percent zero-carbon power,operation_level,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2024,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2018,emissions,scope1_2_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2018,emissions,scope1_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2018,emissions,scope2_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2018,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2018,emissions,total_ghg_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2018,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2018,energy,electricity_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2018,energy,natural_gas,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2018,energy,total_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2018,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2018,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2018,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2018,green_power,renewable_energy_ratio,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2018,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2019,emissions,scope1_2_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2019,emissions,scope1_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2019,emissions,scope2_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2019,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2019,emissions,total_ghg_emission,1149997,tCO2e,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2019,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2019,energy,electricity_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2019,energy,natural_gas,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2019,energy,total_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2019,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2019,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2019,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2019,green_power,renewable_energy_ratio,4.96,percent,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2019,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2020,emissions,scope1_2_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2020,emissions,scope1_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2020,emissions,scope2_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2020,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2020,emissions,total_ghg_emission,1564414,tCO2e,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2020,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2020,energy,electricity_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2020,energy,natural_gas,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2020,energy,total_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2020,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2020,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2020,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2020,green_power,renewable_energy_ratio,5.46,percent,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2020,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2021,emissions,scope1_2_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2021,emissions,scope1_emission,136721,tCO2e,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2021,emissions,scope2_emission,1576045,tCO2e,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2021,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2021,emissions,total_ghg_emission,1712766,tCO2e,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2021,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2021,energy,electricity_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2021,energy,natural_gas,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2021,energy,total_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2021,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2021,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2021,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2021,green_power,renewable_energy_ratio,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2021,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2022,emissions,scope1_2_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2022,emissions,scope1_emission,129400,tCO2e,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2022,emissions,scope2_emission,1376477,tCO2e,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2022,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2022,emissions,total_ghg_emission,1505877,tCO2e,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2022,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2022,energy,electricity_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2022,energy,natural_gas,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2022,energy,total_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2022,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2022,green_power,photovoltaic_generation,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2022,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2022,green_power,renewable_energy_ratio,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2022,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2023,emissions,scope1_2_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2023,emissions,scope1_emission,1017606,tCO2e,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2023,emissions,scope2_emission,1280705,tCO2e,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2023,emissions,scope3_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2023,emissions,total_ghg_emission,2298311,tCO2e,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2023,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2023,energy,electricity_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2023,energy,natural_gas,64474458,m3,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2023,energy,total_energy_consumption,2882032,MWh,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2023,green_power,green_electricity_purchase,7439000,kWh,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2023,green_power,photovoltaic_generation,220000000,kWh,operation_level,reported
+midea_000333,"Midea Group Co., Ltd.",2023,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2023,green_power,renewable_energy_ratio,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2023,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2024,emissions,scope1_2_emission,2093300,tCO2e,全国暖通空调制造基地集合,reported
+midea_000333,"Midea Group Co., Ltd.",2024,emissions,scope1_emission,681036,tCO2e,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2024,emissions,scope2_emission,1522436,tCO2e,location_based,reported
+midea_000333,"Midea Group Co., Ltd.",2024,emissions,scope3_emission,196247729,tCO2e,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2024,emissions,total_ghg_emission,198451201,tCO2e,scope1_scope2_scope3,reported
+midea_000333,"Midea Group Co., Ltd.",2024,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2024,energy,electricity_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2024,energy,natural_gas,65451176,m³,全国暖通空调制造基地集合,reported
+midea_000333,"Midea Group Co., Ltd.",2024,energy,total_energy_consumption,3704764,MWh,全国暖通空调制造基地集合,reported
+midea_000333,"Midea Group Co., Ltd.",2024,green_power,green_electricity_purchase,50,GWh,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2024,green_power,photovoltaic_generation,311,GWh,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2024,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2024,green_power,renewable_energy_ratio,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2024,reduction,emission_reduction_target,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2025,energy,total_energy_consumption,27785651.86,MWh,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2025,energy,electricity_consumption,12685369.85,MWh,group_level_nonrenewable_indirect,reported
+byd_002594_1211hk,BYD Company Limited,2025,energy,natural_gas,62215.90,"10,000 m3",group_level,reported
+byd_002594_1211hk,BYD Company Limited,2025,green_power,renewable_energy_ratio,36.12,%,indirect_energy,reported
+byd_002594_1211hk,BYD Company Limited,2025,green_power,green_electricity_purchase,2063084.00,MWh,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2025,green_power,renewable_energy_certificate,5226515.00,MWh,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2025,green_power,photovoltaic_generation,60102.05,MWh,park_photovoltaic,reported
+byd_002594_1211hk,BYD Company Limited,2025,emissions,scope1_emission,1542304.99,tCO2e,group_level,reported
+byd_002594_1211hk,BYD Company Limited,2025,emissions,scope2_emission,10721916.24,tCO2e,location_based,reported
+byd_002594_1211hk,BYD Company Limited,2025,emissions,scope1_2_emission,12264221.23,tCO2e,location_based,reported
+byd_002594_1211hk,BYD Company Limited,2025,emissions,scope3_emission,140014002.65,tCO2e,expanded_scope3_categories,reported
+byd_002594_1211hk,BYD Company Limited,2025,emissions,total_ghg_emission,152278223.88,tCO2e,scope1_scope2_location_scope3,reported
+byd_002594_1211hk,BYD Company Limited,2025,reduction,emission_reduction_target,50,% carbon intensity reduction by 2030 vs 2023,own_operations,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,energy,total_energy_consumption,24767519.69,MWh,group_consolidated_environmental_boundary,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,energy,electricity_consumption,13688213.61,MWh,group_consolidated_environmental_boundary,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,energy,natural_gas,6404702.57,MWh,group_consolidated_environmental_boundary,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,energy,coal,2352136.22,MWh,group_consolidated_environmental_boundary,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,green_power,renewable_energy_consumption,15639793.40,MWh,clean_energy_use,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,green_power,renewable_energy_ratio,74.22,%,company_zero_carbon_electricity,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,green_power,photovoltaic_generation,468579.41,MWh,company_distributed_pv,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,emissions,scope1_emission,2854671.44,tCO2e,group_total,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,emissions,scope2_emission,3020476.35,tCO2e,group_total_market_based,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,emissions,scope2_emission_location_based,7977357.46,tCO2e,group_total_location_based,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,emissions,scope3_emission,111151357.75,tCO2e,group_selected_scope3_categories,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,emissions,total_ghg_emission,117026505.54,tCO2e,group_market_based_scope2,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,emissions,battery_base_scope1_emission,1164145.57,tCO2e,battery_production_bases,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,emissions,battery_base_scope2_emission,587454.16,tCO2e,battery_production_bases,reported
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,reduction,emission_reduction_target,100,% zero-carbon electricity in core operations,core_operations,reported
+midea_000333,"Midea Group Co., Ltd.",2025,energy,total_energy_consumption,3622856.57,MWh,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2025,energy,direct_energy_consumption,708969.93,MWh,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2025,energy,indirect_energy_consumption,2913886.64,MWh,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2025,energy,electricity_consumption,not_disclosed,NA,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2025,energy,natural_gas,65513086.11,m3,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2025,green_power,renewable_energy_ratio,11.79,%,self_generated_green_solar_share_of_total_electricity_consumption,reported
+midea_000333,"Midea Group Co., Ltd.",2025,green_power,photovoltaic_generation,376,GWh,distributed_pv,reported
+midea_000333,"Midea Group Co., Ltd.",2025,green_power,green_electricity_purchase,100+,GWh,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2025,emissions,scope1_emission,507184,tCO2e,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2025,emissions,scope2_emission,1591752,tCO2e,location_based,reported
+midea_000333,"Midea Group Co., Ltd.",2025,emissions,scope1_2_emission,2098936,tCO2e,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2025,emissions,scope3_emission,211444459,tCO2e,selected_scope3_categories,reported
+midea_000333,"Midea Group Co., Ltd.",2025,emissions,total_ghg_emission,213543395,tCO2e,scope1_scope2_scope3,reported
+midea_000333,"Midea Group Co., Ltd.",2025,reduction,emission_reduction_target,4.5,% Scope 1 and Scope 2 reduction in 2025 vs 2023 base,group_and_subsidiaries,reported
+byd_002594_1211hk,BYD Company Limited,2025,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+byd_002594_1211hk,BYD Company Limited,2025,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,green_power,green_electricity_purchase,NA_public_not_found,NA,NA,not_disclosed
+catl_300750,"Contemporary Amperex Technology Co., Limited",2025,emissions,scope1_2_emission,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2025,energy,coal,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2025,green_power,renewable_energy_consumption,NA_public_not_found,NA,NA,not_disclosed
+midea_000333,"Midea Group Co., Ltd.",2024,energy,total_direct_energy_consumption,748516.55,MWh,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2024,energy,total_indirect_energy_consumption,2779830.09,MWh,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2024,green_power,installed_pv_capacity,379,MW,group_level,reported
+midea_000333,"Midea Group Co., Ltd.",2024,energy,electricity_consumption,189000,MWh,家用空调产品线抵消边界,reported
+midea_000333,"Midea Group Co., Ltd.",2024,carbon_credit,carbon_credit_retired,1296,tCO2e,家用空调产品线抵消边界,reported

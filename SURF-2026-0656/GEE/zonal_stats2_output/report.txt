@@ -1,0 +1,56 @@
+"D:\Pycharm Projects\torch\.venv\Scripts\python.exe" "D:\Pycharm Projects\torch\GEE\Zonal stats2.py" 
+Using device: cuda
+============================================================
+SURF 2026 T2 | Zonal Statistics | 工业区活动指数计算
+============================================================
+
+类别数: 2
+已加载模型: D:\Pycharm Projects\torch\GEE\output_industrial_combine_GEE_BEN_3\unet_industrial_combine_GEE_BEN_3_best.pth
+共找到 892 张卫星影像 patch
+
+正在推理（batch_size=16）...
+推理完成，共 892 张
+
+正在计算活动指数...
+  [50/892] CAI=0.484  工业覆盖=0.9%
+  [100/892] CAI=nan  工业覆盖=0.0%
+  [150/892] CAI=0.070  工业覆盖=18.7%
+  [200/892] CAI=0.276  工业覆盖=45.0%
+  [250/892] CAI=0.424  工业覆盖=0.1%
+  [300/892] CAI=0.077  工业覆盖=0.8%
+  [350/892] CAI=0.600  工业覆盖=76.4%
+  [400/892] CAI=0.460  工业覆盖=8.8%
+  [450/892] CAI=0.284  工业覆盖=22.8%
+  [500/892] CAI=0.548  工业覆盖=61.7%
+  [550/892] CAI=0.250  工业覆盖=49.1%
+  [600/892] CAI=0.402  工业覆盖=4.9%
+  [650/892] CAI=0.612  工业覆盖=41.0%
+  [700/892] CAI=0.478  工业覆盖=38.4%
+  [750/892] CAI=0.258  工业覆盖=23.6%
+  [800/892] CAI=0.022  工业覆盖=10.6%
+  [850/892] CAI=0.618  工业覆盖=88.3%
+  [892/892] CAI=nan  工业覆盖=0.0%
+
+正在从 activity_features.tif 提取光谱指标...
+  TIF 尺寸: 2354×2443, 波段数: 3
+  波段顺序: NDVI[0] / nightlight[1] / temperature_C[2]
+  NDVI<0.2 工业/裸地: 318,474px (6.2%)
+  光谱指标: {'ndvi_mean_industrial': 0.0814, 'ndvi_mean_background': 0.6775, 'nightlight_mean_industrial': 4.5205, 'nightlight_mean_background': 4.6716, 'nightlight_industrial_vs_bg': 0.968, 'temperature_mean_industrial': 34.16, 'temperature_mean_background': 33.92, 'temperature_delta_C': 0.24, 'industrial_pixel_count_in_tif': 318474, 'industrial_area_pct_in_aoi': 6.16}
+
+Excel 报告已保存: D:/Pycharm Projects/torch/GEE/zonal_stats2_output\industrial_activity_index.xlsx
+
+============================================================
+活动指数汇总
+============================================================
+总 patch 数:        892
+含工业区 patch 数:  774 (86.8%)
+CAI 均值:           0.2967
+CAI 中位数:         0.2773
+CAI 95百分位:       0.5983
+平均工业覆盖率:     21.57%
+
+Excel → D:/Pycharm Projects/torch/GEE/zonal_stats2_output\industrial_activity_index.xlsx
+可视化图 → D:/Pycharm Projects/torch/GEE/zonal_stats2_output\vis/  (30 张)
+============================================================
+
+进程已结束，退出代码为 0

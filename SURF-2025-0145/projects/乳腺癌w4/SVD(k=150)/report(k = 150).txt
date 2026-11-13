@@ -1,0 +1,1024 @@
+C:\Users\27785\PycharmProjects\PythonProject\.venv1\Scripts\python.exe "C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(2)\mammography_classification with SVD.py" 
+Using device: cuda
+GPU: NVIDIA GeForce RTX 3060 Ti
+CUDA: 12.8
+How many epochs are needed:
+50
+Please input the k value (recommend 50)
+150
+Loading data...
+Data loaded, training set size: 5724, test set size: 1908
+Class distribution:
+label
+Density2Malignant    1728
+Density1Malignant    1620
+Density3Benign        702
+Density1Benign        648
+Density3Malignant     432
+Density4Benign        324
+Density2Benign        216
+Density4Malignant      54
+Name: count, dtype: int64
+Class weights calculated: tensor([ 3.3125,  1.3250,  6.6250,  1.2422,  3.0577,  4.9688,  6.6250, 13.2500],
+       device='cuda:0')
+SVD compressing with k = 150...
+SVD comparison visualization saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\svd_comparison.png
+Creating data loaders...
+Dataset split completed, training set: 4579, validation set: 1145
+Dataset class mapping: {'Density1Benign': 0, 'Density1Malignant': 1, 'Density2Benign': 2, 'Density2Malignant': 3, 'Density3Benign': 4, 'Density3Malignant': 5, 'Density4Benign': 6, 'Density4Malignant': 7}
+Dataset class mapping: {'Density1Benign': 0, 'Density1Malignant': 1, 'Density2Benign': 2, 'Density2Malignant': 3, 'Density3Benign': 4, 'Density3Malignant': 5, 'Density4Benign': 6, 'Density4Malignant': 7}
+Data loaders created
+Building model...
+Pre-trained model loaded
+Model parameters unfrozen
+Actual feature dimension: 1792
+Total model parameters: 20,046,416, trainable parameters: 20,046,416
+Please enter the epoch patience:
+10
+Starting model training...
+
+===== Epoch 1/50 =====
+Training...
+Processing batch 20/287, current batch loss: 2.3398
+Processing batch 40/287, current batch loss: 2.0500
+Processing batch 60/287, current batch loss: 2.1727
+Processing batch 80/287, current batch loss: 2.2001
+Processing batch 100/287, current batch loss: 2.0867
+Processing batch 120/287, current batch loss: 2.2082
+Processing batch 140/287, current batch loss: 2.2661
+Processing batch 160/287, current batch loss: 1.6117
+Processing batch 180/287, current batch loss: 2.1079
+Processing batch 200/287, current batch loss: 1.8597
+Processing batch 220/287, current batch loss: 2.3417
+Processing batch 240/287, current batch loss: 2.2574
+Processing batch 260/287, current batch loss: 2.1252
+Processing batch 280/287, current batch loss: 2.0709
+Training loss: 2.1326, training accuracy: 17.84%
+Training precision: 0.1784, training recall: 0.1784
+Training AUC: 0.6013
+Validating...
+Validation loss: 1.7528, validation accuracy: 29.96%
+Validation precision: 0.2996, validation recall: 0.2996
+Validation macro-average AUC: 0.8174
+Current learning rate: 4.9950766874285375e-05
+Epoch time: 136.04s, avg: 136.04s, remaining: 111.1min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.8174
+
+===== Epoch 2/50 =====
+Training...
+Processing batch 20/287, current batch loss: 2.1263
+Processing batch 40/287, current batch loss: 1.8974
+Processing batch 60/287, current batch loss: 1.4675
+Processing batch 80/287, current batch loss: 1.3659
+Processing batch 100/287, current batch loss: 1.5897
+Processing batch 120/287, current batch loss: 1.6570
+Processing batch 140/287, current batch loss: 1.8325
+Processing batch 160/287, current batch loss: 2.0049
+Processing batch 180/287, current batch loss: 1.7399
+Processing batch 200/287, current batch loss: 1.4049
+Processing batch 220/287, current batch loss: 1.9010
+Processing batch 240/287, current batch loss: 1.5575
+Processing batch 260/287, current batch loss: 1.8917
+Processing batch 280/287, current batch loss: 2.0439
+Training loss: 1.8489, training accuracy: 26.25%
+Training precision: 0.2625, training recall: 0.2625
+Training AUC: 0.7247
+Validating...
+Validation loss: 1.5020, validation accuracy: 39.30%
+Validation precision: 0.3930, validation recall: 0.3930
+Validation macro-average AUC: 0.8737
+Current learning rate: 4.980326179779622e-05
+Epoch time: 140.17s, avg: 138.10s, remaining: 110.5min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.8737
+
+===== Epoch 3/50 =====
+Training...
+Processing batch 20/287, current batch loss: 1.5787
+Processing batch 40/287, current batch loss: 1.7070
+Processing batch 60/287, current batch loss: 1.7860
+Processing batch 80/287, current batch loss: 1.6047
+Processing batch 100/287, current batch loss: 1.5073
+Processing batch 120/287, current batch loss: 1.2698
+Processing batch 140/287, current batch loss: 1.3868
+Processing batch 160/287, current batch loss: 1.5461
+Processing batch 180/287, current batch loss: 1.4557
+Processing batch 200/287, current batch loss: 1.8300
+Processing batch 220/287, current batch loss: 1.8472
+Processing batch 240/287, current batch loss: 1.5767
+Processing batch 260/287, current batch loss: 1.5559
+Processing batch 280/287, current batch loss: 2.0164
+Training loss: 1.6896, training accuracy: 32.82%
+Training precision: 0.3282, training recall: 0.3282
+Training AUC: 0.7870
+Validating...
+Validation loss: 1.3201, validation accuracy: 46.11%
+Validation precision: 0.4611, validation recall: 0.4611
+Validation macro-average AUC: 0.9028
+Current learning rate: 4.955806690568078e-05
+Epoch time: 139.81s, avg: 138.67s, remaining: 108.6min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9028
+
+===== Epoch 4/50 =====
+Training...
+Processing batch 20/287, current batch loss: 1.7888
+Processing batch 40/287, current batch loss: 1.9284
+Processing batch 60/287, current batch loss: 1.6218
+Processing batch 80/287, current batch loss: 1.1641
+Processing batch 100/287, current batch loss: 1.8125
+Processing batch 120/287, current batch loss: 1.4931
+Processing batch 140/287, current batch loss: 1.1902
+Processing batch 160/287, current batch loss: 1.7117
+Processing batch 180/287, current batch loss: 1.3653
+Processing batch 200/287, current batch loss: 1.1904
+Processing batch 220/287, current batch loss: 1.7548
+Processing batch 240/287, current batch loss: 1.3369
+Processing batch 260/287, current batch loss: 0.9575
+Processing batch 280/287, current batch loss: 1.4821
+Training loss: 1.4904, training accuracy: 38.98%
+Training precision: 0.3898, training recall: 0.3898
+Training AUC: 0.8386
+Validating...
+Validation loss: 1.1506, validation accuracy: 52.40%
+Validation precision: 0.5240, validation recall: 0.5240
+Validation macro-average AUC: 0.9296
+Current learning rate: 4.921614987015934e-05
+Epoch time: 135.71s, avg: 137.93s, remaining: 105.7min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9296
+
+===== Epoch 5/50 =====
+Training...
+Processing batch 20/287, current batch loss: 1.3524
+Processing batch 40/287, current batch loss: 1.3870
+Processing batch 60/287, current batch loss: 1.1459
+Processing batch 80/287, current batch loss: 1.5307
+Processing batch 100/287, current batch loss: 1.0570
+Processing batch 120/287, current batch loss: 1.2857
+Processing batch 140/287, current batch loss: 1.8198
+Processing batch 160/287, current batch loss: 1.4263
+Processing batch 180/287, current batch loss: 1.3148
+Processing batch 200/287, current batch loss: 0.9408
+Processing batch 220/287, current batch loss: 0.9839
+Processing batch 240/287, current batch loss: 1.2771
+Processing batch 260/287, current batch loss: 1.0702
+Processing batch 280/287, current batch loss: 1.3607
+Training loss: 1.3098, training accuracy: 45.08%
+Training precision: 0.4508, training recall: 0.4508
+Training AUC: 0.8791
+Validating...
+Validation loss: 0.9439, validation accuracy: 61.22%
+Validation precision: 0.6122, validation recall: 0.6122
+Validation macro-average AUC: 0.9511
+Current learning rate: 4.8778860081564074e-05
+Epoch time: 138.03s, avg: 137.95s, remaining: 103.5min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9511
+
+===== Epoch 6/50 =====
+Training...
+Processing batch 20/287, current batch loss: 1.2530
+Processing batch 40/287, current batch loss: 1.0152
+Processing batch 60/287, current batch loss: 1.4975
+Processing batch 80/287, current batch loss: 0.7655
+Processing batch 100/287, current batch loss: 0.9275
+Processing batch 120/287, current batch loss: 1.0052
+Processing batch 140/287, current batch loss: 0.9187
+Processing batch 160/287, current batch loss: 1.7339
+Processing batch 180/287, current batch loss: 1.8929
+Processing batch 200/287, current batch loss: 1.2897
+Processing batch 220/287, current batch loss: 1.1956
+Processing batch 240/287, current batch loss: 0.7675
+Processing batch 260/287, current batch loss: 1.2571
+Processing batch 280/287, current batch loss: 1.2333
+Training loss: 1.1645, training accuracy: 51.34%
+Training precision: 0.5134, training recall: 0.5134
+Training AUC: 0.9047
+Validating...
+Validation loss: 0.8269, validation accuracy: 64.19%
+Validation precision: 0.6419, validation recall: 0.6419
+Validation macro-average AUC: 0.9626
+Current learning rate: 4.824792332291186e-05
+Epoch time: 137.24s, avg: 137.83s, remaining: 101.1min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9626
+
+===== Epoch 7/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.9256
+Processing batch 40/287, current batch loss: 1.3090
+Processing batch 60/287, current batch loss: 0.5564
+Processing batch 80/287, current batch loss: 1.3021
+Processing batch 100/287, current batch loss: 0.7576
+Processing batch 120/287, current batch loss: 0.8516
+Processing batch 140/287, current batch loss: 0.9158
+Processing batch 160/287, current batch loss: 0.8557
+Processing batch 180/287, current batch loss: 1.4990
+Processing batch 200/287, current batch loss: 1.0012
+Processing batch 220/287, current batch loss: 1.2477
+Processing batch 240/287, current batch loss: 0.9273
+Processing batch 260/287, current batch loss: 0.9226
+Processing batch 280/287, current batch loss: 1.0758
+Training loss: 1.0086, training accuracy: 58.07%
+Training precision: 0.5807, training recall: 0.5807
+Training AUC: 0.9287
+Validating...
+Validation loss: 0.6892, validation accuracy: 69.43%
+Validation precision: 0.6943, validation recall: 0.6943
+Validation macro-average AUC: 0.9744
+Current learning rate: 4.762543495902718e-05
+Epoch time: 141.22s, avg: 138.32s, remaining: 99.1min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9744
+
+===== Epoch 8/50 =====
+Training...
+Processing batch 20/287, current batch loss: 1.0068
+Processing batch 40/287, current batch loss: 1.1209
+Processing batch 60/287, current batch loss: 0.7413
+Processing batch 80/287, current batch loss: 0.7686
+Processing batch 100/287, current batch loss: 0.6302
+Processing batch 120/287, current batch loss: 0.5228
+Processing batch 140/287, current batch loss: 0.6459
+Processing batch 160/287, current batch loss: 0.9715
+Processing batch 180/287, current batch loss: 1.1488
+Processing batch 200/287, current batch loss: 1.2726
+Processing batch 220/287, current batch loss: 0.7244
+Processing batch 240/287, current batch loss: 0.7830
+Processing batch 260/287, current batch loss: 1.1344
+Processing batch 280/287, current batch loss: 0.8075
+Training loss: 0.8601, training accuracy: 63.46%
+Training precision: 0.6346, training recall: 0.6346
+Training AUC: 0.9475
+Validating...
+Validation loss: 0.5481, validation accuracy: 78.17%
+Validation precision: 0.7817, validation recall: 0.7817
+Validation macro-average AUC: 0.9824
+Current learning rate: 4.691385166709439e-05
+Epoch time: 134.74s, avg: 137.87s, remaining: 96.5min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9824
+
+===== Epoch 9/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.9918
+Processing batch 40/287, current batch loss: 0.5617
+Processing batch 60/287, current batch loss: 0.9235
+Processing batch 80/287, current batch loss: 0.6044
+Processing batch 100/287, current batch loss: 0.9533
+Processing batch 120/287, current batch loss: 1.5060
+Processing batch 140/287, current batch loss: 1.1997
+Processing batch 160/287, current batch loss: 0.9401
+Processing batch 180/287, current batch loss: 1.2645
+Processing batch 200/287, current batch loss: 0.6841
+Processing batch 220/287, current batch loss: 1.4916
+Processing batch 240/287, current batch loss: 0.7738
+Processing batch 260/287, current batch loss: 0.6150
+Processing batch 280/287, current batch loss: 0.6212
+Training loss: 0.7711, training accuracy: 68.14%
+Training precision: 0.6814, training recall: 0.6814
+Training AUC: 0.9569
+Validating...
+Validation loss: 0.4661, validation accuracy: 79.83%
+Validation precision: 0.7983, validation recall: 0.7983
+Validation macro-average AUC: 0.9875
+Current learning rate: 4.611598174127527e-05
+Epoch time: 138.09s, avg: 137.89s, remaining: 94.2min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9875
+
+===== Epoch 10/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.6984
+Processing batch 40/287, current batch loss: 0.6523
+Processing batch 60/287, current batch loss: 0.7911
+Processing batch 80/287, current batch loss: 0.6161
+Processing batch 100/287, current batch loss: 0.6654
+Processing batch 120/287, current batch loss: 0.5126
+Processing batch 140/287, current batch loss: 1.3467
+Processing batch 160/287, current batch loss: 0.5375
+Processing batch 180/287, current batch loss: 1.2457
+Processing batch 200/287, current batch loss: 0.6751
+Processing batch 220/287, current batch loss: 0.5573
+Processing batch 240/287, current batch loss: 0.7280
+Processing batch 260/287, current batch loss: 0.4755
+Processing batch 280/287, current batch loss: 0.8668
+Training loss: 0.6585, training accuracy: 72.46%
+Training precision: 0.7246, training recall: 0.7246
+Training AUC: 0.9680
+Validating...
+Validation loss: 0.3478, validation accuracy: 86.64%
+Validation precision: 0.8664, validation recall: 0.8664
+Validation macro-average AUC: 0.9928
+Current learning rate: 4.5234974009654934e-05
+Epoch time: 136.08s, avg: 137.71s, remaining: 91.8min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9928
+
+===== Epoch 11/50 =====
+Training...
+Processing batch 20/287, current batch loss: 1.1047
+Processing batch 40/287, current batch loss: 1.2814
+Processing batch 60/287, current batch loss: 0.2447
+Processing batch 80/287, current batch loss: 0.8355
+Processing batch 100/287, current batch loss: 1.0703
+Processing batch 120/287, current batch loss: 0.3656
+Processing batch 140/287, current batch loss: 0.7537
+Processing batch 160/287, current batch loss: 0.5668
+Processing batch 180/287, current batch loss: 0.4473
+Processing batch 200/287, current batch loss: 0.2988
+Processing batch 220/287, current batch loss: 0.4863
+Processing batch 240/287, current batch loss: 0.7274
+Processing batch 260/287, current batch loss: 0.3966
+Processing batch 280/287, current batch loss: 0.8441
+Training loss: 0.5613, training accuracy: 76.74%
+Training precision: 0.7674, training recall: 0.7674
+Training AUC: 0.9766
+Validating...
+Validation loss: 0.2814, validation accuracy: 89.00%
+Validation precision: 0.8900, validation recall: 0.8900
+Validation macro-average AUC: 0.9953
+Current learning rate: 4.427430540725594e-05
+Epoch time: 141.44s, avg: 138.05s, remaining: 89.7min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9953
+
+===== Epoch 12/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.3572
+Processing batch 40/287, current batch loss: 0.5063
+Processing batch 60/287, current batch loss: 0.9005
+Processing batch 80/287, current batch loss: 0.5894
+Processing batch 100/287, current batch loss: 0.4968
+Processing batch 120/287, current batch loss: 0.2310
+Processing batch 140/287, current batch loss: 0.4641
+Processing batch 160/287, current batch loss: 0.2349
+Processing batch 180/287, current batch loss: 0.3664
+Processing batch 200/287, current batch loss: 0.2621
+Processing batch 220/287, current batch loss: 0.2914
+Processing batch 240/287, current batch loss: 0.5349
+Processing batch 260/287, current batch loss: 0.8836
+Processing batch 280/287, current batch loss: 0.3750
+Training loss: 0.5067, training accuracy: 79.95%
+Training precision: 0.7995, training recall: 0.7995
+Training AUC: 0.9803
+Validating...
+Validation loss: 0.2275, validation accuracy: 92.58%
+Validation precision: 0.9258, validation recall: 0.9258
+Validation macro-average AUC: 0.9971
+Current learning rate: 4.3237767254164214e-05
+Epoch time: 134.49s, avg: 137.76s, remaining: 87.2min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9971
+
+===== Epoch 13/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.5444
+Processing batch 40/287, current batch loss: 0.7182
+Processing batch 60/287, current batch loss: 0.3642
+Processing batch 80/287, current batch loss: 0.4671
+Processing batch 100/287, current batch loss: 0.4295
+Processing batch 120/287, current batch loss: 0.3906
+Processing batch 140/287, current batch loss: 0.2578
+Processing batch 160/287, current batch loss: 0.2223
+Processing batch 180/287, current batch loss: 0.6600
+Processing batch 200/287, current batch loss: 0.4604
+Processing batch 220/287, current batch loss: 0.2027
+Processing batch 240/287, current batch loss: 0.1799
+Processing batch 260/287, current batch loss: 1.3295
+Processing batch 280/287, current batch loss: 0.2724
+Training loss: 0.4474, training accuracy: 82.53%
+Training precision: 0.8253, training recall: 0.8253
+Training AUC: 0.9839
+Validating...
+Validation loss: 0.1711, validation accuracy: 94.24%
+Validation precision: 0.9424, validation recall: 0.9424
+Validation macro-average AUC: 0.9983
+Current learning rate: 4.212945029292078e-05
+Epoch time: 138.29s, avg: 137.80s, remaining: 85.0min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9983
+
+===== Epoch 14/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.7175
+Processing batch 40/287, current batch loss: 0.1515
+Processing batch 60/287, current batch loss: 0.1446
+Processing batch 80/287, current batch loss: 0.3159
+Processing batch 100/287, current batch loss: 0.2774
+Processing batch 120/287, current batch loss: 0.3694
+Processing batch 140/287, current batch loss: 0.2326
+Processing batch 160/287, current batch loss: 0.3240
+Processing batch 180/287, current batch loss: 0.3078
+Processing batch 200/287, current batch loss: 0.1717
+Processing batch 220/287, current batch loss: 0.3846
+Processing batch 240/287, current batch loss: 0.5184
+Processing batch 260/287, current batch loss: 0.4700
+Processing batch 280/287, current batch loss: 0.5504
+Training loss: 0.3884, training accuracy: 84.82%
+Training precision: 0.8482, training recall: 0.8482
+Training AUC: 0.9876
+Validating...
+Validation loss: 0.1520, validation accuracy: 95.20%
+Validation precision: 0.9520, validation recall: 0.9520
+Validation macro-average AUC: 0.9990
+Current learning rate: 4.0953728544229806e-05
+Epoch time: 134.89s, avg: 137.59s, remaining: 82.6min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9990
+
+===== Epoch 15/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.3215
+Processing batch 40/287, current batch loss: 0.1990
+Processing batch 60/287, current batch loss: 0.3174
+Processing batch 80/287, current batch loss: 0.3618
+Processing batch 100/287, current batch loss: 0.2838
+Processing batch 120/287, current batch loss: 0.2795
+Processing batch 140/287, current batch loss: 0.9127
+Processing batch 160/287, current batch loss: 0.1364
+Processing batch 180/287, current batch loss: 0.4068
+Processing batch 200/287, current batch loss: 0.0708
+Processing batch 220/287, current batch loss: 0.3512
+Processing batch 240/287, current batch loss: 0.2683
+Processing batch 260/287, current batch loss: 0.6008
+Processing batch 280/287, current batch loss: 0.2644
+Training loss: 0.3545, training accuracy: 85.91%
+Training precision: 0.8591, training recall: 0.8591
+Training AUC: 0.9900
+Validating...
+Validation loss: 0.1440, validation accuracy: 96.07%
+Validation precision: 0.9607, validation recall: 0.9607
+Validation macro-average AUC: 0.9994
+Current learning rate: 3.971524204469721e-05
+Epoch time: 139.60s, avg: 137.72s, remaining: 80.3min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9994
+
+===== Epoch 16/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.1016
+Processing batch 40/287, current batch loss: 0.2636
+Processing batch 60/287, current batch loss: 0.1551
+Processing batch 80/287, current batch loss: 0.4290
+Processing batch 100/287, current batch loss: 0.2874
+Processing batch 120/287, current batch loss: 0.1961
+Processing batch 140/287, current batch loss: 0.1838
+Processing batch 160/287, current batch loss: 0.6466
+Processing batch 180/287, current batch loss: 0.3182
+Processing batch 200/287, current batch loss: 0.2861
+Processing batch 220/287, current batch loss: 0.0952
+Processing batch 240/287, current batch loss: 0.3529
+Processing batch 260/287, current batch loss: 0.5340
+Processing batch 280/287, current batch loss: 0.3887
+Training loss: 0.3049, training accuracy: 88.64%
+Training precision: 0.8864, training recall: 0.8864
+Training AUC: 0.9923
+Validating...
+Validation loss: 0.1119, validation accuracy: 97.38%
+Validation precision: 0.9738, validation recall: 0.9738
+Validation macro-average AUC: 0.9997
+Current learning rate: 3.841887853472596e-05
+Epoch time: 139.56s, avg: 137.84s, remaining: 78.1min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9997
+
+===== Epoch 17/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.1686
+Processing batch 40/287, current batch loss: 0.0975
+Processing batch 60/287, current batch loss: 0.2287
+Processing batch 80/287, current batch loss: 0.3115
+Processing batch 100/287, current batch loss: 0.1757
+Processing batch 120/287, current batch loss: 0.1052
+Processing batch 140/287, current batch loss: 0.1615
+Processing batch 160/287, current batch loss: 0.3804
+Processing batch 180/287, current batch loss: 0.1258
+Processing batch 200/287, current batch loss: 0.4177
+Processing batch 220/287, current batch loss: 0.2139
+Processing batch 240/287, current batch loss: 0.4093
+Processing batch 260/287, current batch loss: 0.0893
+Processing batch 280/287, current batch loss: 0.1006
+Training loss: 0.2825, training accuracy: 89.63%
+Training precision: 0.8963, training recall: 0.8963
+Training AUC: 0.9933
+Validating...
+Validation loss: 0.0808, validation accuracy: 97.90%
+Validation precision: 0.9790, validation recall: 0.9790
+Validation macro-average AUC: 0.9998
+Current learning rate: 3.706975416883779e-05
+Epoch time: 134.54s, avg: 137.64s, remaining: 75.7min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9998
+
+===== Epoch 18/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.4462
+Processing batch 40/287, current batch loss: 0.4155
+Processing batch 60/287, current batch loss: 0.2807
+Processing batch 80/287, current batch loss: 0.2440
+Processing batch 100/287, current batch loss: 0.7374
+Processing batch 120/287, current batch loss: 0.2860
+Processing batch 140/287, current batch loss: 0.1850
+Processing batch 160/287, current batch loss: 0.1422
+Processing batch 180/287, current batch loss: 0.1660
+Processing batch 200/287, current batch loss: 0.1155
+Processing batch 220/287, current batch loss: 0.1735
+Processing batch 240/287, current batch loss: 0.3554
+Processing batch 260/287, current batch loss: 0.1708
+Processing batch 280/287, current batch loss: 0.1586
+Training loss: 0.2567, training accuracy: 90.35%
+Training precision: 0.9035, training recall: 0.9035
+Training AUC: 0.9945
+Validating...
+Validation loss: 0.0865, validation accuracy: 98.25%
+Validation precision: 0.9825, validation recall: 0.9825
+Validation macro-average AUC: 0.9999
+Current learning rate: 3.567319332454856e-05
+Epoch time: 141.01s, avg: 137.83s, remaining: 73.5min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 0.9999
+
+===== Epoch 19/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.3976
+Processing batch 40/287, current batch loss: 0.3896
+Processing batch 60/287, current batch loss: 0.1580
+Processing batch 80/287, current batch loss: 0.3629
+Processing batch 100/287, current batch loss: 0.3255
+Processing batch 120/287, current batch loss: 0.2230
+Processing batch 140/287, current batch loss: 0.1688
+Processing batch 160/287, current batch loss: 0.4436
+Processing batch 180/287, current batch loss: 0.0598
+Processing batch 200/287, current batch loss: 0.1979
+Processing batch 220/287, current batch loss: 0.1482
+Processing batch 240/287, current batch loss: 0.8461
+Processing batch 260/287, current batch loss: 0.0852
+Processing batch 280/287, current batch loss: 0.0474
+Training loss: 0.2119, training accuracy: 92.29%
+Training precision: 0.9229, training recall: 0.9229
+Training AUC: 0.9961
+Validating...
+Validation loss: 0.0707, validation accuracy: 98.69%
+Validation precision: 0.9869, validation recall: 0.9869
+Validation macro-average AUC: 1.0000
+Current learning rate: 3.423470758948271e-05
+Epoch time: 139.44s, avg: 137.92s, remaining: 71.3min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 1.0000
+
+===== Epoch 20/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.2272
+Processing batch 40/287, current batch loss: 0.0578
+Processing batch 60/287, current batch loss: 0.2637
+Processing batch 80/287, current batch loss: 0.1922
+Processing batch 100/287, current batch loss: 0.4400
+Processing batch 120/287, current batch loss: 0.2170
+Processing batch 140/287, current batch loss: 0.1206
+Processing batch 160/287, current batch loss: 0.1711
+Processing batch 180/287, current batch loss: 0.3011
+Processing batch 200/287, current batch loss: 0.1924
+Processing batch 220/287, current batch loss: 0.1212
+Processing batch 240/287, current batch loss: 0.0614
+Processing batch 260/287, current batch loss: 0.1645
+Processing batch 280/287, current batch loss: 0.2552
+Training loss: 0.1943, training accuracy: 93.08%
+Training precision: 0.9308, training recall: 0.9308
+Training AUC: 0.9969
+Validating...
+Validation loss: 0.0445, validation accuracy: 99.30%
+Validation precision: 0.9930, validation recall: 0.9930
+Validation macro-average AUC: 1.0000
+Current learning rate: 3.275997400965493e-05
+Epoch time: 139.52s, avg: 138.00s, remaining: 69.0min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 1.0000
+
+===== Epoch 21/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.2730
+Processing batch 40/287, current batch loss: 0.3815
+Processing batch 60/287, current batch loss: 0.1819
+Processing batch 80/287, current batch loss: 0.2659
+Processing batch 100/287, current batch loss: 0.0737
+Processing batch 120/287, current batch loss: 0.0888
+Processing batch 140/287, current batch loss: 0.1091
+Processing batch 160/287, current batch loss: 0.0649
+Processing batch 180/287, current batch loss: 0.1269
+Processing batch 200/287, current batch loss: 0.1368
+Processing batch 220/287, current batch loss: 0.2443
+Processing batch 240/287, current batch loss: 0.0558
+Processing batch 260/287, current batch loss: 0.1044
+Processing batch 280/287, current batch loss: 0.0822
+Training loss: 0.1815, training accuracy: 93.51%
+Training precision: 0.9351, training recall: 0.9351
+Training AUC: 0.9971
+Validating...
+Validation loss: 0.0403, validation accuracy: 99.65%
+Validation precision: 0.9965, validation recall: 0.9965
+Validation macro-average AUC: 1.0000
+Current learning rate: 3.1254812684763116e-05
+Epoch time: 139.61s, avg: 138.07s, remaining: 66.7min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 1.0000
+
+===== Epoch 22/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.1012
+Processing batch 40/287, current batch loss: 0.2318
+Processing batch 60/287, current batch loss: 0.1105
+Processing batch 80/287, current batch loss: 0.0732
+Processing batch 100/287, current batch loss: 0.1957
+Processing batch 120/287, current batch loss: 0.1482
+Processing batch 140/287, current batch loss: 0.0572
+Processing batch 160/287, current batch loss: 0.2374
+Processing batch 180/287, current batch loss: 0.1207
+Processing batch 200/287, current batch loss: 0.1760
+Processing batch 220/287, current batch loss: 0.0695
+Processing batch 240/287, current batch loss: 0.6111
+Processing batch 260/287, current batch loss: 0.1638
+Processing batch 280/287, current batch loss: 0.0952
+Training loss: 0.1761, training accuracy: 93.56%
+Training precision: 0.9356, training recall: 0.9356
+Training AUC: 0.9968
+Validating...
+Validation loss: 0.0352, validation accuracy: 99.65%
+Validation precision: 0.9965, validation recall: 0.9965
+Validation macro-average AUC: 1.0000
+Current learning rate: 2.9725163798913822e-05
+Epoch time: 139.51s, avg: 138.14s, remaining: 64.5min
+Early stopping counter: 1/10
+
+===== Epoch 23/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.0897
+Processing batch 40/287, current batch loss: 0.2001
+Processing batch 60/287, current batch loss: 0.0367
+Processing batch 80/287, current batch loss: 0.0582
+Processing batch 100/287, current batch loss: 0.1365
+Processing batch 120/287, current batch loss: 0.1169
+Processing batch 140/287, current batch loss: 0.0806
+Processing batch 160/287, current batch loss: 0.0218
+Processing batch 180/287, current batch loss: 0.1078
+Processing batch 200/287, current batch loss: 0.0422
+Processing batch 220/287, current batch loss: 0.0915
+Processing batch 240/287, current batch loss: 0.0698
+Processing batch 260/287, current batch loss: 0.1491
+Processing batch 280/287, current batch loss: 0.1018
+Training loss: 0.1593, training accuracy: 94.45%
+Training precision: 0.9445, training recall: 0.9445
+Training AUC: 0.9974
+Validating...
+Validation loss: 0.0308, validation accuracy: 99.91%
+Validation precision: 0.9991, validation recall: 0.9991
+Validation macro-average AUC: 1.0000
+Current learning rate: 2.8177064177429387e-05
+Epoch time: 137.33s, avg: 138.10s, remaining: 62.1min
+Early stopping counter: 2/10
+
+===== Epoch 24/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.2224
+Processing batch 40/287, current batch loss: 0.0594
+Processing batch 60/287, current batch loss: 0.3471
+Processing batch 80/287, current batch loss: 0.0630
+Processing batch 100/287, current batch loss: 0.1287
+Processing batch 120/287, current batch loss: 0.0822
+Processing batch 140/287, current batch loss: 0.0630
+Processing batch 160/287, current batch loss: 0.0515
+Processing batch 180/287, current batch loss: 0.0392
+Processing batch 200/287, current batch loss: 0.0767
+Processing batch 220/287, current batch loss: 0.1080
+Processing batch 240/287, current batch loss: 0.1061
+Processing batch 260/287, current batch loss: 0.0696
+Processing batch 280/287, current batch loss: 0.0987
+Training loss: 0.1604, training accuracy: 94.21%
+Training precision: 0.9421, training recall: 0.9421
+Training AUC: 0.9978
+Validating...
+Validation loss: 0.0252, validation accuracy: 100.00%
+Validation precision: 1.0000, validation recall: 1.0000
+Validation macro-average AUC: 1.0000
+Current learning rate: 2.661662346225636e-05
+Epoch time: 133.71s, avg: 137.92s, remaining: 59.8min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 1.0000
+
+===== Epoch 25/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.3790
+Processing batch 40/287, current batch loss: 0.4331
+Processing batch 60/287, current batch loss: 0.2950
+Processing batch 80/287, current batch loss: 0.1476
+Processing batch 100/287, current batch loss: 0.0192
+Processing batch 120/287, current batch loss: 0.1275
+Processing batch 140/287, current batch loss: 0.0688
+Processing batch 160/287, current batch loss: 0.0548
+Processing batch 180/287, current batch loss: 0.1106
+Processing batch 200/287, current batch loss: 0.0857
+Processing batch 220/287, current batch loss: 0.0681
+Processing batch 240/287, current batch loss: 0.1298
+Processing batch 260/287, current batch loss: 0.0383
+Processing batch 280/287, current batch loss: 0.1019
+Training loss: 0.1555, training accuracy: 94.67%
+Training precision: 0.9467, training recall: 0.9467
+Training AUC: 0.9975
+Validating...
+Validation loss: 0.0240, validation accuracy: 99.83%
+Validation precision: 0.9983, validation recall: 0.9983
+Validation macro-average AUC: 1.0000
+Current learning rate: 2.504999999999999e-05
+Epoch time: 139.30s, avg: 137.98s, remaining: 57.5min
+Early stopping counter: 1/10
+
+===== Epoch 26/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.1799
+Processing batch 40/287, current batch loss: 0.0274
+Processing batch 60/287, current batch loss: 0.0298
+Processing batch 80/287, current batch loss: 0.0890
+Processing batch 100/287, current batch loss: 0.0405
+Processing batch 120/287, current batch loss: 0.0506
+Processing batch 140/287, current batch loss: 0.0536
+Processing batch 160/287, current batch loss: 0.1961
+Processing batch 180/287, current batch loss: 0.0354
+Processing batch 200/287, current batch loss: 0.1066
+Processing batch 220/287, current batch loss: 0.0569
+Processing batch 240/287, current batch loss: 0.0952
+Processing batch 260/287, current batch loss: 0.1968
+Processing batch 280/287, current batch loss: 0.0409
+Training loss: 0.1334, training accuracy: 95.52%
+Training precision: 0.9552, training recall: 0.9552
+Training AUC: 0.9983
+Validating...
+Validation loss: 0.0280, validation accuracy: 99.83%
+Validation precision: 0.9983, validation recall: 0.9983
+Validation macro-average AUC: 1.0000
+Current learning rate: 2.348337653774362e-05
+Epoch time: 139.85s, avg: 138.05s, remaining: 55.2min
+Best model saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\best_model.pth, validation AUC: 1.0000
+
+===== Epoch 27/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.1455
+Processing batch 40/287, current batch loss: 0.0492
+Processing batch 60/287, current batch loss: 0.1617
+Processing batch 80/287, current batch loss: 0.0492
+Processing batch 100/287, current batch loss: 0.0748
+Processing batch 120/287, current batch loss: 0.3128
+Processing batch 140/287, current batch loss: 0.0818
+Processing batch 160/287, current batch loss: 0.0395
+Processing batch 180/287, current batch loss: 0.0297
+Processing batch 200/287, current batch loss: 0.0381
+Processing batch 220/287, current batch loss: 0.1194
+Processing batch 240/287, current batch loss: 0.4863
+Processing batch 260/287, current batch loss: 0.0451
+Processing batch 280/287, current batch loss: 0.0708
+Training loss: 0.1218, training accuracy: 95.79%
+Training precision: 0.9579, training recall: 0.9579
+Training AUC: 0.9989
+Validating...
+Validation loss: 0.0169, validation accuracy: 99.91%
+Validation precision: 0.9991, validation recall: 0.9991
+Validation macro-average AUC: 1.0000
+Current learning rate: 2.19229358225706e-05
+Epoch time: 139.35s, avg: 138.10s, remaining: 52.9min
+Early stopping counter: 1/10
+
+===== Epoch 28/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.0949
+Processing batch 40/287, current batch loss: 0.0326
+Processing batch 60/287, current batch loss: 0.0270
+Processing batch 80/287, current batch loss: 0.1206
+Processing batch 100/287, current batch loss: 0.2639
+Processing batch 120/287, current batch loss: 0.0491
+Processing batch 140/287, current batch loss: 0.0337
+Processing batch 160/287, current batch loss: 0.0979
+Processing batch 180/287, current batch loss: 0.0168
+Processing batch 200/287, current batch loss: 0.0504
+Processing batch 220/287, current batch loss: 0.2470
+Processing batch 240/287, current batch loss: 0.2393
+Processing batch 260/287, current batch loss: 0.0547
+Processing batch 280/287, current batch loss: 0.2065
+Training loss: 0.1246, training accuracy: 95.96%
+Training precision: 0.9596, training recall: 0.9596
+Training AUC: 0.9986
+Validating...
+Validation loss: 0.0152, validation accuracy: 100.00%
+Validation precision: 1.0000, validation recall: 1.0000
+Validation macro-average AUC: 1.0000
+Current learning rate: 2.0374836201086162e-05
+Epoch time: 139.57s, avg: 138.15s, remaining: 50.7min
+Early stopping counter: 2/10
+
+===== Epoch 29/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.1215
+Processing batch 40/287, current batch loss: 0.1067
+Processing batch 60/287, current batch loss: 0.0313
+Processing batch 80/287, current batch loss: 0.0997
+Processing batch 100/287, current batch loss: 0.0650
+Processing batch 120/287, current batch loss: 0.1085
+Processing batch 140/287, current batch loss: 0.0761
+Processing batch 160/287, current batch loss: 0.0358
+Processing batch 180/287, current batch loss: 0.1556
+Processing batch 200/287, current batch loss: 0.3101
+Processing batch 220/287, current batch loss: 0.1500
+Processing batch 240/287, current batch loss: 0.0535
+Processing batch 260/287, current batch loss: 0.2383
+Processing batch 280/287, current batch loss: 0.1547
+Training loss: 0.1110, training accuracy: 96.29%
+Training precision: 0.9629, training recall: 0.9629
+Training AUC: 0.9988
+Validating...
+Validation loss: 0.0201, validation accuracy: 99.83%
+Validation precision: 0.9983, validation recall: 0.9983
+Validation macro-average AUC: 1.0000
+Current learning rate: 1.8845187315236865e-05
+Epoch time: 139.07s, avg: 138.18s, remaining: 48.4min
+Early stopping counter: 3/10
+
+===== Epoch 30/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.1165
+Processing batch 40/287, current batch loss: 0.0518
+Processing batch 60/287, current batch loss: 0.0286
+Processing batch 80/287, current batch loss: 0.0637
+Processing batch 100/287, current batch loss: 0.0544
+Processing batch 120/287, current batch loss: 0.1543
+Processing batch 140/287, current batch loss: 0.2075
+Processing batch 160/287, current batch loss: 0.0276
+Processing batch 180/287, current batch loss: 0.0403
+Processing batch 200/287, current batch loss: 0.0605
+Processing batch 220/287, current batch loss: 0.0741
+Processing batch 240/287, current batch loss: 0.1924
+Processing batch 260/287, current batch loss: 0.0889
+Processing batch 280/287, current batch loss: 0.1684
+Training loss: 0.1098, training accuracy: 96.18%
+Training precision: 0.9618, training recall: 0.9618
+Training AUC: 0.9989
+Validating...
+Validation loss: 0.0144, validation accuracy: 100.00%
+Validation precision: 1.0000, validation recall: 1.0000
+Validation macro-average AUC: 1.0000
+Current learning rate: 8.670012995172533e-06
+Epoch time: 139.72s, avg: 138.23s, remaining: 46.1min
+Early stopping counter: 4/10
+
+===== Epoch 31/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.0614
+Processing batch 40/287, current batch loss: 0.2918
+Processing batch 60/287, current batch loss: 0.0574
+Processing batch 80/287, current batch loss: 0.0439
+Processing batch 100/287, current batch loss: 0.0218
+Processing batch 120/287, current batch loss: 0.0701
+Processing batch 140/287, current batch loss: 0.0471
+Processing batch 160/287, current batch loss: 0.1107
+Processing batch 180/287, current batch loss: 0.0781
+Processing batch 200/287, current batch loss: 0.1471
+Processing batch 220/287, current batch loss: 0.1230
+Processing batch 240/287, current batch loss: 0.1789
+Processing batch 260/287, current batch loss: 0.0229
+Processing batch 280/287, current batch loss: 0.0892
+Training loss: 0.1162, training accuracy: 95.85%
+Training precision: 0.9585, training recall: 0.9585
+Training AUC: 0.9986
+Validating...
+Validation loss: 0.0170, validation accuracy: 100.00%
+Validation precision: 1.0000, validation recall: 1.0000
+Validation macro-average AUC: 1.0000
+Current learning rate: 7.936923268357776e-06
+Epoch time: 139.04s, avg: 138.26s, remaining: 43.8min
+Early stopping counter: 5/10
+
+===== Epoch 32/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.3315
+Processing batch 40/287, current batch loss: 0.4695
+Processing batch 60/287, current batch loss: 0.0466
+Processing batch 80/287, current batch loss: 0.0210
+Processing batch 100/287, current batch loss: 0.0780
+Processing batch 120/287, current batch loss: 0.0223
+Processing batch 140/287, current batch loss: 0.0209
+Processing batch 160/287, current batch loss: 0.0621
+Processing batch 180/287, current batch loss: 0.3685
+Processing batch 200/287, current batch loss: 0.0846
+Processing batch 220/287, current batch loss: 0.0573
+Processing batch 240/287, current batch loss: 0.0943
+Processing batch 260/287, current batch loss: 0.0996
+Processing batch 280/287, current batch loss: 0.0554
+Training loss: 0.1216, training accuracy: 96.03%
+Training precision: 0.9603, training recall: 0.9603
+Training AUC: 0.9986
+Validating...
+Validation loss: 0.0130, validation accuracy: 99.91%
+Validation precision: 0.9991, validation recall: 0.9991
+Validation macro-average AUC: 1.0000
+Current learning rate: 7.221852336922483e-06
+Epoch time: 139.26s, avg: 138.29s, remaining: 41.5min
+Early stopping counter: 6/10
+
+===== Epoch 33/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.0553
+Processing batch 40/287, current batch loss: 0.0958
+Processing batch 60/287, current batch loss: 0.1728
+Processing batch 80/287, current batch loss: 0.0707
+Processing batch 100/287, current batch loss: 0.1563
+Processing batch 120/287, current batch loss: 0.0524
+Processing batch 140/287, current batch loss: 0.0978
+Processing batch 160/287, current batch loss: 0.0368
+Processing batch 180/287, current batch loss: 0.1524
+Processing batch 200/287, current batch loss: 0.1184
+Processing batch 220/287, current batch loss: 0.0358
+Processing batch 240/287, current batch loss: 0.0284
+Processing batch 260/287, current batch loss: 0.0774
+Processing batch 280/287, current batch loss: 0.0677
+Training loss: 0.1009, training accuracy: 96.94%
+Training precision: 0.9694, training recall: 0.9694
+Training AUC: 0.9990
+Validating...
+Validation loss: 0.0098, validation accuracy: 100.00%
+Validation precision: 1.0000, validation recall: 1.0000
+Validation macro-average AUC: 1.0000
+Current learning rate: 6.527622259148202e-06
+Epoch time: 138.80s, avg: 138.30s, remaining: 39.2min
+Early stopping counter: 7/10
+
+===== Epoch 34/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.1708
+Processing batch 40/287, current batch loss: 0.0681
+Processing batch 60/287, current batch loss: 0.1319
+Processing batch 80/287, current batch loss: 0.0236
+Processing batch 100/287, current batch loss: 0.0249
+Processing batch 120/287, current batch loss: 0.0909
+Processing batch 140/287, current batch loss: 0.0121
+Processing batch 160/287, current batch loss: 0.0378
+Processing batch 180/287, current batch loss: 0.0258
+Processing batch 200/287, current batch loss: 0.0454
+Processing batch 220/287, current batch loss: 0.0233
+Processing batch 240/287, current batch loss: 0.1174
+Processing batch 260/287, current batch loss: 0.0667
+Processing batch 280/287, current batch loss: 0.0674
+Training loss: 0.1036, training accuracy: 96.51%
+Training precision: 0.9651, training recall: 0.9651
+Training AUC: 0.9989
+Validating...
+Validation loss: 0.0132, validation accuracy: 100.00%
+Validation precision: 1.0000, validation recall: 1.0000
+Validation macro-average AUC: 1.0000
+Current learning rate: 5.856972843988352e-06
+Epoch time: 139.12s, avg: 138.33s, remaining: 36.9min
+Early stopping counter: 8/10
+
+===== Epoch 35/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.0642
+Processing batch 40/287, current batch loss: 0.0434
+Processing batch 60/287, current batch loss: 0.1968
+Processing batch 80/287, current batch loss: 0.0468
+Processing batch 100/287, current batch loss: 0.0557
+Processing batch 120/287, current batch loss: 0.0748
+Processing batch 140/287, current batch loss: 0.0286
+Processing batch 160/287, current batch loss: 0.0682
+Processing batch 180/287, current batch loss: 0.0260
+Processing batch 200/287, current batch loss: 0.0667
+Processing batch 220/287, current batch loss: 0.0213
+Processing batch 240/287, current batch loss: 0.0159
+Processing batch 260/287, current batch loss: 0.0477
+Processing batch 280/287, current batch loss: 0.1189
+Training loss: 0.1028, training accuracy: 96.53%
+Training precision: 0.9653, training recall: 0.9653
+Training AUC: 0.9991
+Validating...
+Validation loss: 0.0147, validation accuracy: 99.91%
+Validation precision: 0.9991, validation recall: 0.9991
+Validation macro-average AUC: 1.0000
+Current learning rate: 5.2125508382940005e-06
+Epoch time: 139.56s, avg: 138.36s, remaining: 34.6min
+Early stopping counter: 9/10
+
+===== Epoch 36/50 =====
+Training...
+Processing batch 20/287, current batch loss: 0.0934
+Processing batch 40/287, current batch loss: 0.0245
+Processing batch 60/287, current batch loss: 0.0983
+Processing batch 80/287, current batch loss: 0.0450
+Processing batch 100/287, current batch loss: 0.0197
+Processing batch 120/287, current batch loss: 0.3126
+Processing batch 140/287, current batch loss: 0.0725
+Processing batch 160/287, current batch loss: 0.0972
+Processing batch 180/287, current batch loss: 0.0521
+Processing batch 200/287, current batch loss: 0.5046
+Processing batch 220/287, current batch loss: 0.2168
+Processing batch 240/287, current batch loss: 0.0602
+Processing batch 260/287, current batch loss: 0.0579
+Processing batch 280/287, current batch loss: 0.0601
+Training loss: 0.0948, training accuracy: 96.66%
+Training precision: 0.9666, training recall: 0.9666
+Training AUC: 0.9992
+Validating...
+Validation loss: 0.0134, validation accuracy: 100.00%
+Validation precision: 1.0000, validation recall: 1.0000
+Validation macro-average AUC: 1.0000
+Current learning rate: 4.5968994813132016e-06
+Epoch time: 139.23s, avg: 138.39s, remaining: 32.3min
+Early stopping counter: 10/10
+Early stopping triggered, best validation AUC: 1.0000 at epoch 26
+Training completed, total time: 83.13 minutes
+Training metrics visualization saved to: C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\training_metrics.png
+Building model...
+Pre-trained model loaded
+Model parameters unfrozen
+Actual feature dimension: 1792
+Total model parameters: 20,046,416, trainable parameters: 20,046,416
+Starting model evaluation...
+Evaluation completed, results saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\predictions.csv
+Test set has no ground truth labels, classification report cannot be generated
+Model saved as C:\Users\27785\PycharmProjects\PythonProject1\.venv\乳腺癌w4\SVD(3)\final_advanced_model.pth
+
+进程已结束，退出代码为 0

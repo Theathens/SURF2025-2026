@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / local settings
+.idea/
+.vscode/
+.claude/settings.local.json
+
+# graphify generated cache
+**/graphify-out/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.safetensors
+
+# Large raster data
+*.tif
+
+# GEE generated datasets
+**/GEE_dataset/
+**/BigEarthNet_dataset/
+**/merged_industrial*/
+**/output_industrial_combine_GEE_BEN*/
+
+# Archives / logs
+*.zip
+*.log
+**/.claude/settings.local.json

@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python extract_tmp/merge_claims.py)"
+    ]
+  }
+}

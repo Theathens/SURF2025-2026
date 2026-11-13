@@ -1,0 +1,191 @@
+C:\Users\27785\PycharmProjects\PythonProject\.venv1\Scripts\python.exe "C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC_SVD\ISIC_SVD_update(2).py" 
+Using device: cuda
+GPU: NVIDIA GeForce RTX 3060 Ti
+CUDA: 12.8
+Enter number of training epochs:
+1
+Using SVD preprocessing: True
+SVD mode: auto
+SVD variance threshold: 0.95
+Loading data...
+Data loaded, training set size: 25331
+Test set size: 8238
+Class distribution:
+label
+NV      12875
+MEL      5150
+BCC      3323
+BKL      2624
+AK        867
+VASC      253
+DF        239
+Name: count, dtype: int64
+Calculated class weights: tensor([12.5215,  5.4450,  6.8954, 15.1411,  3.5133,  1.4053, 14.3032],
+       device='cuda:0')
+Creating data loaders...
+Dataset split complete, training set: 20264, validation set: 5067
+Dataset class mapping: {'BKL': 0}
+Estimated optimal k value: 1 (for variance threshold 0.95)
+Dataset class mapping: {'AK': 0, 'BCC': 1, 'BKL': 2, 'DF': 3, 'MEL': 4, 'NV': 5, 'VASC': 6}
+Dataset class mapping: {'AK': 0, 'BCC': 1, 'BKL': 2, 'DF': 3, 'MEL': 4, 'NV': 5, 'VASC': 6}
+Data loaders created
+Building model...
+Pretrained model loaded
+Model parameters unfrozen
+Actual feature dimension: 1792
+Total model parameters: 18,601,295, trainable parameters: 18,601,295
+Enter learning rate patience:
+3
+Starting model training...
+
+===== Epoch 1/1 =====
+GPU memory usage: 0.07/8.00 GB (0.9%)
+Training...
+Using device: cuda
+GPU: NVIDIA GeForce RTX 3060 Ti
+CUDA: 12.8
+Enter number of training epochs:
+1
+Using device: cuda
+GPU: NVIDIA GeForce RTX 3060 Ti
+CUDA: 12.8
+Enter number of training epochs:
+1
+Using device: cuda
+GPU: NVIDIA GeForce RTX 3060 Ti
+CUDA: 12.8
+Enter number of training epochs:
+1
+Using device: cuda
+GPU: NVIDIA GeForce RTX 3060 Ti
+CUDA: 12.8
+Enter number of training epochs:
+1
+Batch 50/1267, loss: 2.2554
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 100/1267, loss: 1.9245
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 150/1267, loss: 1.7309
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 200/1267, loss: 1.9080
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 250/1267, loss: 1.5775
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 300/1267, loss: 1.3586
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 350/1267, loss: 1.5031
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 400/1267, loss: 1.7538
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 450/1267, loss: 1.7207
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 500/1267, loss: 1.6820
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 550/1267, loss: 1.8390
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 600/1267, loss: 2.1422
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 650/1267, loss: 1.3728
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 700/1267, loss: 1.9480
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 750/1267, loss: 2.0697
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 800/1267, loss: 1.6651
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 850/1267, loss: 1.4818
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 900/1267, loss: 1.9385
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 950/1267, loss: 1.6892
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 1000/1267, loss: 1.9839
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 1050/1267, loss: 2.2236
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 1100/1267, loss: 1.7079
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 1150/1267, loss: 1.7330
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 1200/1267, loss: 1.3726
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Batch 1250/1267, loss: 1.2813
+GPU memory usage: 0.24/8.00 GB (3.0%)
+Training loss: 1.8916, accuracy: 32.91%
+Precision: 0.3291, Recall: 0.3291, AUC: 0.6310
+Validating...
+Using device: cuda
+GPU: NVIDIA GeForce RTX 3060 Ti
+CUDA: 12.8
+Enter number of training epochs:
+1
+Using device: cuda
+GPU: NVIDIA GeForce RTX 3060 Ti
+CUDA: 12.8
+Enter number of training epochs:
+1
+Using device: cuda
+GPU: NVIDIA GeForce RTX 3060 Ti
+CUDA: 12.8
+Enter number of training epochs:
+1
+Using device: cuda
+GPU: NVIDIA GeForce RTX 3060 Ti
+CUDA: 12.8
+Enter number of training epochs:
+1
+Validation loss: 1.6620, accuracy: 48.81%
+Precision: 0.4881, Recall: 0.4881, AUC: 0.7299
+Current learning rate: 1e-07
+Epoch time: 717.42s, remaining: 0.0min
+Best model saved, validation AUC: 0.7299
+Training completed, total time: 11.97 minutes
+k value distribution visualization saved to: C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC_SVD\svd_visualizations\k_value_distribution.png
+Training metrics visualization saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC_SVD\training_metrics.png
+
+=== Releasing resources before evaluation ===
+Waiting 5 seconds for resource release...
+GPU memory usage: 0.02/8.00 GB (0.2%)
+
+=== Loading best model for evaluation ===
+Building model...
+Pretrained model loaded
+Model parameters unfrozen
+Actual feature dimension: 1792
+Total model parameters: 18,601,295, trainable parameters: 18,601,295
+Best model loaded from C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC_SVD\best_model.pth
+Starting model evaluation...
+Using device: cuda
+GPU: NVIDIA GeForce RTX 3060 Ti
+CUDA: 12.8
+Enter number of training epochs:
+1
+Using device: cuda
+GPU: NVIDIA GeForce RTX 3060 Ti
+CUDA: 12.8
+Enter number of training epochs:
+1
+Processed 50/1030 batches
+Processed 100/1030 batches
+Processed 150/1030 batches
+Processed 200/1030 batches
+Processed 250/1030 batches
+Processed 300/1030 batches
+Processed 350/1030 batches
+Processed 400/1030 batches
+Processed 450/1030 batches
+Processed 500/1030 batches
+Processed 550/1030 batches
+Processed 600/1030 batches
+Processed 650/1030 batches
+Processed 700/1030 batches
+Processed 750/1030 batches
+Processed 800/1030 batches
+Processed 850/1030 batches
+Processed 900/1030 batches
+Processed 950/1030 batches
+Processed 1000/1030 batches
+Results saved to C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC_SVD\isic_predictions.csv
+Model saved as C:\Users\27785\PycharmProjects\PythonProject1\.venv\ISIC_SVD\final_isic_model.pth
+
+进程已结束，退出代码为 0

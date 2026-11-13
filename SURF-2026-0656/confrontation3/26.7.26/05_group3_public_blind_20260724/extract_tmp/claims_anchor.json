@@ -1,0 +1,786 @@
+[
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_001",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Energy and production performance",
+  "claim_type": "total_energy_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 221000, "claim_unit": "MWh",
+  "claim_text": "Table row 2022: Total energy (MWh) = 221000.0", "evidence_location": "L96", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_002",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Energy and production performance",
+  "claim_type": "electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 171500, "claim_unit": "MWh",
+  "claim_text": "Table row 2022: Electricity (MWh) = 171500.0", "evidence_location": "L96", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_003",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Energy and production performance",
+  "claim_type": "direct_energy_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 49500, "claim_unit": "MWh",
+  "claim_text": "Table row 2022: Direct energy (MWh) = 49500.0", "evidence_location": "L96", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_004",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Energy and production performance",
+  "claim_type": "production_output", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 590000, "claim_unit": "production unit",
+  "claim_text": "Table row 2022: Production output = 590000.0", "evidence_location": "L96", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_005",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Energy and production performance",
+  "claim_type": "energy_intensity", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 0.3745762712, "claim_unit": "MWh/unit",
+  "claim_text": "Table row 2022: Energy intensity = 0.3745762712", "evidence_location": "L96", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_006",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope1_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 15900, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2022: Scope 1 (tCO2e) = 15900.0", "evidence_location": "L124", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_007",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 86607.5, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2022: Scope 2 (tCO2e) = 86607.5 (location-based, factor 0.505 tCO2e/MWh)", "evidence_location": "L124", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_008",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope1_2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 102507.5, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2022: Scope 1+2 (tCO2e) = 102507.5", "evidence_location": "L124", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_009",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope3_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 392000, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2022: Selected Scope 3 (tCO2e) = 392000.0 (partial value-chain coverage)", "evidence_location": "L124", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_010",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Greenhouse-gas emissions",
+  "claim_type": "emissions_intensity", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 0.173742, "claim_unit": "tCO2e/unit",
+  "claim_text": "Table row 2022: Scope 1+2 intensity = 0.173742", "evidence_location": "L124", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_011",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Renewable electricity",
+  "claim_type": "self_generated_pv_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 5200, "claim_unit": "MWh",
+  "claim_text": "Table row 2022: Onsite PV (MWh) = 5200.0", "evidence_location": "L111", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_012",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Renewable electricity",
+  "claim_type": "green_power_purchased_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 12000, "claim_unit": "MWh",
+  "claim_text": "Table row 2022: Green power purchased (MWh) = 12000.0", "evidence_location": "L111", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_013",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Renewable electricity",
+  "claim_type": "renewable_certificates_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 3380, "claim_unit": "MWh",
+  "claim_text": "Table row 2022: Certificates (MWh) = 3380.0", "evidence_location": "L111", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_014",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Renewable electricity",
+  "claim_type": "renewable_electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 20580, "claim_unit": "MWh",
+  "claim_text": "Table row 2022: Renewable electricity (MWh) = 20580.0", "evidence_location": "L111", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_015",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Renewable electricity",
+  "claim_type": "renewable_electricity_ratio_pct", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 12, "claim_unit": "%",
+  "claim_text": "Table row 2022: Renewable share (%) = 12.0", "evidence_location": "L111", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_016",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "roof_pv_area_m2", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 60000, "claim_unit": "m2",
+  "claim_text": "Facility-proxy table row 2022 (Anchor East Plant): Roof PV area (m2) = 60000.0", "evidence_location": "L149", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_017",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "estimated_rooftop_pv_capacity_mw", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 4.3333333333, "claim_unit": "MW",
+  "claim_text": "Facility-proxy table row 2022 (Anchor East Plant): Estimated PV capacity (MW) = 4.3333333333 (calibrated at 1,200 full-load hours)", "evidence_location": "L149", "confidence": 0.9
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_018",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "built_up_area_ha", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 105, "claim_unit": "ha",
+  "claim_text": "Facility-proxy table row 2022 (Anchor East Plant): Built-up area (ha) = 105.0", "evidence_location": "L149", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_019",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "night_light", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 39.4, "claim_unit": "index",
+  "claim_text": "Facility-proxy table row 2022 (Anchor East Plant): Night light = 39.4", "evidence_location": "L149", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_020",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "ndvi", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 0.4, "claim_unit": "index",
+  "claim_text": "Facility-proxy table row 2022 (Anchor East Plant): NDVI = 0.4", "evidence_location": "L149", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_021",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "lst_c", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 30.8, "claim_unit": "degC",
+  "claim_text": "Facility-proxy table row 2022 (Anchor East Plant): LST (degC) = 30.8", "evidence_location": "L149", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_022",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "heat_index", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 35.6, "claim_unit": "degC",
+  "claim_text": "Facility-proxy table row 2022 (Anchor East Plant): Heat index = 35.6", "evidence_location": "L149", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2022_023",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2022, "section": "Climate targets and carbon credits",
+  "claim_type": "carbon_credits_retired_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 2800, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2022: Credits retired = 2800.0 tCO2e, registry Verra VCS, retirement date 2022-12-20, ID v_anchor_assembly-2022-RET-001", "evidence_location": "L139", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_001",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Energy and production performance",
+  "claim_type": "total_energy_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 235000, "claim_unit": "MWh",
+  "claim_text": "Table row 2023: Total energy (MWh) = 235000.0", "evidence_location": "L97", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_002",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Energy and production performance",
+  "claim_type": "electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 182000, "claim_unit": "MWh",
+  "claim_text": "Table row 2023: Electricity (MWh) = 182000.0", "evidence_location": "L97", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_003",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Energy and production performance",
+  "claim_type": "direct_energy_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 53000, "claim_unit": "MWh",
+  "claim_text": "Table row 2023: Direct energy (MWh) = 53000.0", "evidence_location": "L97", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_004",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Energy and production performance",
+  "claim_type": "production_output", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 640000, "claim_unit": "production unit",
+  "claim_text": "Table row 2023: Production output = 640000.0", "evidence_location": "L97", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_005",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Energy and production performance",
+  "claim_type": "energy_intensity", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 0.3671875, "claim_unit": "MWh/unit",
+  "claim_text": "Table row 2023: Energy intensity = 0.3671875", "evidence_location": "L97", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_006",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope1_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 16800, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2023: Scope 1 (tCO2e) = 16800.0", "evidence_location": "L125", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_007",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 91910, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2023: Scope 2 (tCO2e) = 91910.0 (location-based, factor 0.505 tCO2e/MWh)", "evidence_location": "L125", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_008",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope1_2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 108710, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2023: Scope 1+2 (tCO2e) = 108710.0", "evidence_location": "L125", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_009",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope3_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 410000, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2023: Selected Scope 3 (tCO2e) = 410000.0 (partial value-chain coverage)", "evidence_location": "L125", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_010",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Greenhouse-gas emissions",
+  "claim_type": "emissions_intensity", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 0.169859, "claim_unit": "tCO2e/unit",
+  "claim_text": "Table row 2023: Scope 1+2 intensity = 0.169859", "evidence_location": "L125", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_011",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Renewable electricity",
+  "claim_type": "self_generated_pv_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 7200, "claim_unit": "MWh",
+  "claim_text": "Table row 2023: Onsite PV (MWh) = 7200.0", "evidence_location": "L112", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_012",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Renewable electricity",
+  "claim_type": "green_power_purchased_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 21000, "claim_unit": "MWh",
+  "claim_text": "Table row 2023: Green power purchased (MWh) = 21000.0", "evidence_location": "L112", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_013",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Renewable electricity",
+  "claim_type": "renewable_certificates_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 4560, "claim_unit": "MWh",
+  "claim_text": "Table row 2023: Certificates (MWh) = 4560.0", "evidence_location": "L112", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_014",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Renewable electricity",
+  "claim_type": "renewable_electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 32760, "claim_unit": "MWh",
+  "claim_text": "Table row 2023: Renewable electricity (MWh) = 32760.0", "evidence_location": "L112", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_015",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Renewable electricity",
+  "claim_type": "renewable_electricity_ratio_pct", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 18, "claim_unit": "%",
+  "claim_text": "Table row 2023: Renewable share (%) = 18.0", "evidence_location": "L112", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_016",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "roof_pv_area_m2", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 80000, "claim_unit": "m2",
+  "claim_text": "Facility-proxy table row 2023 (Anchor East Plant): Roof PV area (m2) = 80000.0", "evidence_location": "L150", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_017",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "estimated_rooftop_pv_capacity_mw", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 6, "claim_unit": "MW",
+  "claim_text": "Facility-proxy table row 2023 (Anchor East Plant): Estimated PV capacity (MW) = 6.0 (calibrated at 1,200 full-load hours)", "evidence_location": "L150", "confidence": 0.9
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_018",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "built_up_area_ha", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 112, "claim_unit": "ha",
+  "claim_text": "Facility-proxy table row 2023 (Anchor East Plant): Built-up area (ha) = 112.0", "evidence_location": "L150", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_019",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "night_light", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 42.1, "claim_unit": "index",
+  "claim_text": "Facility-proxy table row 2023 (Anchor East Plant): Night light = 42.1", "evidence_location": "L150", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_020",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "ndvi", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 0.38, "claim_unit": "index",
+  "claim_text": "Facility-proxy table row 2023 (Anchor East Plant): NDVI = 0.38", "evidence_location": "L150", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_021",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "lst_c", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 31.2, "claim_unit": "degC",
+  "claim_text": "Facility-proxy table row 2023 (Anchor East Plant): LST (degC) = 31.2", "evidence_location": "L150", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_022",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "heat_index", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 36.1, "claim_unit": "degC",
+  "claim_text": "Facility-proxy table row 2023 (Anchor East Plant): Heat index = 36.1", "evidence_location": "L150", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2023_023",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2023, "section": "Climate targets and carbon credits",
+  "claim_type": "carbon_credits_retired_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 4500, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2023: Credits retired = 4500.0 tCO2e, registry Verra VCS, retirement date 2023-12-20, ID v_anchor_assembly-2023-RET-001", "evidence_location": "L140", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_001",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Energy and production performance",
+  "claim_type": "total_energy_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 249200, "claim_unit": "MWh",
+  "claim_text": "Table row 2024: Total energy (MWh) = 249200.0", "evidence_location": "L98", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_002",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Energy and production performance",
+  "claim_type": "electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 194500, "claim_unit": "MWh",
+  "claim_text": "Table row 2024: Electricity (MWh) = 194500.0", "evidence_location": "L98", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_003",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Energy and production performance",
+  "claim_type": "direct_energy_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 54700, "claim_unit": "MWh",
+  "claim_text": "Table row 2024: Direct energy (MWh) = 54700.0", "evidence_location": "L98", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_004",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Energy and production performance",
+  "claim_type": "production_output", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 705000, "claim_unit": "production unit",
+  "claim_text": "Table row 2024: Production output = 705000.0", "evidence_location": "L98", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_005",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Energy and production performance",
+  "claim_type": "energy_intensity", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 0.3534751773, "claim_unit": "MWh/unit",
+  "claim_text": "Table row 2024: Energy intensity = 0.3534751773", "evidence_location": "L98", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_006",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope1_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 17350, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2024: Scope 1 (tCO2e) = 17350.0", "evidence_location": "L126", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_007",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 98222.5, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2024: Scope 2 (tCO2e) = 98222.5 (location-based, factor 0.505 tCO2e/MWh)", "evidence_location": "L126", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_008",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope1_2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 115572.5, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2024: Scope 1+2 (tCO2e) = 115572.5", "evidence_location": "L126", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_009",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope3_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 426500, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2024: Selected Scope 3 (tCO2e) = 426500.0 (partial value-chain coverage)", "evidence_location": "L126", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_010",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Greenhouse-gas emissions",
+  "claim_type": "emissions_intensity", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 0.163933, "claim_unit": "tCO2e/unit",
+  "claim_text": "Table row 2024: Scope 1+2 intensity = 0.163933", "evidence_location": "L126", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_011",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Renewable electricity",
+  "claim_type": "self_generated_pv_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 8800, "claim_unit": "MWh",
+  "claim_text": "Table row 2024: Onsite PV (MWh) = 8800.0", "evidence_location": "L113", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_012",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Renewable electricity",
+  "claim_type": "green_power_purchased_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 36500, "claim_unit": "MWh",
+  "claim_text": "Contracted green-power procurement was reported at 36,500 MWh in 2024", "evidence_location": "L105", "confidence": 0.9
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_013",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Renewable electricity",
+  "claim_type": "renewable_certificates_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 3380, "claim_unit": "MWh",
+  "claim_text": "Table row 2024: Certificates (MWh) = 3380.0", "evidence_location": "L113", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_014",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Renewable electricity",
+  "claim_type": "renewable_electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 48680, "claim_unit": "MWh",
+  "claim_text": "Including onsite generation and certificates, renewable electricity reached 48,680 MWh (25.0%) in 2024", "evidence_location": "L105", "confidence": 0.9
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_015",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Renewable electricity",
+  "claim_type": "renewable_electricity_ratio_pct", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 25, "claim_unit": "%",
+  "claim_text": "Including onsite generation and certificates, renewable electricity reached 48,680 MWh (25.0%) in 2024", "evidence_location": "L105", "confidence": 0.9
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_016",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "roof_pv_area_m2", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 100000, "claim_unit": "m2",
+  "claim_text": "Facility-proxy table row 2024 (Anchor East Plant): Roof PV area (m2) = 100000.0", "evidence_location": "L151", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_017",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "estimated_rooftop_pv_capacity_mw", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 7.3333333333, "claim_unit": "MW",
+  "claim_text": "Facility-proxy table row 2024 (Anchor East Plant): Estimated PV capacity (MW) = 7.3333333333 (calibrated at 1,200 full-load hours)", "evidence_location": "L151", "confidence": 0.9
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_018",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "built_up_area_ha", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 118, "claim_unit": "ha",
+  "claim_text": "Facility-proxy table row 2024 (Anchor East Plant): Built-up area (ha) = 118.0", "evidence_location": "L151", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_019",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "night_light", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 44.6, "claim_unit": "index",
+  "claim_text": "Facility-proxy table row 2024 (Anchor East Plant): Night light = 44.6", "evidence_location": "L151", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_020",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "ndvi", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 0.36, "claim_unit": "index",
+  "claim_text": "Facility-proxy table row 2024 (Anchor East Plant): NDVI = 0.36", "evidence_location": "L151", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_021",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "lst_c", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 31.6, "claim_unit": "degC",
+  "claim_text": "Facility-proxy table row 2024 (Anchor East Plant): LST (degC) = 31.6", "evidence_location": "L151", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_022",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "heat_index", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 36.8, "claim_unit": "degC",
+  "claim_text": "Facility-proxy table row 2024 (Anchor East Plant): Heat index = 36.8", "evidence_location": "L151", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2024_023",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2024, "section": "Climate targets and carbon credits",
+  "claim_type": "carbon_credits_retired_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 6200, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2024: Credits retired = 6200.0 tCO2e, registry Verra VCS, retirement date 2024-12-20, ID v_anchor_assembly-2024-RET-001", "evidence_location": "L141", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_001",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Energy and production performance",
+  "claim_type": "total_energy_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 262800, "claim_unit": "MWh",
+  "claim_text": "Table row 2025: Total energy (MWh) = 262800.0", "evidence_location": "L99", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_002",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Energy and production performance",
+  "claim_type": "electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 207000, "claim_unit": "MWh",
+  "claim_text": "Table row 2025: Electricity (MWh) = 207000.0", "evidence_location": "L99", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_003",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Energy and production performance",
+  "claim_type": "direct_energy_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 55800, "claim_unit": "MWh",
+  "claim_text": "Table row 2025: Direct energy (MWh) = 55800.0", "evidence_location": "L99", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_004",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Energy and production performance",
+  "claim_type": "production_output", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 768000, "claim_unit": "production unit",
+  "claim_text": "Table row 2025: Production output = 768000.0", "evidence_location": "L99", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_005",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Energy and production performance",
+  "claim_type": "energy_intensity", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 0.3421875, "claim_unit": "MWh/unit",
+  "claim_text": "Table row 2025: Energy intensity = 0.3421875", "evidence_location": "L99", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_006",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope1_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 18120, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2025: Scope 1 (tCO2e) = 18120.0", "evidence_location": "L127", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_007",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 104535, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2025: Scope 2 (tCO2e) = 104535.0 (location-based, factor 0.505 tCO2e/MWh)", "evidence_location": "L127", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_008",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope1_2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 122655, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2025: Scope 1+2 (tCO2e) = 122655.0", "evidence_location": "L127", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_009",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Greenhouse-gas emissions",
+  "claim_type": "scope3_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 448000, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2025: Selected Scope 3 (tCO2e) = 448000.0 (partial value-chain coverage)", "evidence_location": "L127", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_010",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Greenhouse-gas emissions",
+  "claim_type": "emissions_intensity", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 0.159707, "claim_unit": "tCO2e/unit",
+  "claim_text": "Table row 2025: Scope 1+2 intensity = 0.159707", "evidence_location": "L127", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_011",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Renewable electricity",
+  "claim_type": "self_generated_pv_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 10400, "claim_unit": "MWh",
+  "claim_text": "Table row 2025: Onsite PV (MWh) = 10400.0", "evidence_location": "L114", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_012",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Renewable electricity",
+  "claim_type": "green_power_purchased_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 56500, "claim_unit": "MWh",
+  "claim_text": "Contracted green-power procurement was reported at 56,500 MWh in 2025", "evidence_location": "L105", "confidence": 0.9
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_013",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Renewable electricity",
+  "claim_type": "renewable_certificates_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 1770, "claim_unit": "MWh",
+  "claim_text": "Table row 2025: Certificates (MWh) = 1770.0", "evidence_location": "L114", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_014",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Renewable electricity",
+  "claim_type": "renewable_electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 68670, "claim_unit": "MWh",
+  "claim_text": "Including onsite generation and certificates, renewable electricity reached 68,670 MWh (33.2%) in 2025", "evidence_location": "L105", "confidence": 0.9
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_015",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Renewable electricity",
+  "claim_type": "renewable_electricity_ratio_pct", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 33.2, "claim_unit": "%",
+  "claim_text": "Including onsite generation and certificates, renewable electricity reached 68,670 MWh (33.2%) in 2025", "evidence_location": "L105", "confidence": 0.9
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_016",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "roof_pv_area_m2", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 130000, "claim_unit": "m2",
+  "claim_text": "Facility-proxy table row 2025 (Anchor East Plant): Roof PV area (m2) = 130000.0", "evidence_location": "L152", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_017",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "estimated_rooftop_pv_capacity_mw", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 8.6666666667, "claim_unit": "MW",
+  "claim_text": "Facility-proxy table row 2025 (Anchor East Plant): Estimated PV capacity (MW) = 8.6666666667 (calibrated at 1,200 full-load hours)", "evidence_location": "L152", "confidence": 0.9
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_018",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "built_up_area_ha", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 124, "claim_unit": "ha",
+  "claim_text": "Facility-proxy table row 2025 (Anchor East Plant): Built-up area (ha) = 124.0", "evidence_location": "L152", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_019",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "night_light", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 47, "claim_unit": "index",
+  "claim_text": "Facility-proxy table row 2025 (Anchor East Plant): Night light = 47.0", "evidence_location": "L152", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_020",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "ndvi", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 0.34, "claim_unit": "index",
+  "claim_text": "Facility-proxy table row 2025 (Anchor East Plant): NDVI = 0.34", "evidence_location": "L152", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_021",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "lst_c", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 32, "claim_unit": "degC",
+  "claim_text": "Facility-proxy table row 2025 (Anchor East Plant): LST (degC) = 32.0", "evidence_location": "L152", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_022",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "heat_index", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_value": 37.2, "claim_unit": "degC",
+  "claim_text": "Facility-proxy table row 2025 (Anchor East Plant): Heat index = 37.2", "evidence_location": "L152", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_023",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Climate targets and carbon credits",
+  "claim_type": "carbon_credits_retired_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 8000, "claim_unit": "tCO2e",
+  "claim_text": "Table row 2025: Credits retired = 8000.0 tCO2e, registry Verra VCS, retirement date 2025-12-20, ID v_anchor_assembly-2025-RET-001", "evidence_location": "L142", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_024",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "About this report",
+  "claim_type": "boundary_claim", "claim_category": "qualitative", "claim_direction": "control",
+  "claim_text": "The organizational boundary is all wholly controlled manufacturing sites. The operational emissions boundary is Scope 1 direct fuel; Scope 2 purchased electricity; selected upstream/downstream Scope 3.",
+  "evidence_location": "L7", "confidence": 0.7
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_025",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Company profile and sustainability context",
+  "claim_type": "boundary_claim", "claim_category": "qualitative", "claim_direction": "control",
+  "claim_text": "The company applies the same reporting boundary across the annual structured table and the narrative report.",
+  "evidence_location": "L25", "confidence": 0.7
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_026",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "boundary_claim", "claim_category": "qualitative", "claim_direction": "control",
+  "claim_text": "The area, night-light, vegetation and surface-temperature values below are facility-level proxy indicators for the stated AOI and image date.",
+  "evidence_location": "L146", "confidence": 0.7
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_027",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Climate targets and carbon credits",
+  "claim_type": "target_claim", "claim_category": "qualitative", "claim_direction": "control",
+  "claim_text": "The stated target is: operational carbon neutrality target by 2035; residual emissions may be offset after reduction. The stated target boundary is Scope 1+2 operational boundary. This is a forward-looking target, not a claim that the company was carbon neutral during 2022-2025.",
+  "evidence_location": "L133", "confidence": 0.7
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_028",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Facilities and remote-sensing proxies",
+  "claim_type": "process_wording", "claim_category": "qualitative", "claim_direction": "unknown",
+  "claim_text": "Estimated photovoltaic capacity is calibrated to annual generation using 1,200 full-load hours. This is an engineering estimate rather than a value derived from a site survey or asset register.",
+  "evidence_location": "L154", "confidence": 0.6
+},
+{
+  "claim_id": "CLM_v_anchor_assembly_2025_029",
+  "cohort": "controlled_company", "firm_id": "v_anchor_assembly", "company_name": "Anchor Mobility Components Co., Ltd.",
+  "report_file": "v_anchor_assembly_esg_baseline_2022_2025.md", "year": 2025, "section": "Renewable electricity",
+  "claim_type": "directional_claim", "claim_category": "qualitative", "claim_direction": "increase",
+  "claim_text": "Including onsite generation and certificates, renewable electricity reached 48,680 MWh (25.0%) and 68,670 MWh (33.2%) in the respective years, supporting management's description of a steadily improving procurement mix.",
+  "evidence_location": "L105", "confidence": 0.75
+}
+]

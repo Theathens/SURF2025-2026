@@ -1,0 +1,11 @@
+{
+  "package_id": "ROUND3_GROUP1_TO_GROUP3_PUBLIC_BLIND_20260724",
+  "role": "group3_public_blind",
+  "recipient": "Group3",
+  "round": "Round3",
+  "created_date": "2026-07-24",
+  "cohort_policy": "Real-company and controlled-company materials are kept in separate directories and must not be merged without a cohort indicator.",
+  "answer_material_included": false,
+  "change_records_included": false,
+  "internal_scoring_included": false
+}

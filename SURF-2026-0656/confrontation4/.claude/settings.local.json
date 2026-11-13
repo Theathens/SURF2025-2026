@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"C:\\\\Users\\\\25145\\\\.claude\\\\projects\\\\d--Pycharm-Projects-torch-confrontation3-26-7-26\" 2>/dev/null)",
+      "Read(//c/Users/25145/.claude/projects/d--Pycharm-Projects-torch-confrontation3-26-7-26/**)",
+      "Bash(python -c ' *)",
+      "Read(//d/Pycharm Projects/torch/confrontation3/26.7.26/05_group3_public_blind_20260724/**)",
+      "Read(//d/Pycharm Projects/torch/confrontation3/26.7.26/05_group3_public_blind_20260724/extract_tmp/**)"
+    ]
+  }
+}

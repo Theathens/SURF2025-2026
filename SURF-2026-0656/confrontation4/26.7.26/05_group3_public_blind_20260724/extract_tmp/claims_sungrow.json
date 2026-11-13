@@ -1,0 +1,178 @@
+[
+{
+  "claim_id": "CLM_sungrow_300274_2024_001",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "scope1_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 6426, "claim_unit": "tCO2e",
+  "claim_text": "The 2024 public disclosure reports Scope 1 emissions of 6,426 tCO2e", "evidence_location": "L17", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2024_002",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "scope2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 40061, "claim_unit": "tCO2e",
+  "claim_text": "The 2024 public disclosure reports Scope 2 emissions of 40,061 tCO2e", "evidence_location": "L17", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2024_003",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "scope1_2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 46487, "claim_unit": "tCO2e",
+  "claim_text": "Consolidated table 2024: Scope 1+2 (tCO2e) = 46487.0", "evidence_location": "L57", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2024_004",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "scope3_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 9062835, "claim_unit": "tCO2e",
+  "claim_text": "The 2024 public disclosure reports Scope 3 emissions of 9,062,835 tCO2e", "evidence_location": "L17", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2024_005",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "renewable_electricity_ratio_pct", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 70, "claim_unit": "%",
+  "claim_text": "Renewable electricity represented 70% in 2024 and 79% in 2025.", "evidence_location": "L18", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_001",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "Consolidated normalized indicators",
+  "claim_type": "electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 286544.79, "claim_unit": "MWh",
+  "claim_text": "The 2025 performance table reports total electricity consumption of 286,544.79 MWh", "evidence_location": "L19", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_002",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "direct_energy_tce", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 1168.21, "claim_unit": "tce",
+  "claim_text": "Disclosed metrics table 2025: direct_energy_consumption = 1168.21 tce (tonnes of coal equivalent, not converted to MWh)", "evidence_location": "L70", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_003",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "indirect_energy_tce", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 35216.36, "claim_unit": "tce",
+  "claim_text": "Disclosed metrics table 2025: indirect_energy_consumption = 35216.36 tce (tonnes of coal equivalent, not converted to MWh)", "evidence_location": "L76", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_004",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "total_energy_tce", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 36384.56, "claim_unit": "tce",
+  "claim_text": "Disclosed metrics table 2025: total_energy_consumption = 36384.56 tce (tonnes of coal equivalent, not converted to MWh)", "evidence_location": "L84", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_005",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "renewable_energy_tce", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 26558.03, "claim_unit": "tce",
+  "claim_text": "Disclosed metrics table 2025: renewable_energy_consumption = 26558.03 tce (tonnes of coal equivalent, not converted to MWh)", "evidence_location": "L80", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_006",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "Consolidated normalized indicators",
+  "claim_type": "green_power_purchased_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 149875.31, "claim_unit": "MWh",
+  "claim_text": "The 2025 performance table reports direct green-electricity purchases of 149,875.31 MWh", "evidence_location": "L19", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_007",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "Consolidated normalized indicators",
+  "claim_type": "self_generated_pv_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 14634.8937, "claim_unit": "MWh",
+  "claim_text": "The 2025 performance table reports onsite generation of 14,634.8937 MWh", "evidence_location": "L19", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_008",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "grid_electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 68573.67, "claim_unit": "MWh",
+  "claim_text": "Disclosed metrics table 2025: grid_electricity = 68573.67 MWh", "evidence_location": "L75", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_009",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "electricity_saving_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 3950, "claim_unit": "MWh",
+  "claim_text": "Disclosed metrics table 2025: electricity_saving = 3950 MWh", "evidence_location": "L72", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_010",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "energy_productivity_increase_pct", "claim_category": "structured", "claim_direction": "increase",
+  "claim_value": 40, "claim_unit": "%",
+  "claim_text": "Disclosed metrics table 2025: energy_productivity_increase = 40 percent vs 2018", "evidence_location": "L73", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_011",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "Consolidated normalized indicators",
+  "claim_type": "renewable_electricity_ratio_pct", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 79, "claim_unit": "%",
+  "claim_text": "Renewable electricity represented 70% in 2024 and 79% in 2025.", "evidence_location": "L18", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_012",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "rooftop_pv_installed_capacity_mw", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 42, "claim_unit": "MW",
+  "claim_text": "Disclosed metrics table 2025: rooftop_pv_installed_capacity = 42 MW", "evidence_location": "L81", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_013",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "2025 evidence highlights",
+  "claim_type": "target_claim", "claim_category": "qualitative", "claim_direction": "control",
+  "claim_value": 2028, "claim_unit": "year",
+  "claim_text": "Public targets cover operational Scope 1+2 carbon neutrality by 2028. Forward-looking commitment, not achieved status.", "evidence_location": "L20", "confidence": 0.7
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_014",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "2025 evidence highlights",
+  "claim_type": "target_claim", "claim_category": "qualitative", "claim_direction": "control",
+  "claim_value": 2038, "claim_unit": "year",
+  "claim_text": "Public targets cover supply-chain carbon neutrality by 2038. Forward-looking commitment, not achieved status.", "evidence_location": "L20", "confidence": 0.7
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_015",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "2025 evidence highlights",
+  "claim_type": "target_claim", "claim_category": "qualitative", "claim_direction": "control",
+  "claim_value": 2048, "claim_unit": "year",
+  "claim_text": "Public targets cover supply-chain net zero by 2048. Forward-looking commitment, not achieved status.", "evidence_location": "L20", "confidence": 0.7
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_016",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "Report status and scope",
+  "claim_type": "process_wording", "claim_category": "qualitative", "claim_direction": "unknown",
+  "claim_text": "This document is an evidence-grounded reconstruction of a complete ESG report using the available 2022-2025 public-company disclosure set. It is not represented as an official republication of the company's original report.",
+  "evidence_location": "L5", "confidence": 0.9
+},
+{
+  "claim_id": "CLM_sungrow_300274_2025_017",
+  "cohort": "real_public_reference", "firm_id": "sungrow_300274", "company_name": "Sungrow Power Supply Co., Ltd.",
+  "report_file": "sungrow_300274_complete_esg_report_2025.md", "year": 2025, "section": "Facilities and geospatial context",
+  "claim_type": "data_availability_statement", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_text": "Public facility records provide AOI seeds for later remote-sensing work. Quantitative satellite variables remain unavailable until an actual Sentinel, Landsat, VIIRS or MODIS workflow is run. Proxy status: aoi_seed_ready_proxy_not_processed for the Hefei Industrial Campus (31.8167223, 117.1817135) across all years.",
+  "evidence_location": "L105", "confidence": 0.9
+}
+]

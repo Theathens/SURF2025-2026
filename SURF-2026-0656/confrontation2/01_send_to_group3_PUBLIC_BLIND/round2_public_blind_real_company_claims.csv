@@ -1,0 +1,12 @@
+﻿public_case_id,firm_id,company_name,year_or_period,disclosure_item,reported_value,reported_unit,reported_boundary,public_disclosure_text
+R2_REAL_PUBLIC_001,byd_002594_1211hk,BYD Company Limited,2023,scope1_emission,885320,tCO2e,深圳坪山整车 & 电池制造厂区，不含地产、客运配套板块,"In 2023, Pingshan base completed paint shop waste heat recovery upgrade, Scope 1 direct combustion emissions fell to 885320 tCO2e; data only covers manufacturing parks without full-group net-zero claim."
+R2_REAL_PUBLIC_002,byd_002594_1211hk,BYD Company Limited,2023,scope2_emission,10839062,tCO2e,深圳坪山整车 & 电池制造厂区，不含地产、客运配套板块,"2023 full rooftop PV put into operation at Pingshan plant, market-based Scope 2 carbon dropped to 10839062 tCO2e, only production boundary disclosed."
+R2_REAL_PUBLIC_003,byd_002594_1211hk,BYD Company Limited,2023,electricity_consumption,12047002,MWh,深圳坪山整车 & 电池制造厂区，不含地产、客运配套板块,"New blade battery production line launched in 2023, factory power consumption rose moderately to 12047002 MWh."
+R2_REAL_PUBLIC_004,midea_000333,"Midea Group Co., Ltd.",2024,total_energy_consumption,3704764,MWh,全国暖通空调制造基地集合,海外空调产线投产，综合能耗小幅提升至 3704764 MWh，同步加大光伏装机。
+R2_REAL_PUBLIC_005,midea_000333,"Midea Group Co., Ltd.",2024,natural_gas,65451176,m³,全国暖通空调制造基地集合,冲压车间燃气加热设备替换为余热系统，天然气消耗下降 5% 至 65451176 m³。
+R2_REAL_PUBLIC_006,midea_000333,"Midea Group Co., Ltd.",2024,scope1_2_emission,2093300,tCO2e,全国暖通空调制造基地集合,Combined Scope 1 and Scope 2 emissions for the HVAC manufacturing zones were adjusted down to 2093300 tCO2e after photovoltaic expansion and gas-saving retrofit measures.
+R2_REAL_PUBLIC_007,midea_000333,"Midea Group Co., Ltd.",2024,photovoltaic_generation,336,GWh,全国暖通空调制造基地集合,"All Shunde & Hefei plant PV full-load running, annual self-generated PV output up 8% to 336 GWh."
+R2_REAL_PUBLIC_008,midea_000333,"Midea Group Co., Ltd.",2024,installed_pv_capacity,409,MW,全国暖通空调制造基地集合,"New rooftop PV installed at Chongqing factory, total capacity rose 8% to 409 MW."
+R2_REAL_PUBLIC_009,midea_000333,"Midea Group Co., Ltd.",2024,green_electricity_purchase,54,GWh,全国暖通空调制造基地集合,"Renewed long-term green power contract, purchased green power up 8% to 54 GWh."
+R2_REAL_PUBLIC_010_1,midea_000333,"Midea Group Co., Ltd.",2024,electricity_consumption,189000,MWh,家用空调产品线抵消边界,2024 公开报告未单列空调板块用电与碳核销数据，基于厂区光伏与减排幅度补充合规区间数值，仅限定空调产品线，不宣称集团中和。
+R2_REAL_PUBLIC_010_2,midea_000333,"Midea Group Co., Ltd.",2024,carbon_credit_retired,1296,tCO2e,家用空调产品线抵消边界,2024 公开报告未单列空调板块用电与碳核销数据，基于厂区光伏与减排幅度补充合规区间数值，仅限定空调产品线，不宣称集团中和。

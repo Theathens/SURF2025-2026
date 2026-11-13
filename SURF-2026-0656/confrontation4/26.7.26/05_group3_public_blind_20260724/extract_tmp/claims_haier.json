@@ -1,0 +1,204 @@
+[
+{
+  "claim_id": "CLM_haier_600690_06690_2024_001",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "total_energy_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 2201271.45, "claim_unit": "MWh",
+  "claim_text": "Consolidated table 2024: Energy (MWh) = 2201271.4500000002", "evidence_location": "L57", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2024_002",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 1642150.7, "claim_unit": "MWh",
+  "claim_text": "Consolidated table 2024: Electricity (MWh) = 1642150.7", "evidence_location": "L57", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2024_003",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "renewable_electricity_ratio_pct", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 7.4, "claim_unit": "%",
+  "claim_text": "Consolidated table 2024: Renewable share (%) = 7.4", "evidence_location": "L57", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2024_004",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "scope1_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 436300, "claim_unit": "tCO2e",
+  "claim_text": "Consolidated table 2024: Scope 1 (tCO2e) = 436300.0", "evidence_location": "L57", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2024_005",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "scope2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 865400, "claim_unit": "tCO2e",
+  "claim_text": "Consolidated table 2024: Scope 2 (tCO2e) = 865400.0", "evidence_location": "L57", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2024_006",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2024, "section": "Consolidated normalized indicators",
+  "claim_type": "scope1_2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 1301700, "claim_unit": "tCO2e",
+  "claim_text": "Consolidated table 2024: Scope 1+2 (tCO2e) = 1301700.0", "evidence_location": "L57", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2024_007",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2024, "section": "Disclosed ESG metrics",
+  "claim_type": "scope3_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 165014200, "claim_unit": "tCO2e",
+  "claim_text": "Disclosed metrics table 2024: scope3_emissions_china_operations = 165014200 tCO2e (China operations only, not relabeled as global value-chain total)", "evidence_location": "L72", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2024_008",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2024, "section": "Disclosed ESG metrics",
+  "claim_type": "direct_energy_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 559120.75, "claim_unit": "MWh",
+  "claim_text": "Disclosed metrics table 2024: direct_energy_consumption = 559120.75 MWh", "evidence_location": "L66", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2024_009",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2024, "section": "Disclosed ESG metrics",
+  "claim_type": "indirect_energy_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 1642150.7, "claim_unit": "MWh",
+  "claim_text": "Disclosed metrics table 2024: indirect_energy_consumption = 1642150.70 MWh", "evidence_location": "L67", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_001",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "2025 evidence highlights",
+  "claim_type": "revenue", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 302.35, "claim_unit": "RMB_billion",
+  "claim_text": "The 2025 public disclosure records RMB 302.35 billion of revenue.", "evidence_location": "L17", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_002",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "2025 evidence highlights",
+  "claim_type": "total_energy_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 2594788.03, "claim_unit": "MWh",
+  "claim_text": "Total energy consumption was reported as 2,594,788.03 MWh in 2025, with renewable energy accounting for 8.36%.", "evidence_location": "L19", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_003",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "Consolidated normalized indicators",
+  "claim_type": "electricity_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 2029966.66, "claim_unit": "MWh",
+  "claim_text": "Consolidated table 2025: Electricity (MWh) = 2029966.6599999999", "evidence_location": "L58", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_004",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "Consolidated normalized indicators",
+  "claim_type": "renewable_electricity_ratio_pct", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 8.36, "claim_unit": "%",
+  "claim_text": "Consolidated table 2025: Renewable share (%) = 8.36", "evidence_location": "L58", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_005",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "2025 evidence highlights",
+  "claim_type": "scope1_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 492318.75, "claim_unit": "tCO2e",
+  "claim_text": "The 2025 ESG evidence reports Scope 1 emissions of 492,318.75 tCO2e", "evidence_location": "L18", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_006",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "2025 evidence highlights",
+  "claim_type": "scope2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 887367.25, "claim_unit": "tCO2e",
+  "claim_text": "The 2025 ESG evidence reports Scope 2 emissions of 887,367.25 tCO2e", "evidence_location": "L18", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_007",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "Consolidated normalized indicators",
+  "claim_type": "scope1_2_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 1379686, "claim_unit": "tCO2e",
+  "claim_text": "Consolidated table 2025: Scope 1+2 (tCO2e) = 1379686.0", "evidence_location": "L58", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_008",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "scope3_emission_tco2e", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 180862900, "claim_unit": "tCO2e",
+  "claim_text": "Disclosed metrics table 2025: scope3_emissions_china_operations = 180862900 tCO2e (China operations only, not relabeled as global value-chain total)", "evidence_location": "L85", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_009",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "direct_energy_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 548322.01, "claim_unit": "MWh",
+  "claim_text": "Disclosed metrics table 2025: direct_energy_consumption = 548322.01 MWh", "evidence_location": "L74", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_010",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "indirect_energy_mwh", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 2029966.66, "claim_unit": "MWh",
+  "claim_text": "Disclosed metrics table 2025: indirect_energy_consumption = 2029966.66 MWh", "evidence_location": "L77", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_011",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "lighthouse_factories", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 12, "claim_unit": "factories",
+  "claim_text": "Disclosed metrics table 2025: lighthouse_factories = 12 factories", "evidence_location": "L78", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_012",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "zero_carbon_parks", "claim_category": "structured", "claim_direction": "unknown",
+  "claim_value": 2, "claim_unit": "parks",
+  "claim_text": "Disclosed metrics table 2025: zero_carbon_parks = 2 parks", "evidence_location": "L87", "confidence": 0.95
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_013",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "2025 evidence highlights",
+  "claim_type": "target_claim", "claim_category": "qualitative", "claim_direction": "control",
+  "claim_value": 2050, "claim_unit": "year",
+  "claim_text": "The public target evidence refers to carbon neutrality across global operations by 2050 and a long-term renewable-energy transition. Forward-looking commitment, not achieved status.",
+  "evidence_location": "L20", "confidence": 0.7
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_014",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "Disclosed ESG metrics",
+  "claim_type": "target_claim", "claim_category": "qualitative", "claim_direction": "increase",
+  "claim_value": 100, "claim_unit": "%",
+  "claim_text": "Disclosed metrics table 2025: global_renewable_energy_target = 100 percent. Long-term renewable-energy transition target, not a claim of current renewable share.",
+  "evidence_location": "L76", "confidence": 0.7
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_015",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "Report status and scope",
+  "claim_type": "process_wording", "claim_category": "qualitative", "claim_direction": "unknown",
+  "claim_text": "This document is an evidence-grounded reconstruction of a complete ESG report using the available 2022-2025 public-company disclosure set. It is not represented as an official republication of the company's original report.",
+  "evidence_location": "L5", "confidence": 0.9
+},
+{
+  "claim_id": "CLM_haier_600690_06690_2025_016",
+  "cohort": "real_public_reference", "firm_id": "haier_600690_06690", "company_name": "Haier Smart Home Co., Ltd.",
+  "report_file": "haier_600690_06690_complete_esg_report_2025.md", "year": 2025, "section": "Facilities and geospatial context",
+  "claim_type": "data_availability_statement", "claim_category": "satellite", "claim_direction": "unknown",
+  "claim_text": "Public facility records provide AOI seeds for later remote-sensing work. Quantitative satellite variables remain unavailable until an actual Sentinel, Landsat, VIIRS or MODIS workflow is run. Proxy status: aoi_seed_ready_proxy_not_processed for Haier Industrial Park (Laoshan, Qingdao; 36.1280375, 120.4136714) across all years.",
+  "evidence_location": "L108", "confidence": 0.9
+}
+]

@@ -1,0 +1,9 @@
+﻿company,facility_name,t0_year,t0_ratio,t1_year,t1_ratio,delta_ratio,delta_pct,trend,confidence,confidence_note,t0_pixels,t1_pixels,pixel_delta
+BYD Company Limited,BYD_Company_Limited_BYD_Pingshan_headquarters_manufacturing_campus,2019,0.024048,2025,0.069336,0.045288,180.8,扩张/增强 ↑,0.85,显著变化，检测可信度高,394,1136,742
+BYD Company Limited,BYD_Company_Limited_BYD_Xiaomo_Industrial_Park,2019,0.005859,2025,0.098206,0.092347,1346.36,扩张/增强 ↑,0.85,显著变化，检测可信度高,96,1609,1513
+"Contemporary Amperex Technology Co., Limited",Contemporary_Amperex_Technology_Co._Limited_CATL_Liyang_Production_Base,2019,0.029907,2025,0.06897,0.039063,126.39,扩张/增强 ↑,0.85,显著变化，检测可信度高,490,1130,640
+"Contemporary Amperex Technology Co., Limited",Contemporary_Amperex_Technology_Co._Limited_CATL_Ningde_headquarters_base,2019,0.0,2025,0.0,0.0,0.0,基本稳定 —,0.3,低覆盖率，可能受缓冲区过大影响,0,0,0
+"Contemporary Amperex Technology Co., Limited",Contemporary_Amperex_Technology_Co._Limited_CATL_Yibin_Production_Base,2019,0.0,2025,0.0,0.0,0.0,基本稳定 —,0.3,低覆盖率，可能受缓冲区过大影响,0,0,0
+"Contemporary Amperex Technology Co., Limited",Contemporary_Amperex_Technology_Co._Limited_CATL_Zhaoqing_Production_Base,2019,0.0,2025,0.0,0.0,0.0,基本稳定 —,0.3,低覆盖率，可能受缓冲区过大影响,0,0,0
+"Midea Group Co., Ltd.",Midea_Group_Co._Ltd._Hefei_Laundry_Appliance_Factory,2018,0.0,2025,0.0,0.0,0.0,基本稳定 —,0.3,低覆盖率，可能受缓冲区过大影响,0,0,0
+"Midea Group Co., Ltd.",Midea_Group_Co._Ltd._Midea_Chongqing_Factory_Parks,2018,0.0,2025,0.0,0.0,0.0,基本稳定 —,0.3,低覆盖率，可能受缓冲区过大影响,0,0,0

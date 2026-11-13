@@ -1,0 +1,254 @@
+[
+  {
+    "facility_name": "BYD_Company_Limited_BYD_Pingshan_headquarters_manufacturing_campus",
+    "evidence": {
+      "t0_year": 2020,
+      "t0_coverage": 0.1011,
+      "t1_year": 2023,
+      "t1_coverage": 0.1509,
+      "delta": 0.0497,
+      "delta_pct": 48.7,
+      "trend": "基本稳定 —"
+    },
+    "confidence": {
+      "remote_sensing": 0.85,
+      "data_quality": 0.9
+    },
+    "metadata": {
+      "generated_at": "2026-07-17T21:31:11.673271",
+      "source": "Sentinel-2 + U-Net Industrial Segmentation",
+      "model": "unet_industrial_combine_GEE_BEN_3_best.pth"
+    }
+  },
+  {
+    "facility_name": "BYD_Company_Limited_BYD_Xiaomo_Industrial_Park",
+    "evidence": {
+      "t0_year": 2020,
+      "t0_coverage": 0.195,
+      "t1_year": 2023,
+      "t1_coverage": 0.3394,
+      "delta": 0.1444,
+      "delta_pct": 73.68,
+      "trend": "扩张/增强 ↑"
+    },
+    "confidence": {
+      "remote_sensing": 0.85,
+      "data_quality": 0.9
+    },
+    "metadata": {
+      "generated_at": "2026-07-17T21:31:11.673271",
+      "source": "Sentinel-2 + U-Net Industrial Segmentation",
+      "model": "unet_industrial_combine_GEE_BEN_3_best.pth"
+    }
+  },
+  {
+    "facility_name": "BYD_合肥基地",
+    "evidence": {
+      "t0_year": 2020,
+      "t0_coverage": 0.2255,
+      "t1_year": 2023,
+      "t1_coverage": 0.604,
+      "delta": 0.3785,
+      "delta_pct": 167.15,
+      "trend": "扩张/增强 ↑"
+    },
+    "confidence": {
+      "remote_sensing": 0.85,
+      "data_quality": 0.9
+    },
+    "metadata": {
+      "generated_at": "2026-07-17T21:31:11.673271",
+      "source": "Sentinel-2 + U-Net Industrial Segmentation",
+      "model": "unet_industrial_combine_GEE_BEN_3_best.pth"
+    }
+  },
+  {
+    "facility_name": "BYD_常州基地",
+    "evidence": {
+      "t0_year": 2020,
+      "t0_coverage": 0.1527,
+      "t1_year": 2023,
+      "t1_coverage": 0.0645,
+      "delta": -0.0882,
+      "delta_pct": -57.38,
+      "trend": "收缩/减弱 ↓"
+    },
+    "confidence": {
+      "remote_sensing": 0.85,
+      "data_quality": 0.9
+    },
+    "metadata": {
+      "generated_at": "2026-07-17T21:31:11.673271",
+      "source": "Sentinel-2 + U-Net Industrial Segmentation",
+      "model": "unet_industrial_combine_GEE_BEN_3_best.pth"
+    }
+  },
+  {
+    "facility_name": "BYD_抚州基地",
+    "evidence": {
+      "t0_year": 2020,
+      "t0_coverage": 0.0028,
+      "t1_year": 2023,
+      "t1_coverage": 0.3124,
+      "delta": 0.3096,
+      "delta_pct": 8131.89,
+      "trend": "扩张/增强 ↑"
+    },
+    "confidence": {
+      "remote_sensing": 0.85,
+      "data_quality": 0.9
+    },
+    "metadata": {
+      "generated_at": "2026-07-17T21:31:11.673271",
+      "source": "Sentinel-2 + U-Net Industrial Segmentation",
+      "model": "unet_industrial_combine_GEE_BEN_3_best.pth"
+    }
+  },
+  {
+    "facility_name": "BYD_济南基地",
+    "evidence": {
+      "t0_year": 2020,
+      "t0_coverage": 0.2911,
+      "t1_year": 2024,
+      "t1_coverage": 0.4382,
+      "delta": 0.1471,
+      "delta_pct": 50.36,
+      "trend": "扩张/增强 ↑"
+    },
+    "confidence": {
+      "remote_sensing": 0.85,
+      "data_quality": 0.9
+    },
+    "metadata": {
+      "generated_at": "2026-07-17T21:31:11.673271",
+      "source": "Sentinel-2 + U-Net Industrial Segmentation",
+      "model": "unet_industrial_combine_GEE_BEN_3_best.pth"
+    }
+  },
+  {
+    "facility_name": "BYD_郑州基地",
+    "evidence": {
+      "t0_year": 2020,
+      "t0_coverage": 0.1548,
+      "t1_year": 2024,
+      "t1_coverage": 0.2501,
+      "delta": 0.0953,
+      "delta_pct": 61.2,
+      "trend": "扩张/增强 ↑"
+    },
+    "confidence": {
+      "remote_sensing": 0.85,
+      "data_quality": 0.9
+    },
+    "metadata": {
+      "generated_at": "2026-07-17T21:31:11.673271",
+      "source": "Sentinel-2 + U-Net Industrial Segmentation",
+      "model": "unet_industrial_combine_GEE_BEN_3_best.pth"
+    }
+  },
+  {
+    "facility_name": "BYD_青海西宁基地",
+    "evidence": {
+      "t0_year": 2016,
+      "t0_coverage": 0.0,
+      "t1_year": 2022,
+      "t1_coverage": 0.0114,
+      "delta": 0.0114,
+      "delta_pct": 1141.36,
+      "trend": "基本稳定 —"
+    },
+    "confidence": {
+      "remote_sensing": 0.85,
+      "data_quality": 0.9
+    },
+    "metadata": {
+      "generated_at": "2026-07-17T21:31:11.673271",
+      "source": "Sentinel-2 + U-Net Industrial Segmentation",
+      "model": "unet_industrial_combine_GEE_BEN_3_best.pth"
+    }
+  },
+  {
+    "facility_name": "Contemporary_Amperex_Technology_Co._Limited_CATL_Liyang_Production_Base",
+    "evidence": {
+      "t0_year": 2016,
+      "t0_coverage": 0.1677,
+      "t1_year": 2022,
+      "t1_coverage": 0.0985,
+      "delta": -0.0692,
+      "delta_pct": -41.0,
+      "trend": "收缩/减弱 ↓"
+    },
+    "confidence": {
+      "remote_sensing": 0.85,
+      "data_quality": 0.9
+    },
+    "metadata": {
+      "generated_at": "2026-07-17T21:31:11.673271",
+      "source": "Sentinel-2 + U-Net Industrial Segmentation",
+      "model": "unet_industrial_combine_GEE_BEN_3_best.pth"
+    }
+  },
+  {
+    "facility_name": "Contemporary_Amperex_Technology_Co._Limited_CATL_Ningde_headquarters_base",
+    "evidence": {
+      "t0_year": 2019,
+      "t0_coverage": 0.0,
+      "t1_year": 2023,
+      "t1_coverage": 0.0129,
+      "delta": 0.0129,
+      "delta_pct": 1287.84,
+      "trend": "基本稳定 —"
+    },
+    "confidence": {
+      "remote_sensing": 0.85,
+      "data_quality": 0.9
+    },
+    "metadata": {
+      "generated_at": "2026-07-17T21:31:11.673271",
+      "source": "Sentinel-2 + U-Net Industrial Segmentation",
+      "model": "unet_industrial_combine_GEE_BEN_3_best.pth"
+    }
+  },
+  {
+    "facility_name": "Contemporary_Amperex_Technology_Co._Limited_CATL_Yibin_Production_Base",
+    "evidence": {
+      "t0_year": 2019,
+      "t0_coverage": 0.0389,
+      "t1_year": 2023,
+      "t1_coverage": 0.6659,
+      "delta": 0.627,
+      "delta_pct": 1572.28,
+      "trend": "扩张/增强 ↑"
+    },
+    "confidence": {
+      "remote_sensing": 0.85,
+      "data_quality": 0.9
+    },
+    "metadata": {
+      "generated_at": "2026-07-17T21:31:11.673271",
+      "source": "Sentinel-2 + U-Net Industrial Segmentation",
+      "model": "unet_industrial_combine_GEE_BEN_3_best.pth"
+    }
+  },
+  {
+    "facility_name": "Midea_Group_Co._Ltd._Hefei_Laundry_Appliance_Factory",
+    "evidence": {
+      "t0_year": 2019,
+      "t0_coverage": 0.4248,
+      "t1_year": 2023,
+      "t1_coverage": 0.3961,
+      "delta": -0.0287,
+      "delta_pct": -6.75,
+      "trend": "基本稳定 —"
+    },
+    "confidence": {
+      "remote_sensing": 0.85,
+      "data_quality": 0.9
+    },
+    "metadata": {
+      "generated_at": "2026-07-17T21:31:11.673271",
+      "source": "Sentinel-2 + U-Net Industrial Segmentation",
+      "model": "unet_industrial_combine_GEE_BEN_3_best.pth"
+    }
+  }
+]
